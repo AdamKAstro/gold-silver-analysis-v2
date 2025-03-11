@@ -1,0 +1,33 @@
+{
+  "name": "gold-silver-analysis-v2",
+  "version": "1.0.0",
+  "description": "Version 2 of CANADIAN gold and silver mining analysis tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamKAstro/gold-silver-analysis-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamKAstro/gold-silver-analysis-v2/issues"
+  },
+  "homepage": "https://github.com/AdamKAstro/gold-silver-analysis-v2#readme",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "cheerio": "^1.0.0",
+    "csv-parse": "^5.6.0",
+    "fs-extra": "^11.3.0",
+    "node-cron": "^3.0.3",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^24.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sqlite3": "^5.1.7",
+    "yahoo-finance2": "^2.13.3"
+  }
+}

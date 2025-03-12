@@ -1055,3 +1055,181 @@
 [2025-03-12T00:54:56.540Z] VZLA.V: Quote not found for ticker symbol: VZLA.V
 [2025-03-12T01:03:29.300Z] AUR.H.V: Quote not found for ticker symbol: AUR.H.V
 [2025-03-12T01:03:30.598Z] AXM.H.V: Quote not found for ticker symbol: AXM.H.V
+[2025-03-12T01:53:48.179Z] ERROR: [AAB.TO] Fetch failed after 4 retries: yahooFinance.chart() option 'period1' invalid date provided: '30d'
+[2025-03-12T01:53:51.047Z] ERROR: [ABERDEEN INTERNATIONAL] Fetch failed after 4 retries: Request failed with status code 404
+[2025-03-12T01:53:58.328Z] ERROR: [IRV.CN] Fetch failed after 4 retries: yahooFinance.chart() option 'period1' invalid date provided: '30d'
+[2025-03-12T01:54:01.491Z] ERROR: [IRVING RESOURCES] Fetch failed after 4 retries: Request failed with status code 404
+[2025-03-12T01:54:08.578Z] ERROR: [ITH.TO] Fetch failed after 4 retries: yahooFinance.chart() option 'period1' invalid date provided: '30d'
+[2025-03-12T01:54:11.963Z] ERROR: [INTL. TOWER HILL MINES] Fetch failed after 4 retries: Request failed with status code 404
+[2025-03-12T02:22:06.433Z] ERROR: Unexpected error in update process: SQLITE_ERROR: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+[2025-03-12T02:31:54.374Z] ERROR: Unexpected error in update process: Cannot read properties of undefined (reading 'get')
+[2025-03-12T02:37:57.541Z] ERROR: Unexpected error in update process: Error: SQLITE_ERROR: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+--> in Database#run('INSERT INTO stock_prices (company_id, price_date, price_value, price_currency, last_updated)\n' +
+  '         VALUES (?, ?, ?, ?, ?)\n' +
+  '         ON CONFLICT(company_id, price_date) DO UPDATE SET\n' +
+  '           price_value = excluded.price_value,\n' +
+  '           last_updated = excluded.last_updated', [
+  1,
+  '2025-02-10',
+  0.03999999910593033,
+  'CAD',
+  '2025-03-12T02:37:57.520Z'
+], [Function (anonymous)])
+    at C:\Users\akiil\gold-silver-analysis-v2\populate-financials.js:357:10
+    at new Promise (<anonymous>)
+    at updateDatabase (C:\Users\akiil\gold-silver-analysis-v2\populate-financials.js:356:11)
+    at async updateFinancials (C:\Users\akiil\gold-silver-analysis-v2\populate-financials.js:431:5)
+    at async runWithLockCheck (C:\Users\akiil\gold-silver-analysis-v2\populate-financials.js:469:5)
+[2025-03-12T02:44:26.947Z] ERROR: [AGX.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:44:36.958Z] ERROR: [ALEX.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:44:58.538Z] ERROR: [ANK.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:45:54.662Z] ERROR: [AUMB.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:46:05.527Z] ERROR: [AUR.H.V] Fetch failed after 4 retries: Quote not found for ticker symbol: AUR.H.V
+[2025-03-12T02:46:12.350Z] ERROR: [AXM.H.V] Fetch failed after 4 retries: No data found, symbol may be delisted
+[2025-03-12T02:46:22.435Z] ERROR: [AZM.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:46:34.954Z] ERROR: [BAT.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:47:36.259Z] ERROR: [CANX.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:48:17.849Z] ERROR: [CLZ.V] Fetch failed after 4 retries: No data found, symbol may be delisted
+[2025-03-12T02:48:27.835Z] ERROR: [CN.TO] Fetch failed after 4 retries: Quote not found for ticker symbol: CN.TO
+[2025-03-12T02:49:09.517Z] ERROR: [DEX.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:49:50.920Z] ERROR: [ELD.TO] Fetch failed after 4 retries: Server caught an exception
+[2025-03-12T02:50:06.669Z] ERROR: [ELVT.V] Fetch failed after 4 retries: No data found, symbol may be delisted
+[2025-03-12T02:50:16.673Z] ERROR: [EMO.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:50:49.899Z] ERROR: [ESM.TO] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:51:22.738Z] ERROR: [FMAN.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:52:07.070Z] ERROR: [GAU.TO] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:52:19.876Z] ERROR: [GFG.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:52:55.735Z] ERROR: [GLDN.V] Fetch failed after 4 retries: No fundamentals data found for any of the summaryTypes=summaryDetail,financialData,defaultKeyStatistics,incomeStatementHistory,balanceSheetHistory
+[2025-03-12T02:53:53.533Z] ERROR: [GSTM.V] Fetch failed after 4 retries: Failed Yahoo Schema validation
+[2025-03-12T02:58:52.861Z] ERROR: [AGX.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T02:58:59.558Z] ERROR: [ALEX.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:06:02.413Z] ERROR: [AAB.TO] Fetch failed after 4 retries: $ is not defined
+[2025-03-12T03:06:17.538Z] ERROR: [IRV.CN] Fetch failed after 4 retries: $ is not defined
+[2025-03-12T03:06:32.989Z] ERROR: [ITH.TO] Fetch failed after 4 retries: $ is not defined
+[2025-03-12T03:13:40.249Z] ERROR: [AGX.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:13:42.174Z] ERROR: [ALEX.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:13:47.896Z] ERROR: [ANK.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:14:05.264Z] ERROR: [AUMB.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:14:07.143Z] ERROR: [AUR.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AUR.H.V
+[2025-03-12T03:14:07.295Z] ERROR: [AUR.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:08.880Z] ERROR: [AUR.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AUR.H.V
+[2025-03-12T03:14:09.035Z] ERROR: [AUR.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:11.343Z] ERROR: [AUR.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AUR.H.V
+[2025-03-12T03:14:11.503Z] ERROR: [AUR.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:14.828Z] ERROR: [AUR.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AUR.H.V
+[2025-03-12T03:14:14.983Z] ERROR: [AUR.H.V] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:14:14.982Z] ERROR: [AUR.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:15.289Z] ERROR: [AXM.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AXM.H.V
+[2025-03-12T03:14:15.626Z] ERROR: [AXM.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:16.945Z] ERROR: [AXM.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AXM.H.V
+[2025-03-12T03:14:17.097Z] ERROR: [AXM.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:19.417Z] ERROR: [AXM.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AXM.H.V
+[2025-03-12T03:14:19.568Z] ERROR: [AXM.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:22.889Z] ERROR: [AXM.H.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: AXM.H.V
+[2025-03-12T03:14:23.043Z] ERROR: [AXM.H.V] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:14:23.042Z] ERROR: [AXM.H.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:24.303Z] ERROR: [AZM.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:14:27.111Z] ERROR: [BAT.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:14:45.746Z] ERROR: [CANX.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:14:58.332Z] ERROR: [CLZ.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CLZ.V
+[2025-03-12T03:14:58.487Z] ERROR: [CLZ.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:14:59.790Z] ERROR: [CLZ.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CLZ.V
+[2025-03-12T03:14:59.949Z] ERROR: [CLZ.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:02.256Z] ERROR: [CLZ.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CLZ.V
+[2025-03-12T03:15:02.409Z] ERROR: [CLZ.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:05.726Z] ERROR: [CLZ.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CLZ.V
+[2025-03-12T03:15:05.882Z] ERROR: [CLZ.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:05.882Z] ERROR: [CLZ.V] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:15:07.145Z] ERROR: [CN.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CN.TO
+[2025-03-12T03:15:07.296Z] ERROR: [CN.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:08.615Z] ERROR: [CN.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CN.TO
+[2025-03-12T03:15:08.778Z] ERROR: [CN.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:11.104Z] ERROR: [CN.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CN.TO
+[2025-03-12T03:15:11.255Z] ERROR: [CN.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:14.584Z] ERROR: [CN.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: CN.TO
+[2025-03-12T03:15:14.738Z] ERROR: [CN.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:14.740Z] ERROR: [CN.TO] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:15:26.155Z] ERROR: [DEX.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:15:38.309Z] ERROR: [ELD.TO] Yahoo historical fetch failed: Server caught an exception
+[2025-03-12T03:15:41.566Z] ERROR: [ELVT.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: ELVT.V
+[2025-03-12T03:15:41.715Z] ERROR: [ELVT.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:43.041Z] ERROR: [ELVT.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: ELVT.V
+[2025-03-12T03:15:43.193Z] ERROR: [ELVT.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:45.499Z] ERROR: [ELVT.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: ELVT.V
+[2025-03-12T03:15:45.648Z] ERROR: [ELVT.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:48.979Z] ERROR: [ELVT.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: ELVT.V
+[2025-03-12T03:15:49.129Z] ERROR: [ELVT.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:15:49.130Z] ERROR: [ELVT.V] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:15:50.373Z] ERROR: [EMO.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:15:59.742Z] ERROR: [ESM.TO] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:16:09.299Z] ERROR: [FMAN.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:16:22.645Z] ERROR: [GAU.TO] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:16:25.600Z] ERROR: [GFG.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:16:36.212Z] ERROR: [GLDN.V] Yahoo quoteSummary fetch failed: No fundamentals data found for any of the summaryTypes=summaryDetail,financialData,defaultKeyStatistics,incomeStatementHistory,balanceSheetHistory
+[2025-03-12T03:16:53.405Z] ERROR: [GSTM.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:16:54.356Z] ERROR: [GSVR.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:17:05.959Z] ERROR: [IAU.V] Yahoo quoteSummary fetch failed: No fundamentals data found for any of the summaryTypes=summaryDetail,financialData,defaultKeyStatistics,incomeStatementHistory,balanceSheetHistory
+[2025-03-12T03:17:06.123Z] ERROR: [IAU.V] Yahoo historical fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:17:12.501Z] ERROR: [JUB.H] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: JUB.H
+[2025-03-12T03:17:12.690Z] ERROR: [JUB.H] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:17:13.997Z] ERROR: [JUB.H] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: JUB.H
+[2025-03-12T03:17:14.151Z] ERROR: [JUB.H] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:17:16.480Z] ERROR: [JUB.H] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: JUB.H
+[2025-03-12T03:17:16.630Z] ERROR: [JUB.H] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:17:19.940Z] ERROR: [JUB.H] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: JUB.H
+[2025-03-12T03:17:20.091Z] ERROR: [JUB.H] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:17:20.092Z] ERROR: [JUB.H] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:17:20.408Z] ERROR: [JUGR.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:17:34.774Z] ERROR: [KS.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:17:39.635Z] ERROR: [LECR.CN] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:17:55.418Z] ERROR: [LUM.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:17:59.157Z] ERROR: [MAI.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:18:07.504Z] ERROR: [MIS.CN] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:18:10.308Z] ERROR: [MLM.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: MLM.TO
+[2025-03-12T03:18:10.459Z] ERROR: [MLM.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:18:11.767Z] ERROR: [MLM.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: MLM.TO
+[2025-03-12T03:18:11.920Z] ERROR: [MLM.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:18:14.236Z] ERROR: [MLM.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: MLM.TO
+[2025-03-12T03:18:14.388Z] ERROR: [MLM.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:18:17.707Z] ERROR: [MLM.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: MLM.TO
+[2025-03-12T03:18:17.858Z] ERROR: [MLM.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:18:17.859Z] ERROR: [MLM.TO] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:18:29.059Z] ERROR: [MTA.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:18:38.741Z] ERROR: [NEV.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:19:01.436Z] ERROR: [OGN.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:19:03.528Z] ERROR: [OLA.TO] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:19:18.338Z] ERROR: [PAL.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: PAL.V
+[2025-03-12T03:19:18.495Z] ERROR: [PAL.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:19:19.806Z] ERROR: [PAL.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: PAL.V
+[2025-03-12T03:19:19.959Z] ERROR: [PAL.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:19:22.271Z] ERROR: [PAL.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: PAL.V
+[2025-03-12T03:19:22.428Z] ERROR: [PAL.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:19:25.741Z] ERROR: [PAL.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: PAL.V
+[2025-03-12T03:19:25.897Z] ERROR: [PAL.V] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:19:25.897Z] ERROR: [PAL.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:20:15.094Z] ERROR: [RYE.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:21:12.099Z] ERROR: [TAU.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:21:15.107Z] ERROR: [TCO.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:21:23.856Z] ERROR: [TK.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:21:39.248Z] ERROR: [TWR.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:21:47.199Z] ERROR: [VGCX.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VGCX.TO
+[2025-03-12T03:21:47.351Z] ERROR: [VGCX.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:21:48.669Z] ERROR: [VGCX.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VGCX.TO
+[2025-03-12T03:21:48.835Z] ERROR: [VGCX.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:21:51.149Z] ERROR: [VGCX.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VGCX.TO
+[2025-03-12T03:21:51.297Z] ERROR: [VGCX.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:21:54.615Z] ERROR: [VGCX.TO] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VGCX.TO
+[2025-03-12T03:21:54.767Z] ERROR: [VGCX.TO] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:21:54.767Z] ERROR: [VGCX.TO] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:21:55.093Z] ERROR: [VIO.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:22:01.815Z] ERROR: [VZLA.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VZLA.V
+[2025-03-12T03:22:02.142Z] ERROR: [VZLA.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:22:03.369Z] ERROR: [VZLA.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VZLA.V
+[2025-03-12T03:22:03.524Z] ERROR: [VZLA.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:22:05.830Z] ERROR: [VZLA.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VZLA.V
+[2025-03-12T03:22:05.983Z] ERROR: [VZLA.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:22:09.305Z] ERROR: [VZLA.V] Yahoo quoteSummary fetch failed: Quote not found for ticker symbol: VZLA.V
+[2025-03-12T03:22:09.455Z] ERROR: [VZLA.V] Yahoo historical fetch failed: No data found, symbol may be delisted
+[2025-03-12T03:22:09.455Z] ERROR: [VZLA.V] Fetch failed after 4 retries: All Yahoo fetches failed
+[2025-03-12T03:22:20.197Z] ERROR: [WLF.V] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation
+[2025-03-12T03:22:21.133Z] ERROR: [WM.TO] Yahoo quoteSummary fetch failed: Failed Yahoo Schema validation

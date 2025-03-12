@@ -1,0 +1,39 @@
+2025-03-12T05:42:11.047Z [ERROR]: [AGX.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:42:45.738Z [ERROR]: [AUR.H.V] Failed after 4 retries: Quote not found for ticker symbol: AUR.H.V
+2025-03-12T05:42:54.298Z [ERROR]: [AXM.H.V] Failed after 4 retries: Quote not found for ticker symbol: AXM.H.V
+2025-03-12T05:43:40.542Z [ERROR]: [CLZ.V] Failed after 4 retries: Quote not found for ticker symbol: CLZ.V
+2025-03-12T05:43:49.696Z [ERROR]: [CN.TO] Failed after 4 retries: Quote not found for ticker symbol: CN.TO
+2025-03-12T05:44:28.368Z [ERROR]: [ELVT.V] Failed after 4 retries: Quote not found for ticker symbol: ELVT.V
+2025-03-12T05:44:37.330Z [ERROR]: [EMO.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:45:52.581Z [ERROR]: [GSVR.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:46:12.932Z [ERROR]: [IAU.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:46:30.126Z [ERROR]: [JUB.H] Failed after 4 retries: Quote not found for ticker symbol: JUB.H
+2025-03-12T05:47:15.042Z [ERROR]: [LUM.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:47:25.503Z [ERROR]: [MAI.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:47:43.136Z [ERROR]: [MLM.TO] Failed after 4 retries: Quote not found for ticker symbol: MLM.TO
+2025-03-12T05:48:02.297Z [ERROR]: [MTA.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:49:01.083Z [ERROR]: [PAL.V] Failed after 4 retries: Quote not found for ticker symbol: PAL.V
+2025-03-12T05:51:27.396Z [ERROR]: [VGCX.TO] Failed after 4 retries: Quote not found for ticker symbol: VGCX.TO
+2025-03-12T05:51:41.996Z [ERROR]: [VZLA.V] Failed after 4 retries: Quote not found for ticker symbol: VZLA.V
+2025-03-12T05:51:59.912Z [ERROR]: [WLF.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:52:07.383Z [ERROR]: [WM.TO] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T05:52:22.034Z [ERROR]: Uncaught exception: Error: SQLITE_MISUSE: Database is closed
+    at Database.<anonymous> (C:\Users\akiil\gold-silver-analysis-v2\node_modules\sqlite3\lib\sqlite3.js:19:27)
+    at C:\Users\akiil\gold-silver-analysis-v2\fetch-yahoo-google-data.js:154:8
+    at new Promise (<anonymous>)
+    at runQuery (C:\Users\akiil\gold-silver-analysis-v2\fetch-yahoo-google-data.js:152:10)
+    at Database.<anonymous> (C:\Users\akiil\gold-silver-analysis-v2\fetch-yahoo-google-data.js:372:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+--> in Database#run('ROLLBACK', [], [Function (anonymous)])
+    at C:\Users\akiil\gold-silver-analysis-v2\fetch-yahoo-google-data.js:154:8
+    at new Promise (<anonymous>)
+    at runQuery (C:\Users\akiil\gold-silver-analysis-v2\fetch-yahoo-google-data.js:152:10)
+    at Database.<anonymous> (C:\Users\akiil\gold-silver-analysis-v2\fetch-yahoo-google-data.js:372:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-03-12T06:43:18.293Z [ERROR]: [AGX.V] Failed after 4 retries: Failed Yahoo Schema validation
+2025-03-12T06:43:52.155Z [ERROR]: [AUR.H.V] Failed after 4 retries: Quote not found for ticker symbol: AUR.H.V
+2025-03-12T06:44:01.111Z [ERROR]: [AXM.H.V] Failed after 4 retries: Quote not found for ticker symbol: AXM.H.V
+2025-03-12T06:44:46.317Z [ERROR]: [CLZ.V] Failed after 4 retries: Quote not found for ticker symbol: CLZ.V
+2025-03-12T06:44:54.990Z [ERROR]: [CN.TO] Failed after 4 retries: Quote not found for ticker symbol: CN.TO
+2025-03-12T06:45:32.966Z [ERROR]: [ELVT.V] Failed after 4 retries: Quote not found for ticker symbol: ELVT.V
+2025-03-12T06:45:41.839Z [ERROR]: [EMO.V] Failed after 4 retries: Failed Yahoo Schema validation

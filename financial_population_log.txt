@@ -1,0 +1,1744 @@
+[2025-03-11T02:51:40.826Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T02:51:56.111Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T02:52:11.406Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450, etc.
+[2025-03-11T02:52:26.715Z] ITR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:07:35.164Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:24:24.915Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:24:40.206Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:24:55.497Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450, etc.
+[2025-03-11T03:34:39.666Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:34:54.962Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:35:10.243Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450, etc.
+[2025-03-11T03:35:25.532Z] ITR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:35:40.854Z] AAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:35:56.180Z] AAN.V: Fetched market_cap=null, revenue=null, net_income=-2465880, etc.
+[2025-03-11T03:36:11.457Z] AAUC.TO: Fetched market_cap=null, revenue=655691000, net_income=-208482000, etc.
+[2025-03-11T03:36:26.739Z] ABI.V: Fetched market_cap=null, revenue=null, net_income=-5337040, etc.
+[2025-03-11T03:36:42.027Z] ABRA.TO: Fetched market_cap=null, revenue=null, net_income=-13728560, etc.
+[2025-03-11T03:36:57.380Z] ADY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:37:12.727Z] ADZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:37:28.076Z] AE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:37:43.378Z] AEM.TO: Fetched market_cap=null, revenue=8285753000, net_income=1895581000, etc.
+[2025-03-11T03:37:58.674Z] AERO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:38:14.042Z] AG.TO: Fetched market_cap=null, revenue=797442370, net_income=-144928360, etc.
+[2025-03-11T03:38:29.374Z] AGA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:38:44.678Z] AGAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:38:59.991Z] AGI.TO: Fetched market_cap=null, revenue=1346900000, net_income=284300000, etc.
+[2025-03-11T03:39:15.294Z] AGLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:39:30.711Z] AGMR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:40:01.834Z] AGX.V: Failed to fetch data
+[2025-03-11T03:40:01.995Z] ALDE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:40:17.296Z] ALEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:40:32.622Z] ALTA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:40:47.922Z] AMC.TO: Fetched market_cap=null, revenue=null, net_income=-24348030, etc.
+[2025-03-11T03:41:03.211Z] AMQ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:41:18.498Z] AMRQ.V: Fetched market_cap=null, revenue=null, net_income=-613790, etc.
+[2025-03-11T03:41:33.821Z] AMX.V: Fetched market_cap=null, revenue=null, net_income=680170, etc.
+[2025-03-11T03:41:49.130Z] ANK.V: Fetched market_cap=null, revenue=null, net_income=-5681410, etc.
+[2025-03-11T03:42:04.454Z] ANTL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:42:19.760Z] AOT.TO: Fetched market_cap=null, revenue=null, net_income=-10430000, etc.
+[2025-03-11T03:42:35.040Z] APGO.V: Fetched market_cap=null, revenue=null, net_income=-2710850, etc.
+[2025-03-11T03:42:50.332Z] APM.TO: Fetched market_cap=null, revenue=125324000, net_income=38540000, etc.
+[2025-03-11T03:43:05.631Z] ARIC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:43:20.945Z] ARIS.TO: Fetched market_cap=null, revenue=447674000, net_income=11419000, etc.
+[2025-03-11T03:43:36.256Z] ARK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:43:51.542Z] ARTG.V: Fetched market_cap=null, revenue=null, net_income=-8476930, etc.
+[2025-03-11T03:44:06.815Z] ARU.V: Fetched market_cap=null, revenue=null, net_income=-9971550, etc.
+[2025-03-11T03:44:22.081Z] ASE.CN: Fetched market_cap=null, revenue=274729000, net_income=null, etc.
+[2025-03-11T03:44:37.391Z] ASM.TO: Fetched market_cap=null, revenue=59511730, net_income=734930, etc.
+[2025-03-11T03:44:52.682Z] ASTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:45:07.995Z] ATHA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:45:30.251Z] AU.V: Fetched market_cap=null, revenue=null, net_income=-2877370, etc.
+[2025-03-11T03:45:45.529Z] AUAU.V: Fetched market_cap=null, revenue=null, net_income=-2850900, etc.
+[2025-03-11T03:46:00.810Z] AWM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:46:16.150Z] AUM.V: Fetched market_cap=null, revenue=2905190, net_income=-5505610, etc.
+[2025-03-11T03:46:31.457Z] AUMB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:46:46.743Z] AUOZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:47:17.646Z] AUR.H.V: Failed to fetch data
+[2025-03-11T03:47:33.766Z] AXM.H.V: Failed to fetch data
+[2025-03-11T03:47:33.930Z] AYA.TO: Fetched market_cap=null, revenue=42849000, net_income=null, etc.
+[2025-03-11T03:47:49.244Z] AZM.V: Fetched market_cap=null, revenue=null, net_income=-378950, etc.
+[2025-03-11T03:48:04.550Z] AZS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:48:19.858Z] AZT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:48:35.156Z] BAT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:48:50.461Z] BAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:49:05.941Z] BBB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:49:21.237Z] BCM.V: Fetched market_cap=null, revenue=82177900, net_income=-30431320, etc.
+[2025-03-11T03:49:36.579Z] BEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:49:51.874Z] BGF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:50:07.331Z] BGS: Fetched market_cap=null, revenue=1932454000, net_income=-251251000, etc.
+[2025-03-11T03:50:22.820Z] BHS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:50:38.112Z] BIG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:50:53.381Z] BLLG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:51:08.651Z] BMM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:51:23.974Z] BOGO.V: Fetched market_cap=null, revenue=null, net_income=-6119890, etc.
+[2025-03-11T03:51:39.235Z] BRAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:51:54.552Z] BRAZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:52:09.860Z] BRC.V: Fetched market_cap=null, revenue=null, net_income=-11757080, etc.
+[2025-03-11T03:52:25.204Z] BSX.TO: Fetched market_cap=null, revenue=null, net_income=-4913930, etc.
+[2025-03-11T03:52:40.525Z] BTO.TO: Fetched market_cap=null, revenue=1902030000, net_income=-629891000, etc.
+[2025-03-11T03:52:55.849Z] BTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:53:11.186Z] BYN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:53:26.515Z] BZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:53:41.830Z] CANX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:53:57.129Z] CAPT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:54:12.417Z] CBI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:54:27.754Z] CBR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:54:43.028Z] CC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:54:58.316Z] CCM.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:55:13.594Z] CDPR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:55:28.899Z] CERT.V: Fetched market_cap=null, revenue=100101000, net_income=-6753000, etc.
+[2025-03-11T03:55:44.189Z] CFE.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:55:59.499Z] CG.TO: Fetched market_cap=null, revenue=1214503000, net_income=80394000, etc.
+[2025-03-11T03:56:14.772Z] CGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:56:30.058Z] CGG.TO: Fetched market_cap=null, revenue=621756630, net_income=-34509410, etc.
+[2025-03-11T03:56:45.363Z] CKG.V: Fetched market_cap=null, revenue=null, net_income=-10687100, etc.
+[2025-03-11T03:57:16.263Z] CLZ.V: Failed to fetch data
+[2025-03-11T03:57:16.436Z] CMB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:57:47.304Z] CN.TO: Failed to fetch data
+[2025-03-11T03:57:47.472Z] CNL.TO: Fetched market_cap=null, revenue=null, net_income=-25909270, etc.
+[2025-03-11T03:58:02.802Z] CPAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:58:18.251Z] CRB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:58:33.567Z] CRI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:58:48.869Z] CSR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:59:04.150Z] CTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:59:19.471Z] CTN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T03:59:34.833Z] CVB.V: Fetched market_cap=null, revenue=null, net_income=-905960, etc.
+[2025-03-11T03:59:50.187Z] CXB.TO: Fetched market_cap=null, revenue=833372540, net_income=49416610, etc.
+[2025-03-11T04:00:05.539Z] CYG.V: Fetched market_cap=null, revenue=null, net_income=-13500300, etc.
+[2025-03-11T04:00:20.815Z] DAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:00:36.282Z] DEF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:00:51.592Z] DEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:01:06.863Z] DLTA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:01:22.158Z] DNG.TO: Fetched market_cap=null, revenue=null, net_income=15068340, etc.
+[2025-03-11T04:01:37.646Z] DPM.TO: Fetched market_cap=null, revenue=606992000, net_income=243240000, etc.
+[2025-03-11T04:01:52.941Z] DRY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:02:08.222Z] DSV.TO: Fetched market_cap=null, revenue=null, net_income=-41095770, etc.
+[2025-03-11T04:02:23.513Z] DV.V: Fetched market_cap=null, revenue=null, net_income=-14308580, etc.
+[2025-03-11T04:02:38.800Z] DYG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:02:54.078Z] EAM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:03:09.398Z] ECR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:03:24.697Z] EDG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:03:40.022Z] EDGM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:03:55.506Z] EDR.TO: Fetched market_cap=null, revenue=276826460, net_income=8249700, etc.
+[2025-03-11T04:04:11.030Z] ELD.TO: Fetched market_cap=null, revenue=1322600000, net_income=289121000, etc.
+[2025-03-11T04:04:26.323Z] ELE.V: Fetched market_cap=null, revenue=11744000, net_income=null, etc.
+[2025-03-11T04:04:41.636Z] ELEF.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:04:56.942Z] ELO.TO: Fetched market_cap=null, revenue=null, net_income=-17006340, etc.
+[2025-03-11T04:05:27.780Z] ELVT.V: Failed to fetch data
+[2025-03-11T04:05:27.941Z] EMNT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:05:58.831Z] EMO.V: Failed to fetch data
+[2025-03-11T04:05:59.010Z] EMPR.V: Fetched market_cap=null, revenue=11566930, net_income=null, etc.
+[2025-03-11T04:06:14.330Z] EMX.V: Fetched market_cap=null, revenue=36212550, net_income=null, etc.
+[2025-03-11T04:06:29.802Z] ENDR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:06:45.105Z] EPL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:07:00.414Z] EQTY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:07:15.766Z] EQX.TO: Fetched market_cap=null, revenue=1514120000, net_income=339287000, etc.
+[2025-03-11T04:07:31.098Z] ER.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:07:46.390Z] ERD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:08:01.700Z] ESK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:08:17.105Z] ESM.TO: Fetched market_cap=null, revenue=null, net_income=-13667060, etc.
+[2025-03-11T04:08:32.426Z] ETR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:08:48.009Z] EXN.TO: Fetched market_cap=null, revenue=47466140, net_income=null, etc.
+[2025-03-11T04:09:03.294Z] FAS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:09:18.623Z] FDR.V: Fetched market_cap=null, revenue=null, net_income=-7738460, etc.
+[2025-03-11T04:09:33.936Z] FF.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:09:49.239Z] FFOX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:10:04.534Z] FIN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:10:19.866Z] FISH.V: Fetched market_cap=null, revenue=2333090, net_income=-1105860, etc.
+[2025-03-11T04:10:35.331Z] FKM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:10:50.600Z] FMAN.V: Fetched market_cap=null, revenue=null, net_income=-1671110, etc.
+[2025-03-11T04:11:05.934Z] FMC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:11:21.387Z] FMT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:11:36.685Z] FNAU.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:11:52.016Z] FNM.V: Fetched market_cap=null, revenue=null, net_income=-1827530, etc.
+[2025-03-11T04:12:07.354Z] FNV.TO: Fetched market_cap=null, revenue=1113600000, net_income=552100000, etc.
+[2025-03-11T04:12:22.655Z] FOR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:12:37.997Z] FPC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:12:53.351Z] FRED.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:13:08.660Z] FRG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:13:23.964Z] FURY.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:13:39.278Z] FVI.TO: Fetched market_cap=null, revenue=1062037000, net_income=128735000, etc.
+[2025-03-11T04:13:54.582Z] FVL.TO: Fetched market_cap=null, revenue=null, net_income=-760980, etc.
+[2025-03-11T04:14:09.902Z] GAL.V: Fetched market_cap=null, revenue=null, net_income=-5284430, etc.
+[2025-03-11T04:14:25.255Z] GAU.TO: Fetched market_cap=null, revenue=256543000, net_income=26085000, etc.
+[2025-03-11T04:14:40.557Z] GBRC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:14:55.870Z] GDX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:15:11.160Z] GFG.V: Fetched market_cap=null, revenue=null, net_income=-807430, etc.
+[2025-03-11T04:15:26.451Z] G.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:15:41.721Z] GCC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:15:56.991Z] GHRT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:16:12.253Z] GG.V: Fetched market_cap=null, revenue=49068780, net_income=4434030, etc.
+[2025-03-11T04:16:27.798Z] GGA.V: Fetched market_cap=null, revenue=30893160, net_income=null, etc.
+[2025-03-11T04:16:43.090Z] GGD.TO: Fetched market_cap=null, revenue=40566250, net_income=-10577260, etc.
+[2025-03-11T04:16:58.375Z] GGL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:17:13.693Z] GGM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:17:29.003Z] GGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:17:44.314Z] GLDC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:18:15.687Z] GLDN.V: Failed to fetch data
+[2025-03-11T04:18:16.040Z] GLM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:18:31.342Z] GMIN.TO: Fetched market_cap=null, revenue=null, net_income=-9757230, etc.
+[2025-03-11T04:18:46.830Z] GMTN.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:19:02.133Z] GMV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:19:17.445Z] GMX.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:19:32.756Z] GNG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:19:48.080Z] GOLD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:20:03.401Z] GOT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:20:18.714Z] GPAC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:20:34.027Z] GPG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:20:49.455Z] GTWO.TO: Fetched market_cap=null, revenue=530650, net_income=-3098100, etc.
+[2025-03-11T04:21:04.758Z] GQ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:21:20.068Z] GQC.V: Fetched market_cap=null, revenue=null, net_income=-6147150, etc.
+[2025-03-11T04:21:35.387Z] GRC.TO: Fetched market_cap=null, revenue=null, net_income=-9988130, etc.
+[2025-03-11T04:21:50.688Z] GRG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:22:05.958Z] GRSL.V: Fetched market_cap=null, revenue=null, net_income=-25597990, etc.
+[2025-03-11T04:22:21.279Z] GSHR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:22:36.579Z] GSTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:23:07.472Z] GSVR.V: Failed to fetch data
+[2025-03-11T04:23:07.634Z] GTCH.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:23:22.933Z] GUN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:23:38.218Z] GUS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:23:53.550Z] GWM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:24:08.867Z] GXX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:24:24.191Z] HAMR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:24:39.521Z] HML.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:24:54.793Z] HSLV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:25:10.108Z] HSTR.V: Fetched market_cap=null, revenue=null, net_income=-19934400, etc.
+[2025-03-11T04:25:25.433Z] HUNT.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:25:40.716Z] HWY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:26:11.770Z] IAU.V: Failed to fetch data
+[2025-03-11T04:26:12.026Z] IGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:26:27.387Z] IMG.TO: Fetched market_cap=null, revenue=1633000000, net_income=819600000, etc.
+[2025-03-11T04:26:42.705Z] IPT.V: Fetched market_cap=null, revenue=16684660, net_income=null, etc.
+[2025-03-11T04:26:58.068Z] IVS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:27:13.548Z] JAG.TO: Fetched market_cap=null, revenue=136528000, net_income=null, etc.
+[2025-03-11T04:27:28.872Z] JG.V: Fetched market_cap=null, revenue=null, net_income=-3713670, etc.
+[2025-03-11T04:27:59.794Z] JUB.H: Failed to fetch data
+[2025-03-11T04:27:59.956Z] JUGR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:28:15.256Z] JZR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:28:30.556Z] K.TO: Fetched market_cap=null, revenue=5148800000, net_income=948800000, etc.
+[2025-03-11T04:54:02.659Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:54:17.959Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:54:33.290Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450, etc.
+[2025-03-11T04:54:49.082Z] ITR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:55:04.840Z] AAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:55:20.195Z] AAN.V: Fetched market_cap=null, revenue=null, net_income=-2465880, etc.
+[2025-03-11T04:55:35.492Z] AAUC.TO: Fetched market_cap=null, revenue=655691000, net_income=-208482000, etc.
+[2025-03-11T04:55:50.784Z] ABI.V: Fetched market_cap=null, revenue=null, net_income=-5337040, etc.
+[2025-03-11T04:56:06.091Z] ABRA.TO: Fetched market_cap=null, revenue=null, net_income=-13728560, etc.
+[2025-03-11T04:56:21.439Z] ADY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:56:36.732Z] ADZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:56:52.033Z] AE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:57:07.346Z] AEM.TO: Fetched market_cap=null, revenue=8285753000, net_income=1895581000, etc.
+[2025-03-11T04:57:22.676Z] AERO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:57:37.985Z] AG.TO: Fetched market_cap=null, revenue=797442370, net_income=-144928360, etc.
+[2025-03-11T04:57:53.338Z] AGA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:58:08.708Z] AGAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:58:24.022Z] AGI.TO: Fetched market_cap=null, revenue=1346900000, net_income=284300000, etc.
+[2025-03-11T04:58:39.341Z] AGLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:58:54.649Z] AGMR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:59:10.150Z] ALDE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:59:25.432Z] ALEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:59:40.752Z] ALTA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T04:59:56.065Z] AMC.TO: Fetched market_cap=null, revenue=null, net_income=-24348030, etc.
+[2025-03-11T05:00:11.368Z] AMQ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:00:26.696Z] AMRQ.V: Fetched market_cap=null, revenue=null, net_income=-613790, etc.
+[2025-03-11T05:00:42.099Z] AMX.V: Fetched market_cap=null, revenue=null, net_income=680170, etc.
+[2025-03-11T05:00:57.606Z] ANK.V: Fetched market_cap=null, revenue=null, net_income=-5681410, etc.
+[2025-03-11T05:01:13.058Z] ANTL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:01:28.414Z] AOT.TO: Fetched market_cap=null, revenue=null, net_income=-10430000, etc.
+[2025-03-11T05:01:43.728Z] APGO.V: Fetched market_cap=null, revenue=null, net_income=-2710850, etc.
+[2025-03-11T05:01:59.072Z] APM.TO: Fetched market_cap=null, revenue=125324000, net_income=38540000, etc.
+[2025-03-11T05:02:14.399Z] ARIC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:02:29.742Z] ARIS.TO: Fetched market_cap=null, revenue=447674000, net_income=11419000, etc.
+[2025-03-11T05:02:45.053Z] ARK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:03:00.382Z] ARTG.V: Fetched market_cap=null, revenue=null, net_income=-8476930, etc.
+[2025-03-11T05:03:15.687Z] ARU.V: Fetched market_cap=null, revenue=null, net_income=-9971550, etc.
+[2025-03-11T05:03:31.047Z] ASE.CN: Fetched market_cap=null, revenue=274729000, net_income=null, etc.
+[2025-03-11T05:03:46.368Z] ASM.TO: Fetched market_cap=null, revenue=59511730, net_income=734930, etc.
+[2025-03-11T05:04:01.662Z] ASTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:04:16.952Z] ATHA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:04:32.319Z] AU.V: Fetched market_cap=null, revenue=null, net_income=-2877370, etc.
+[2025-03-11T05:04:47.626Z] AUAU.V: Fetched market_cap=null, revenue=null, net_income=-2850900, etc.
+[2025-03-11T05:05:03.175Z] AWM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:05:18.476Z] AUM.V: Fetched market_cap=null, revenue=2905190, net_income=-5505610, etc.
+[2025-03-11T05:05:33.856Z] AUMB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:05:49.162Z] AUOZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:06:04.842Z] AYA.TO: Fetched market_cap=null, revenue=42849000, net_income=null, etc.
+[2025-03-11T05:06:20.137Z] AZM.V: Fetched market_cap=null, revenue=null, net_income=-378950, etc.
+[2025-03-11T05:06:35.499Z] AZS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:06:50.807Z] AZT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:07:06.122Z] BAT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:07:21.433Z] BAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:07:36.787Z] BBB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:07:52.112Z] BCM.V: Fetched market_cap=null, revenue=82177900, net_income=-30431320, etc.
+[2025-03-11T05:08:07.520Z] BEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:08:22.833Z] BGF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:08:38.146Z] BGS: Fetched market_cap=null, revenue=1932454000, net_income=-251251000, etc.
+[2025-03-11T05:08:54.033Z] BHS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:09:09.380Z] BIG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:09:24.693Z] BLLG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:09:40.032Z] BMM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:09:55.373Z] BOGO.V: Fetched market_cap=null, revenue=null, net_income=-6119890, etc.
+[2025-03-11T05:10:10.777Z] BRAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:10:26.129Z] BRAZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:10:41.499Z] BRC.V: Fetched market_cap=null, revenue=null, net_income=-11757080, etc.
+[2025-03-11T05:10:56.832Z] BSX.TO: Fetched market_cap=null, revenue=null, net_income=-4913930, etc.
+[2025-03-11T05:11:12.154Z] BTO.TO: Fetched market_cap=null, revenue=1902030000, net_income=-629891000, etc.
+[2025-03-11T05:11:27.488Z] BTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:11:42.832Z] BYN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:11:58.186Z] BZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:12:13.536Z] CANX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:12:28.846Z] CAPT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:12:44.168Z] CBI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:12:59.489Z] CBR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:13:14.896Z] CC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:13:30.197Z] CCM.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:13:45.509Z] CDPR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:14:00.808Z] CERT.V: Fetched market_cap=null, revenue=100101000, net_income=-6753000, etc.
+[2025-03-11T05:14:16.130Z] CFE.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:14:31.472Z] CG.TO: Fetched market_cap=null, revenue=1214503000, net_income=80394000, etc.
+[2025-03-11T05:14:46.795Z] CGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:15:02.121Z] CGG.TO: Fetched market_cap=null, revenue=621756630, net_income=-34509410, etc.
+[2025-03-11T05:15:18.072Z] CKG.V: Fetched market_cap=null, revenue=null, net_income=-10687100, etc.
+[2025-03-11T05:15:33.552Z] CMB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:15:49.073Z] CNL.TO: Fetched market_cap=null, revenue=null, net_income=-25909270, etc.
+[2025-03-11T05:16:04.392Z] CPAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:16:19.742Z] CRB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:16:35.054Z] CRI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:16:50.426Z] CSR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:17:05.745Z] CTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:17:21.066Z] CTN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:17:36.379Z] CVB.V: Fetched market_cap=null, revenue=null, net_income=-905960, etc.
+[2025-03-11T05:17:51.684Z] CXB.TO: Fetched market_cap=null, revenue=833372540, net_income=49416610, etc.
+[2025-03-11T05:18:07.050Z] CYG.V: Fetched market_cap=null, revenue=null, net_income=-13500300, etc.
+[2025-03-11T05:18:23.254Z] DAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:18:38.578Z] DEF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:18:54.085Z] DEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:19:09.422Z] DLTA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:19:24.742Z] DNG.TO: Fetched market_cap=null, revenue=null, net_income=15068340, etc.
+[2025-03-11T05:19:40.071Z] DPM.TO: Fetched market_cap=null, revenue=606992000, net_income=243240000, etc.
+[2025-03-11T05:19:55.411Z] DRY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:20:10.784Z] DSV.TO: Fetched market_cap=null, revenue=null, net_income=-41095770, etc.
+[2025-03-11T05:20:26.114Z] DV.V: Fetched market_cap=null, revenue=null, net_income=-14308580, etc.
+[2025-03-11T05:20:41.411Z] DYG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:20:56.714Z] EAM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:21:12.078Z] ECR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:21:27.393Z] EDG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:21:42.716Z] EDGM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:21:58.055Z] EDR.TO: Fetched market_cap=null, revenue=276826460, net_income=8249700, etc.
+[2025-03-11T05:22:13.578Z] ELD.TO: Fetched market_cap=null, revenue=1322600000, net_income=289121000, etc.
+[2025-03-11T05:22:28.877Z] ELE.V: Fetched market_cap=null, revenue=11744000, net_income=null, etc.
+[2025-03-11T05:22:44.211Z] ELEF.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:22:59.538Z] ELO.TO: Fetched market_cap=null, revenue=null, net_income=-17006340, etc.
+[2025-03-11T05:23:15.005Z] EMNT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:23:30.672Z] EMPR.V: Fetched market_cap=null, revenue=11566930, net_income=null, etc.
+[2025-03-11T05:23:45.980Z] EMX.V: Fetched market_cap=null, revenue=36212550, net_income=null, etc.
+[2025-03-11T05:24:01.309Z] ENDR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:24:16.625Z] EPL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:24:31.941Z] EQTY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:24:47.247Z] EQX.TO: Fetched market_cap=null, revenue=1514120000, net_income=339287000, etc.
+[2025-03-11T05:25:02.580Z] ER.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:25:17.880Z] ERD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:25:33.210Z] ESK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:25:48.563Z] ESM.TO: Fetched market_cap=null, revenue=null, net_income=-13667060, etc.
+[2025-03-11T05:26:03.910Z] ETR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:26:19.250Z] EXN.TO: Fetched market_cap=null, revenue=47466140, net_income=null, etc.
+[2025-03-11T05:26:34.592Z] FAS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:26:49.957Z] FDR.V: Fetched market_cap=null, revenue=null, net_income=-7738460, etc.
+[2025-03-11T05:27:05.290Z] FF.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:27:20.583Z] FFOX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:27:35.908Z] FIN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:27:51.247Z] FISH.V: Fetched market_cap=null, revenue=2333090, net_income=-1105860, etc.
+[2025-03-11T05:28:06.608Z] FKM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:28:21.935Z] FMAN.V: Fetched market_cap=null, revenue=null, net_income=-1671110, etc.
+[2025-03-11T05:28:37.305Z] FMC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:28:52.623Z] FMT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:29:07.952Z] FNAU.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:29:23.324Z] FNM.V: Fetched market_cap=null, revenue=null, net_income=-1827530, etc.
+[2025-03-11T05:29:38.706Z] FNV.TO: Fetched market_cap=null, revenue=1113600000, net_income=552100000, etc.
+[2025-03-11T05:29:54.039Z] FOR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:30:09.346Z] FPC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:30:24.664Z] FRED.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:30:39.989Z] FRG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:30:55.325Z] FURY.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:31:10.658Z] FVI.TO: Fetched market_cap=null, revenue=1062037000, net_income=128735000, etc.
+[2025-03-11T05:31:25.981Z] FVL.TO: Fetched market_cap=null, revenue=null, net_income=-760980, etc.
+[2025-03-11T05:31:41.294Z] GAL.V: Fetched market_cap=null, revenue=null, net_income=-5284430, etc.
+[2025-03-11T05:31:56.633Z] GAU.TO: Fetched market_cap=null, revenue=256543000, net_income=26085000, etc.
+[2025-03-11T05:32:11.965Z] GBRC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:32:27.300Z] GDX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:32:42.621Z] GFG.V: Fetched market_cap=null, revenue=null, net_income=-807430, etc.
+[2025-03-11T05:32:57.929Z] G.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:33:13.257Z] GCC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:33:28.562Z] GHRT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:33:43.899Z] GG.V: Fetched market_cap=null, revenue=49068780, net_income=4434030, etc.
+[2025-03-11T05:33:59.200Z] GGA.V: Fetched market_cap=null, revenue=30893160, net_income=null, etc.
+[2025-03-11T05:34:14.550Z] GGD.TO: Fetched market_cap=null, revenue=40566250, net_income=-10577260, etc.
+[2025-03-11T05:34:29.850Z] GGL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:34:45.206Z] GGM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:35:00.497Z] GGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:35:15.853Z] GLDC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:35:31.350Z] GLM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:35:46.758Z] GMIN.TO: Fetched market_cap=null, revenue=null, net_income=-9757230, etc.
+[2025-03-11T05:36:02.083Z] GMTN.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:36:17.430Z] GMV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:36:32.741Z] GMX.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:36:48.060Z] GNG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:37:03.371Z] GOLD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:37:18.676Z] GOT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:37:33.973Z] GPAC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:37:49.285Z] GPG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:38:04.658Z] GTWO.TO: Fetched market_cap=null, revenue=530650, net_income=-3098100, etc.
+[2025-03-11T05:38:19.952Z] GQ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:38:35.286Z] GQC.V: Fetched market_cap=null, revenue=null, net_income=-6147150, etc.
+[2025-03-11T05:38:50.597Z] GRC.TO: Fetched market_cap=null, revenue=null, net_income=-9988130, etc.
+[2025-03-11T05:39:05.913Z] GRG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:39:21.291Z] GRSL.V: Fetched market_cap=null, revenue=null, net_income=-25597990, etc.
+[2025-03-11T05:39:36.660Z] GSHR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:39:51.997Z] GSTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:40:07.534Z] GTCH.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:40:22.864Z] GUN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:40:38.228Z] GUS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:40:53.583Z] GWM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:41:08.966Z] GXX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:41:24.298Z] HAMR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:41:39.772Z] HML.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:41:55.082Z] HSLV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:42:10.464Z] HSTR.V: Fetched market_cap=null, revenue=null, net_income=-19934400, etc.
+[2025-03-11T05:42:25.810Z] HUNT.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:42:41.142Z] HWY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:42:56.686Z] IGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:43:12.069Z] IMG.TO: Fetched market_cap=null, revenue=1633000000, net_income=819600000, etc.
+[2025-03-11T05:43:27.409Z] IPT.V: Fetched market_cap=null, revenue=16684660, net_income=null, etc.
+[2025-03-11T05:43:42.711Z] IVS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:43:58.013Z] JAG.TO: Fetched market_cap=null, revenue=136528000, net_income=null, etc.
+[2025-03-11T05:44:13.355Z] JG.V: Fetched market_cap=null, revenue=null, net_income=-3713670, etc.
+[2025-03-11T05:44:28.815Z] JUGR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:44:44.104Z] JZR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:44:59.426Z] K.TO: Fetched market_cap=null, revenue=5148800000, net_income=948800000, etc.
+[2025-03-11T05:45:14.761Z] KALO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:45:30.097Z] KAPA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:45:45.474Z] KFR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:46:01.523Z] KG.V: Fetched market_cap=null, revenue=null, net_income=-845960, etc.
+[2025-03-11T05:46:16.862Z] KGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:46:32.174Z] KLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:46:47.479Z] KLM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:47:02.821Z] KNG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:47:18.161Z] KNT.TO: Fetched market_cap=null, revenue=271872200, net_income=45023080, etc.
+[2025-03-11T05:47:33.505Z] KOG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:47:48.843Z] KORE.V: Fetched market_cap=null, revenue=null, net_income=-9195480, etc.
+[2025-03-11T05:48:04.167Z] KRI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:48:19.477Z] KS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:48:34.822Z] KTN.V: Fetched market_cap=null, revenue=null, net_income=-2440150, etc.
+[2025-03-11T05:48:50.137Z] KTO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:49:05.433Z] KUYA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:49:20.736Z] LAB.V: Fetched market_cap=null, revenue=null, net_income=-796850, etc.
+[2025-03-11T05:49:36.040Z] LECR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:49:51.526Z] LEGY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:50:06.819Z] LFLR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:50:22.170Z] LG.V: Fetched market_cap=null, revenue=null, net_income=-2225250, etc.
+[2025-03-11T05:50:37.475Z] LGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:50:52.836Z] LGD.TO: Fetched market_cap=null, revenue=null, net_income=-27324840, etc.
+[2025-03-11T05:51:08.129Z] LIO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:51:23.417Z] LME.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:51:38.719Z] LMG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:51:54.029Z] LN.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:52:09.358Z] LOD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:52:24.668Z] LOT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:52:40.016Z] LPK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:52:55.324Z] LSTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:53:10.641Z] LUCA.V: Fetched market_cap=null, revenue=68275000, net_income=-14996000, etc.
+[2025-03-11T05:53:25.953Z] LUG.TO: Fetched market_cap=null, revenue=1694059420, net_income=604965440, etc.
+[2025-03-11T05:53:41.457Z] LVG.V: Fetched market_cap=null, revenue=null, net_income=-2940090, etc.
+[2025-03-11T05:53:56.748Z] MAE.V: Fetched market_cap=null, revenue=null, net_income=-2543760, etc.
+[2025-03-11T05:54:12.057Z] MAG.TO: Fetched market_cap=null, revenue=null, net_income=48659000, etc.
+[2025-03-11T05:54:27.722Z] MAU.V: Fetched market_cap=null, revenue=null, net_income=-24419710, etc.
+[2025-03-11T05:54:43.536Z] MEK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:54:59.041Z] MEX.V: Fetched market_cap=null, revenue=16150, net_income=null, etc.
+[2025-03-11T05:55:14.831Z] MFG.V: Fetched market_cap=null, revenue=null, net_income=-18228000, etc.
+[2025-03-11T05:55:30.563Z] MFL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:55:45.880Z] MGG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:56:01.196Z] MGM.V: Fetched market_cap=null, revenue=null, net_income=-7032140, etc.
+[2025-03-11T05:56:16.530Z] MIS.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:56:31.835Z] MJS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:56:47.179Z] MKO.V: Fetched market_cap=null, revenue=10568990, net_income=null, etc.
+[2025-03-11T05:57:02.642Z] MMET.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:57:17.966Z] MMG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:57:33.281Z] MMN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:57:48.657Z] MMY.V: Fetched market_cap=null, revenue=69387500, net_income=null, etc.
+[2025-03-11T05:58:04.002Z] MND.TO: Fetched market_cap=null, revenue=240655000, net_income=47761000, etc.
+[2025-03-11T05:58:19.329Z] MNO.TO: Fetched market_cap=null, revenue=null, net_income=-16230290, etc.
+[2025-03-11T05:58:34.819Z] MRZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:58:50.136Z] MSA.TO: Fetched market_cap=null, revenue=2212482984600, net_income=null, etc.
+[2025-03-11T05:59:05.461Z] MSG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:59:20.775Z] MSR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T05:59:36.100Z] MSV.TO: Fetched market_cap=null, revenue=null, net_income=-2987030, etc.
+[2025-03-11T05:59:51.750Z] MTS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:00:07.053Z] MTT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:00:22.356Z] MUN.V: Fetched market_cap=null, revenue=null, net_income=-2384270, etc.
+[2025-03-11T06:00:37.665Z] MUX.TO: Fetched market_cap=null, revenue=166231000, net_income=54730000, etc.
+[2025-03-11T06:00:52.972Z] NAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:01:08.294Z] NBRK.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:01:23.586Z] NCAU.V: Fetched market_cap=null, revenue=null, net_income=-2423770, etc.
+[2025-03-11T06:01:39.064Z] NCX.V: Fetched market_cap=null, revenue=null, net_income=-6663370, etc.
+[2025-03-11T06:01:54.366Z] NDM.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:02:09.671Z] NEV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:02:25.004Z] NEXG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:02:40.289Z] NFG.V: Fetched market_cap=null, revenue=null, net_income=-79890760, etc.
+[2025-03-11T06:02:55.601Z] NG.TO: Fetched market_cap=null, revenue=null, net_income=-65600260, etc.
+[2025-03-11T06:03:10.924Z] NGD.TO: Fetched market_cap=null, revenue=924500000, net_income=102600000, etc.
+[2025-03-11T06:03:26.244Z] NGEX.TO: Fetched market_cap=null, revenue=null, net_income=-27727850, etc.
+[2025-03-11T06:03:41.549Z] NILI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:03:56.854Z] NIM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:04:12.153Z] NKG.V: Fetched market_cap=null, revenue=null, net_income=-27013840, etc.
+[2025-03-11T06:04:27.462Z] NFLD.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:04:42.797Z] NL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:04:58.095Z] NOM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:05:13.418Z] NPR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:05:28.739Z] NRC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:05:44.056Z] NSG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:05:59.364Z] NTH.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:06:14.676Z] NUAG.TO: Fetched market_cap=null, revenue=null, net_income=-8172240, etc.
+[2025-03-11T06:06:30.001Z] NVO.TO: Fetched market_cap=null, revenue=112243000, net_income=null, etc.
+[2025-03-11T06:06:45.318Z] NVPC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:07:00.639Z] OCG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:07:15.964Z] OCO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:07:31.271Z] ODV.V: Fetched market_cap=null, revenue=31625000, net_income=-181873000, etc.
+[2025-03-11T06:07:45.233Z] OGC.TO: Fetched market_cap=null, revenue=1294000000, net_income=187400000, etc.
+[2025-03-11T06:08:00.542Z] OGN.V: Fetched market_cap=null, revenue=7828610, net_income=null, etc.
+[2025-03-11T06:08:15.886Z] OIII.V: Fetched market_cap=null, revenue=null, net_income=-34111000, etc.
+[2025-03-11T06:08:31.205Z] OLA.TO: Fetched market_cap=null, revenue=233600000, net_income=-27010000, etc.
+[2025-03-11T06:08:46.546Z] OMG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:09:01.882Z] OMGA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:09:17.206Z] OMI.V: Fetched market_cap=null, revenue=37100000, net_income=-36845000, etc.
+[2025-03-11T06:09:32.523Z] OMM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:09:47.849Z] ONAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:10:03.177Z] ONYX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:10:18.506Z] OPW.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:10:33.833Z] OR.TO: Fetched market_cap=null, revenue=271915100, net_income=23139320, etc.
+[2025-03-11T06:10:49.137Z] ORA.TO: Fetched market_cap=null, revenue=852481310, net_income=-43431620, etc.
+[2025-03-11T06:11:04.474Z] ORE.TO: Fetched market_cap=null, revenue=368448580, net_income=58554730, etc.
+[2025-03-11T06:11:19.792Z] ORV.TO: Fetched market_cap=null, revenue=null, net_income=-1592000, etc.
+[2025-03-11T06:11:35.101Z] OZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:11:50.435Z] PA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:12:05.730Z] PAAS.TO: Fetched market_cap=null, revenue=2818900000, net_income=111500000, etc.
+[2025-03-11T06:12:21.228Z] PAU.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:12:36.551Z] PEX.V: Fetched market_cap=null, revenue=null, net_income=-7799250, etc.
+[2025-03-11T06:12:51.901Z] PGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:13:07.197Z] PGDC.V: Fetched market_cap=null, revenue=23999760, net_income=728600, etc.
+[2025-03-11T06:13:22.706Z] PGLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:13:38.001Z] PGX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:13:53.308Z] PJX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:14:08.642Z] PLY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:14:23.931Z] PNTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:14:39.227Z] PPP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:14:54.559Z] PPX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:15:09.878Z] PRB.TO: Fetched market_cap=null, revenue=null, net_income=-25403250, etc.
+[2025-03-11T06:15:25.224Z] PRG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:15:40.551Z] PRIZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:15:55.887Z] PRU.TO: Fetched market_cap=null, revenue=1513156110, net_income=478346900, etc.
+[2025-03-11T06:16:11.185Z] PRYM.TO: Fetched market_cap=null, revenue=null, net_income=-17971330, etc.
+[2025-03-11T06:16:26.491Z] PUMA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:16:41.781Z] PX.V: Fetched market_cap=null, revenue=30180, net_income=-3709150, etc.
+[2025-03-11T06:16:57.104Z] QIM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:17:12.398Z] QZM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:17:27.774Z] RAGE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:17:43.113Z] RAMP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:17:58.453Z] RBX.V: Fetched market_cap=null, revenue=null, net_income=-6637040, etc.
+[2025-03-11T06:18:13.758Z] RDG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:18:29.089Z] RDS.V: Fetched market_cap=null, revenue=null, net_income=-1984150, etc.
+[2025-03-11T06:18:44.430Z] RDU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:18:59.732Z] REX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:19:15.056Z] RG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:19:30.413Z] RGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:19:45.870Z] RGLD.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:20:01.180Z] RIO.V: Fetched market_cap=null, revenue=null, net_income=-16731120, etc.
+[2025-03-11T06:20:16.503Z] RK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:20:31.823Z] RKR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:20:47.156Z] RLYG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:21:02.495Z] ROCK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:21:17.790Z] ROS.V: Fetched market_cap=null, revenue=null, net_income=-16782370, etc.
+[2025-03-11T06:21:33.101Z] ROX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:21:48.424Z] RPX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:22:03.751Z] RR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:22:19.082Z] RRI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:22:34.381Z] RSG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:22:49.720Z] RSLV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:23:05.107Z] RSM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:23:20.399Z] RSMX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:23:35.699Z] RTG.TO: Fetched market_cap=null, revenue=null, net_income=-111050740, etc.
+[2025-03-11T06:23:51.043Z] RUA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:24:06.351Z] RUG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:24:21.845Z] RUP.TO: Fetched market_cap=null, revenue=null, net_income=-13099970, etc.
+[2025-03-11T06:24:37.164Z] RUSH.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:24:52.503Z] RVG.V: Fetched market_cap=null, revenue=null, net_income=-8594520, etc.
+[2025-03-11T06:25:07.859Z] RYE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:25:23.339Z] RYR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:25:38.638Z] SAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:25:53.950Z] SAM.TO: Fetched market_cap=null, revenue=22907000, net_income=-5256000, etc.
+[2025-03-11T06:26:09.305Z] SANU.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:26:24.632Z] SBMI.V: Fetched market_cap=null, revenue=null, net_income=-2270150, etc.
+[2025-03-11T06:26:39.966Z] SCOT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:26:55.297Z] SCZ.V: Fetched market_cap=null, revenue=null, net_income=16148000, etc.
+[2025-03-11T06:27:10.659Z] SDR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:27:25.971Z] SEA.TO: Fetched market_cap=null, revenue=null, net_income=-7394000, etc.
+[2025-03-11T06:27:41.294Z] SEEM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:27:56.595Z] SGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:28:11.924Z] SGD.V: Fetched market_cap=null, revenue=null, net_income=-23945920, etc.
+[2025-03-11T06:28:27.212Z] SGLD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:28:42.525Z] SGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:28:57.825Z] SGN.V: Fetched market_cap=null, revenue=52026000, net_income=-20139000, etc.
+[2025-03-11T06:29:13.113Z] SGU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:29:28.580Z] SGZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:29:43.901Z] SHL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:29:59.233Z] SIC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:30:14.548Z] SIG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:30:29.881Z] SIL.TO: Fetched market_cap=null, revenue=330271000, net_income=157260360, etc.
+[2025-03-11T06:30:45.194Z] SILV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:31:00.502Z] SKE.TO: Fetched market_cap=null, revenue=null, net_income=-108980000, etc.
+[2025-03-11T06:31:15.820Z] SKP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:31:31.147Z] SLI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:31:46.472Z] SLR.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:32:01.820Z] SLV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:32:17.123Z] SLVR.V: Fetched market_cap=null, revenue=null, net_income=-3163980, etc.
+[2025-03-11T06:32:32.434Z] SM.V: Fetched market_cap=null, revenue=null, net_income=-54974690, etc.
+[2025-03-11T06:32:47.738Z] SMN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:33:03.058Z] SMT.TO: Fetched market_cap=null, revenue=310608410, net_income=null, etc.
+[2025-03-11T06:33:18.392Z] SNAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:33:33.742Z] SNG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:33:49.030Z] SOI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:34:04.327Z] SOMA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:34:19.627Z] SPA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:34:34.975Z] SPMC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:34:50.308Z] SPX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:35:05.623Z] SRC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:35:20.933Z] SRL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:35:36.269Z] SSL.TO: Fetched market_cap=null, revenue=250136760, net_income=20281050, etc.
+[2025-03-11T06:35:51.580Z] SSRM.TO: Fetched market_cap=null, revenue=995618000, net_income=-261277000, etc.
+[2025-03-11T06:36:06.874Z] SSV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:36:22.180Z] SSVR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:36:37.493Z] STGO.TO: Fetched market_cap=null, revenue=null, net_income=8894000, etc.
+[2025-03-11T06:36:52.812Z] STLR.TO: Fetched market_cap=null, revenue=null, net_income=-20984300, etc.
+[2025-03-11T06:37:08.136Z] STRR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:37:23.431Z] STS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:37:38.732Z] STU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:37:54.210Z] SUP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:38:09.500Z] SURG.V: Fetched market_cap=null, revenue=null, net_income=-5803090, etc.
+[2025-03-11T06:38:24.803Z] SVE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:38:40.097Z] SVM.TO: Fetched market_cap=null, revenue=215187000, net_income=49678000, etc.
+[2025-03-11T06:38:55.423Z] SVRS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:39:10.759Z] SWA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:39:26.094Z] SWLF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:39:41.413Z] SXGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:39:56.747Z] TAJ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:40:12.239Z] TBK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:40:27.540Z] TBX.V: Fetched market_cap=null, revenue=null, net_income=-3713640, etc.
+[2025-03-11T06:40:42.931Z] TCO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:40:58.246Z] TDG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:41:13.546Z] TECT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:41:28.857Z] TERA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:41:44.176Z] TFPM.TO: Fetched market_cap=null, revenue=268991000, net_income=-23084000, etc.
+[2025-03-11T06:41:59.677Z] TG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:42:14.976Z] TGOL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:42:30.270Z] THX.V: Fetched market_cap=null, revenue=193354970, net_income=14879510, etc.
+[2025-03-11T06:42:45.607Z] TIN.V: Fetched market_cap=null, revenue=null, net_income=-2174320, etc.
+[2025-03-11T06:43:00.897Z] TK.V: Fetched market_cap=null, revenue=null, net_income=-3188840, etc.
+[2025-03-11T06:43:16.231Z] TLG.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:43:31.551Z] TSG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:43:46.870Z] TM.V: Fetched market_cap=null, revenue=9587210, net_income=-773940, etc.
+[2025-03-11T06:44:02.175Z] TMQ.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:44:17.516Z] TNR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:44:32.808Z] TOC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:44:48.096Z] TORQ.V: Fetched market_cap=null, revenue=null, net_income=-19211640, etc.
+[2025-03-11T06:45:03.386Z] TRO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:45:18.710Z] TRX.TO: Fetched market_cap=null, revenue=57663180, net_income=null, etc.
+[2025-03-11T06:45:34.019Z] TSG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:45:49.314Z] TSK.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:46:04.639Z] TSLV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:46:19.975Z] TUD.V: Fetched market_cap=null, revenue=null, net_income=-7737290, etc.
+[2025-03-11T06:46:35.298Z] TUF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:46:50.627Z] TUO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:47:05.967Z] TWR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:47:21.268Z] TXG.TO: Fetched market_cap=null, revenue=1586765290, net_income=191464460, etc.
+[2025-03-11T06:47:36.615Z] UGD.V: Fetched market_cap=null, revenue=null, net_income=-7445950, etc.
+[2025-03-11T06:47:51.964Z] USA.TO: Fetched market_cap=null, revenue=121277700, net_income=-47337330, etc.
+[2025-03-11T06:48:07.292Z] USGD.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:48:22.618Z] VAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:48:37.928Z] VEIN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:48:53.248Z] VG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:49:08.748Z] VIO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:49:24.059Z] VIPR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:49:39.366Z] VLC.V: Fetched market_cap=null, revenue=null, net_income=-2019230, etc.
+[2025-03-11T06:49:54.673Z] VML.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:50:09.993Z] VOXR.TO: Fetched market_cap=null, revenue=11047760, net_income=-1649080, etc.
+[2025-03-11T06:50:25.329Z] VROY.V: Fetched market_cap=null, revenue=null, net_income=-183630, etc.
+[2025-03-11T06:50:40.656Z] VVC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:50:56.135Z] WAM.V: Fetched market_cap=null, revenue=null, net_income=-4360910, etc.
+[2025-03-11T06:51:11.442Z] WDO.TO: Fetched market_cap=null, revenue=333173000, net_income=-6187000, etc.
+[2025-03-11T06:51:26.765Z] WEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:51:42.108Z] WG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:51:57.434Z] WGF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:52:12.761Z] WGLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:52:28.097Z] WGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:52:43.444Z] WGX.TO: Fetched market_cap=null, revenue=716472570, net_income=95231530, etc.
+[2025-03-11T06:52:58.774Z] WHN.V: Fetched market_cap=null, revenue=null, net_income=-1249350, etc.
+[2025-03-11T06:53:14.106Z] WHY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:53:29.731Z] WPG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:53:45.039Z] WPM.TO: Fetched market_cap=null, revenue=1016045000, net_income=537644000, etc.
+[2025-03-11T06:54:00.338Z] WRLG.V: Fetched market_cap=null, revenue=null, net_income=-32506640, etc.
+[2025-03-11T06:54:15.635Z] WRN.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:54:31.023Z] WRR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:54:46.328Z] WVM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:55:01.615Z] XIM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:55:16.938Z] XTG.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:55:32.239Z] XTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:55:47.541Z] YGT.V: Fetched market_cap=null, revenue=null, net_income=-1860100, etc.
+[2025-03-11T06:56:03.045Z] YRB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:56:18.380Z] ZAC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T06:56:33.701Z] ZAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T23:53:36.566Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T23:53:51.861Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-11T23:54:07.141Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450, etc.
+[2025-03-12T00:01:18.363Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:33.687Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:48.996Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450, etc.
+[2025-03-12T00:01:55.223Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:55.554Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:55.896Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450, etc.
+[2025-03-12T00:01:56.227Z] ITR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:56.560Z] AAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:56.899Z] AAN.V: Fetched market_cap=null, revenue=null, net_income=-2465880, etc.
+[2025-03-12T00:01:57.236Z] AAUC.TO: Fetched market_cap=null, revenue=655691000, net_income=-208482000, etc.
+[2025-03-12T00:01:57.566Z] ABI.V: Fetched market_cap=null, revenue=null, net_income=-5337040, etc.
+[2025-03-12T00:01:57.905Z] ABRA.TO: Fetched market_cap=null, revenue=null, net_income=-13728560, etc.
+[2025-03-12T00:01:58.251Z] ADY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:58.587Z] ADZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:58.922Z] AE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:59.258Z] AEM.TO: Fetched market_cap=null, revenue=8285753000, net_income=1895581000, etc.
+[2025-03-12T00:01:59.603Z] AERO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:01:59.941Z] AG.TO: Fetched market_cap=null, revenue=797442370, net_income=-144928360, etc.
+[2025-03-12T00:02:00.269Z] AGA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:00.604Z] AGAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:00.945Z] AGI.TO: Fetched market_cap=null, revenue=1346900000, net_income=284300000, etc.
+[2025-03-12T00:02:01.285Z] AGLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:01.631Z] AGMR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:02.121Z] ALDE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:02.469Z] ALEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:02.812Z] ALTA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:03.143Z] AMC.TO: Fetched market_cap=null, revenue=null, net_income=-24348030, etc.
+[2025-03-12T00:02:03.474Z] AMQ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:03.814Z] AMRQ.V: Fetched market_cap=null, revenue=null, net_income=-613790, etc.
+[2025-03-12T00:02:04.168Z] AMX.V: Fetched market_cap=null, revenue=null, net_income=680170, etc.
+[2025-03-12T00:02:04.685Z] ANK.V: Fetched market_cap=null, revenue=null, net_income=-5681410, etc.
+[2025-03-12T00:02:05.022Z] ANTL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:05.356Z] AOT.TO: Fetched market_cap=null, revenue=null, net_income=-10430000, etc.
+[2025-03-12T00:02:05.694Z] APGO.V: Fetched market_cap=null, revenue=null, net_income=-2710850, etc.
+[2025-03-12T00:02:06.036Z] APM.TO: Fetched market_cap=null, revenue=125324000, net_income=38540000, etc.
+[2025-03-12T00:02:06.381Z] ARIC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:06.732Z] ARIS.TO: Fetched market_cap=null, revenue=447674000, net_income=11419000, etc.
+[2025-03-12T00:02:07.079Z] ARK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:07.410Z] ARTG.V: Fetched market_cap=null, revenue=null, net_income=-8476930, etc.
+[2025-03-12T00:02:07.746Z] ARU.V: Fetched market_cap=null, revenue=null, net_income=-9971550, etc.
+[2025-03-12T00:02:08.075Z] ASE.CN: Fetched market_cap=null, revenue=274729000, net_income=null, etc.
+[2025-03-12T00:02:08.414Z] ASM.TO: Fetched market_cap=null, revenue=59511730, net_income=734930, etc.
+[2025-03-12T00:02:08.758Z] ASTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:09.111Z] ATHA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:09.440Z] AU.V: Fetched market_cap=null, revenue=null, net_income=-2877370, etc.
+[2025-03-12T00:02:09.777Z] AUAU.V: Fetched market_cap=null, revenue=null, net_income=-2850900, etc.
+[2025-03-12T00:02:10.128Z] AWM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:10.470Z] AUM.V: Fetched market_cap=null, revenue=2905190, net_income=-5505610, etc.
+[2025-03-12T00:02:10.806Z] AUMB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:11.141Z] AUOZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:11.958Z] AYA.TO: Fetched market_cap=null, revenue=42849000, net_income=null, etc.
+[2025-03-12T00:02:12.300Z] AZM.V: Fetched market_cap=null, revenue=null, net_income=-378950, etc.
+[2025-03-12T00:02:12.640Z] AZS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:12.980Z] AZT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:13.314Z] BAT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:13.644Z] BAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:13.982Z] BBB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:14.312Z] BCM.V: Fetched market_cap=null, revenue=82177900, net_income=-30431320, etc.
+[2025-03-12T00:02:14.646Z] BEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:14.974Z] BGF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:15.318Z] BGS: Fetched market_cap=null, revenue=1932454000, net_income=-251251000, etc.
+[2025-03-12T00:02:15.665Z] BHS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:15.998Z] BIG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:16.353Z] BLLG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:16.697Z] BMM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:17.033Z] BOGO.V: Fetched market_cap=null, revenue=null, net_income=-6119890, etc.
+[2025-03-12T00:02:17.361Z] BRAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:17.697Z] BRAZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:18.033Z] BRC.V: Fetched market_cap=null, revenue=null, net_income=-11757080, etc.
+[2025-03-12T00:02:18.363Z] BSX.TO: Fetched market_cap=null, revenue=null, net_income=-4913930, etc.
+[2025-03-12T00:02:18.702Z] BTO.TO: Fetched market_cap=null, revenue=1902030000, net_income=-629891000, etc.
+[2025-03-12T00:02:19.040Z] BTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:19.368Z] BYN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:19.701Z] BZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:20.032Z] CANX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:20.363Z] CAPT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:20.700Z] CBI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:21.026Z] CBR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:21.542Z] CC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:21.893Z] CCM.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:22.226Z] CDPR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:22.745Z] CERT.V: Fetched market_cap=null, revenue=100101000, net_income=-6753000, etc.
+[2025-03-12T00:02:23.086Z] CFE.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:23.421Z] CG.TO: Fetched market_cap=null, revenue=1214503000, net_income=80394000, etc.
+[2025-03-12T00:02:23.754Z] CGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:24.088Z] CGG.TO: Fetched market_cap=null, revenue=621756630, net_income=-34509410, etc.
+[2025-03-12T00:02:24.419Z] CKG.V: Fetched market_cap=null, revenue=null, net_income=-10687100, etc.
+[2025-03-12T00:02:24.910Z] CMB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:25.404Z] CNL.TO: Fetched market_cap=null, revenue=null, net_income=-25909270, etc.
+[2025-03-12T00:02:25.745Z] CPAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:26.084Z] CRB.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:26.491Z] CRI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:26.827Z] CSR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:27.163Z] CTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:27.496Z] CTN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:27.842Z] CVB.V: Fetched market_cap=null, revenue=null, net_income=-905960, etc.
+[2025-03-12T00:02:28.174Z] CXB.TO: Fetched market_cap=null, revenue=833372540, net_income=49416610, etc.
+[2025-03-12T00:02:28.516Z] CYG.V: Fetched market_cap=null, revenue=null, net_income=-13500300, etc.
+[2025-03-12T00:02:28.859Z] DAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:29.207Z] DEF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:29.539Z] DEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:29.876Z] DLTA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:30.210Z] DNG.TO: Fetched market_cap=null, revenue=null, net_income=15068340, etc.
+[2025-03-12T00:02:30.542Z] DPM.TO: Fetched market_cap=null, revenue=606992000, net_income=243240000, etc.
+[2025-03-12T00:02:30.869Z] DRY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:31.206Z] DSV.TO: Fetched market_cap=null, revenue=null, net_income=-41095770, etc.
+[2025-03-12T00:02:31.543Z] DV.V: Fetched market_cap=null, revenue=null, net_income=-14308580, etc.
+[2025-03-12T00:02:31.880Z] DYG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:32.216Z] EAM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:32.544Z] ECR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:32.874Z] EDG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:33.197Z] EDGM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:33.536Z] EDR.TO: Fetched market_cap=null, revenue=314155650, net_income=-45442850, etc.
+[2025-03-12T00:02:33.883Z] ELD.TO: Fetched market_cap=null, revenue=1322600000, net_income=289121000, etc.
+[2025-03-12T00:02:34.214Z] ELE.V: Fetched market_cap=null, revenue=11744000, net_income=null, etc.
+[2025-03-12T00:02:34.551Z] ELEF.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:34.892Z] ELO.TO: Fetched market_cap=null, revenue=null, net_income=-17006340, etc.
+[2025-03-12T00:02:35.399Z] EMNT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:35.897Z] EMPR.V: Fetched market_cap=null, revenue=11566930, net_income=null, etc.
+[2025-03-12T00:02:36.239Z] EMX.V: Fetched market_cap=null, revenue=36212550, net_income=null, etc.
+[2025-03-12T00:02:36.568Z] ENDR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:37.085Z] EPL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:37.425Z] EQTY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:37.767Z] EQX.TO: Fetched market_cap=null, revenue=1514120000, net_income=339287000, etc.
+[2025-03-12T00:02:38.110Z] ER.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:38.441Z] ERD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:38.775Z] ESK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:39.105Z] ESM.TO: Fetched market_cap=null, revenue=null, net_income=-13667060, etc.
+[2025-03-12T00:02:39.435Z] ETR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:39.949Z] EXN.TO: Fetched market_cap=null, revenue=47466140, net_income=null, etc.
+[2025-03-12T00:02:40.290Z] FAS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:40.632Z] FDR.V: Fetched market_cap=null, revenue=null, net_income=-7738460, etc.
+[2025-03-12T00:02:40.974Z] FF.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:41.311Z] FFOX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:41.637Z] FIN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:41.991Z] FISH.V: Fetched market_cap=null, revenue=2333090, net_income=-1105860, etc.
+[2025-03-12T00:02:42.335Z] FKM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:42.661Z] FMAN.V: Fetched market_cap=null, revenue=null, net_income=-1671110, etc.
+[2025-03-12T00:02:42.994Z] FMC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:43.328Z] FMT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:43.662Z] FNAU.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:43.995Z] FNM.V: Fetched market_cap=null, revenue=null, net_income=-1827530, etc.
+[2025-03-12T00:02:44.330Z] FNV.TO: Fetched market_cap=null, revenue=1113600000, net_income=552100000, etc.
+[2025-03-12T00:02:44.667Z] FOR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:45.001Z] FPC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:45.332Z] FRED.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:45.676Z] FRG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:46.022Z] FURY.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:46.370Z] FVI.TO: Fetched market_cap=null, revenue=1062037000, net_income=128735000, etc.
+[2025-03-12T00:02:46.702Z] FVL.TO: Fetched market_cap=null, revenue=null, net_income=-760980, etc.
+[2025-03-12T00:02:47.038Z] GAL.V: Fetched market_cap=null, revenue=null, net_income=-5284430, etc.
+[2025-03-12T00:02:47.376Z] GAU.TO: Fetched market_cap=null, revenue=256543000, net_income=26085000, etc.
+[2025-03-12T00:02:47.720Z] GBRC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:48.053Z] GDX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:48.395Z] GFG.V: Fetched market_cap=null, revenue=null, net_income=-807430, etc.
+[2025-03-12T00:02:48.739Z] G.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:49.068Z] GCC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:49.404Z] GHRT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:49.739Z] GG.V: Fetched market_cap=null, revenue=49068780, net_income=4434030, etc.
+[2025-03-12T00:02:50.071Z] GGA.V: Fetched market_cap=null, revenue=30893160, net_income=null, etc.
+[2025-03-12T00:02:50.487Z] GGD.TO: Fetched market_cap=null, revenue=40566250, net_income=-10577260, etc.
+[2025-03-12T00:02:50.835Z] GGL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:51.173Z] GGM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:51.499Z] GGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:51.832Z] GLDC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:52.322Z] GLM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:52.659Z] GMIN.TO: Fetched market_cap=null, revenue=null, net_income=-9757230, etc.
+[2025-03-12T00:02:52.993Z] GMTN.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:53.326Z] GMV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:53.657Z] GMX.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:54.005Z] GNG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:54.347Z] GOLD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:54.683Z] GOT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:55.012Z] GPAC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:55.347Z] GPG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:55.681Z] GTWO.TO: Fetched market_cap=null, revenue=530650, net_income=-3098100, etc.
+[2025-03-12T00:02:56.020Z] GQ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:56.355Z] GQC.V: Fetched market_cap=null, revenue=null, net_income=-6147150, etc.
+[2025-03-12T00:02:56.687Z] GRC.TO: Fetched market_cap=null, revenue=null, net_income=-9988130, etc.
+[2025-03-12T00:02:57.023Z] GRG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:57.354Z] GRSL.V: Fetched market_cap=null, revenue=null, net_income=-25597990, etc.
+[2025-03-12T00:02:57.690Z] GSHR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:58.026Z] GSTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:58.529Z] GTCH.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:58.865Z] GUN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:59.197Z] GUS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:02:59.677Z] GWM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:00.003Z] GXX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:00.340Z] HAMR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:00.669Z] HML.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:01.004Z] HSLV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:01.345Z] HSTR.V: Fetched market_cap=null, revenue=null, net_income=-19934400, etc.
+[2025-03-12T00:03:01.670Z] HUNT.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:02.002Z] HWY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:02.511Z] IGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:02.848Z] IMG.TO: Fetched market_cap=null, revenue=1633000000, net_income=819600000, etc.
+[2025-03-12T00:03:03.183Z] IPT.V: Fetched market_cap=null, revenue=16684660, net_income=null, etc.
+[2025-03-12T00:03:03.522Z] IVS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:03.862Z] JAG.TO: Fetched market_cap=null, revenue=136528000, net_income=null, etc.
+[2025-03-12T00:03:04.203Z] JG.V: Fetched market_cap=null, revenue=null, net_income=-3713670, etc.
+[2025-03-12T00:03:04.693Z] JUGR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:05.024Z] JZR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:05.354Z] K.TO: Fetched market_cap=null, revenue=5148800000, net_income=948800000, etc.
+[2025-03-12T00:03:05.689Z] KALO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:06.024Z] KAPA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:06.361Z] KFR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:06.694Z] KG.V: Fetched market_cap=null, revenue=null, net_income=-845960, etc.
+[2025-03-12T00:03:07.026Z] KGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:07.362Z] KLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:07.698Z] KLM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:08.042Z] KNG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:08.373Z] KNT.TO: Fetched market_cap=null, revenue=271872200, net_income=45023080, etc.
+[2025-03-12T00:03:08.700Z] KOG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:09.039Z] KORE.V: Fetched market_cap=null, revenue=null, net_income=-9195480, etc.
+[2025-03-12T00:03:09.370Z] KRI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:09.708Z] KS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:10.040Z] KTN.V: Fetched market_cap=null, revenue=null, net_income=-2440150, etc.
+[2025-03-12T00:03:10.374Z] KTO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:10.711Z] KUYA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:11.045Z] LAB.V: Fetched market_cap=null, revenue=null, net_income=-796850, etc.
+[2025-03-12T00:03:11.378Z] LECR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:11.710Z] LEGY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:12.045Z] LFLR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:12.376Z] LG.V: Fetched market_cap=null, revenue=null, net_income=-2225250, etc.
+[2025-03-12T00:03:12.710Z] LGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:13.044Z] LGD.TO: Fetched market_cap=null, revenue=null, net_income=-27324840, etc.
+[2025-03-12T00:03:13.375Z] LIO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:13.717Z] LME.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:14.048Z] LMG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:14.381Z] LN.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:14.714Z] LOD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:15.045Z] LOT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:15.389Z] LPK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:15.720Z] LSTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:16.076Z] LUCA.V: Fetched market_cap=null, revenue=68275000, net_income=-14996000, etc.
+[2025-03-12T00:03:16.412Z] LUG.TO: Fetched market_cap=null, revenue=1694059420, net_income=604965440, etc.
+[2025-03-12T00:03:16.907Z] LVG.V: Fetched market_cap=null, revenue=null, net_income=-2940090, etc.
+[2025-03-12T00:03:17.240Z] MAE.V: Fetched market_cap=null, revenue=null, net_income=-2543760, etc.
+[2025-03-12T00:03:17.576Z] MAG.TO: Fetched market_cap=null, revenue=null, net_income=48659000, etc.
+[2025-03-12T00:03:18.094Z] MAU.V: Fetched market_cap=null, revenue=null, net_income=-24419710, etc.
+[2025-03-12T00:03:18.429Z] MEK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:18.762Z] MEX.V: Fetched market_cap=null, revenue=16150, net_income=null, etc.
+[2025-03-12T00:03:19.099Z] MFG.V: Fetched market_cap=null, revenue=null, net_income=-18228000, etc.
+[2025-03-12T00:03:19.432Z] MFL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:19.783Z] MGG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:20.124Z] MGM.V: Fetched market_cap=null, revenue=null, net_income=-7032140, etc.
+[2025-03-12T00:03:20.463Z] MIS.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:20.796Z] MJS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:21.130Z] MKO.V: Fetched market_cap=null, revenue=10568990, net_income=null, etc.
+[2025-03-12T00:03:21.612Z] MMET.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:21.955Z] MMG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:22.295Z] MMN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:22.640Z] MMY.V: Fetched market_cap=null, revenue=69387500, net_income=null, etc.
+[2025-03-12T00:03:22.978Z] MND.TO: Fetched market_cap=null, revenue=240655000, net_income=47761000, etc.
+[2025-03-12T00:03:23.310Z] MNO.TO: Fetched market_cap=null, revenue=null, net_income=-16230290, etc.
+[2025-03-12T00:03:23.647Z] MRZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:23.974Z] MSA.TO: Fetched market_cap=null, revenue=2212482984600, net_income=null, etc.
+[2025-03-12T00:03:24.306Z] MSG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:24.817Z] MSR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:25.158Z] MSV.TO: Fetched market_cap=null, revenue=null, net_income=-2987030, etc.
+[2025-03-12T00:03:25.656Z] MTS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:25.985Z] MTT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:26.320Z] MUN.V: Fetched market_cap=null, revenue=null, net_income=-2384270, etc.
+[2025-03-12T00:03:26.684Z] MUX.TO: Fetched market_cap=null, revenue=166231000, net_income=54730000, etc.
+[2025-03-12T00:03:27.021Z] NAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:27.363Z] NBRK.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:27.702Z] NCAU.V: Fetched market_cap=null, revenue=null, net_income=-2423770, etc.
+[2025-03-12T00:03:28.035Z] NCX.V: Fetched market_cap=null, revenue=null, net_income=-6663370, etc.
+[2025-03-12T00:03:28.383Z] NDM.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:28.731Z] NEV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:29.062Z] NEXG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:29.392Z] NFG.V: Fetched market_cap=null, revenue=null, net_income=-79890760, etc.
+[2025-03-12T00:03:29.725Z] NG.TO: Fetched market_cap=null, revenue=null, net_income=-65600260, etc.
+[2025-03-12T00:03:30.064Z] NGD.TO: Fetched market_cap=null, revenue=924500000, net_income=102600000, etc.
+[2025-03-12T00:03:30.403Z] NGEX.TO: Fetched market_cap=null, revenue=null, net_income=-27727850, etc.
+[2025-03-12T00:03:30.735Z] NILI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:31.071Z] NIM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:31.402Z] NKG.V: Fetched market_cap=null, revenue=null, net_income=-27013840, etc.
+[2025-03-12T00:03:31.749Z] NFLD.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:32.091Z] NL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:32.436Z] NOM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:32.776Z] NPR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:33.109Z] NRC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:33.445Z] NSG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:33.787Z] NTH.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:34.121Z] NUAG.TO: Fetched market_cap=null, revenue=null, net_income=-8172240, etc.
+[2025-03-12T00:03:34.453Z] NVO.TO: Fetched market_cap=null, revenue=112243000, net_income=null, etc.
+[2025-03-12T00:03:34.785Z] NVPC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:35.116Z] OCG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:35.449Z] OCO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:35.780Z] ODV.V: Fetched market_cap=null, revenue=31625000, net_income=-181873000, etc.
+[2025-03-12T00:03:36.120Z] OGC.TO: Fetched market_cap=null, revenue=1294000000, net_income=187400000, etc.
+[2025-03-12T00:03:36.457Z] OGN.V: Fetched market_cap=null, revenue=7828610, net_income=null, etc.
+[2025-03-12T00:03:36.789Z] OIII.V: Fetched market_cap=null, revenue=null, net_income=-34111000, etc.
+[2025-03-12T00:03:37.129Z] OLA.TO: Fetched market_cap=null, revenue=233600000, net_income=-27010000, etc.
+[2025-03-12T00:03:37.464Z] OMG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:37.791Z] OMGA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:38.128Z] OMI.V: Fetched market_cap=null, revenue=37100000, net_income=-36845000, etc.
+[2025-03-12T00:03:38.454Z] OMM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:38.780Z] ONAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:39.126Z] ONYX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:39.465Z] OPW.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:39.800Z] OR.TO: Fetched market_cap=null, revenue=271915100, net_income=23139320, etc.
+[2025-03-12T00:03:40.285Z] ORA.TO: Fetched market_cap=null, revenue=852481310, net_income=-43431620, etc.
+[2025-03-12T00:03:40.627Z] ORE.TO: Fetched market_cap=null, revenue=368448580, net_income=58554730, etc.
+[2025-03-12T00:03:40.957Z] ORV.TO: Fetched market_cap=null, revenue=null, net_income=-1592000, etc.
+[2025-03-12T00:03:41.304Z] OZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:41.637Z] PA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:41.971Z] PAAS.TO: Fetched market_cap=null, revenue=2818900000, net_income=111500000, etc.
+[2025-03-12T00:03:42.460Z] PAU.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:42.795Z] PEX.V: Fetched market_cap=null, revenue=null, net_income=-7799250, etc.
+[2025-03-12T00:03:43.124Z] PGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:43.470Z] PGDC.V: Fetched market_cap=null, revenue=23999760, net_income=728600, etc.
+[2025-03-12T00:03:43.813Z] PGLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:44.149Z] PGX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:44.479Z] PJX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:44.818Z] PLY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:45.157Z] PNTR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:45.689Z] PPP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:46.032Z] PPX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:46.391Z] PRB.TO: Fetched market_cap=null, revenue=null, net_income=-25403250, etc.
+[2025-03-12T00:03:46.734Z] PRG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:47.069Z] PRIZ.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:47.413Z] PRU.TO: Fetched market_cap=null, revenue=1513156110, net_income=478346900, etc.
+[2025-03-12T00:03:47.748Z] PRYM.TO: Fetched market_cap=null, revenue=null, net_income=-17971330, etc.
+[2025-03-12T00:03:48.091Z] PUMA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:48.423Z] PX.V: Fetched market_cap=null, revenue=30180, net_income=-3709150, etc.
+[2025-03-12T00:03:48.778Z] QIM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:49.126Z] QZM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:49.461Z] RAGE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:49.800Z] RAMP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:50.132Z] RBX.V: Fetched market_cap=null, revenue=null, net_income=-6637040, etc.
+[2025-03-12T00:03:50.463Z] RDG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:50.799Z] RDS.V: Fetched market_cap=null, revenue=null, net_income=-1984150, etc.
+[2025-03-12T00:03:51.128Z] RDU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:51.466Z] REX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:51.815Z] RG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:52.143Z] RGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:52.468Z] RGLD.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:52.803Z] RIO.V: Fetched market_cap=null, revenue=null, net_income=-16731120, etc.
+[2025-03-12T00:03:53.137Z] RK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:53.470Z] RKR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:53.806Z] RLYG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:54.138Z] ROCK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:54.472Z] ROS.V: Fetched market_cap=null, revenue=null, net_income=-16782370, etc.
+[2025-03-12T00:03:54.829Z] ROX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:55.170Z] RPX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:55.503Z] RR.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:55.835Z] RRI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:56.162Z] RSG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:56.507Z] RSLV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:56.846Z] RSM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:57.181Z] RSMX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:57.514Z] RTG.TO: Fetched market_cap=null, revenue=null, net_income=-111050740, etc.
+[2025-03-12T00:03:57.849Z] RUA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:58.180Z] RUG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:58.516Z] RUP.TO: Fetched market_cap=null, revenue=null, net_income=-13099970, etc.
+[2025-03-12T00:03:58.857Z] RUSH.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:59.202Z] RVG.V: Fetched market_cap=null, revenue=null, net_income=-8594520, etc.
+[2025-03-12T00:03:59.543Z] RYE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:03:59.884Z] RYR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:00.220Z] SAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:00.555Z] SAM.TO: Fetched market_cap=null, revenue=22907000, net_income=-5256000, etc.
+[2025-03-12T00:04:00.887Z] SANU.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:01.226Z] SBMI.V: Fetched market_cap=null, revenue=null, net_income=-2270150, etc.
+[2025-03-12T00:04:01.558Z] SCOT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:02.077Z] SCZ.V: Fetched market_cap=null, revenue=null, net_income=16148000, etc.
+[2025-03-12T00:04:02.400Z] SDR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:02.741Z] SEA.TO: Fetched market_cap=null, revenue=null, net_income=-7394000, etc.
+[2025-03-12T00:04:03.074Z] SEEM.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:03.411Z] SGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:03.745Z] SGD.V: Fetched market_cap=null, revenue=null, net_income=-23945920, etc.
+[2025-03-12T00:04:04.076Z] SGLD.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:04.404Z] SGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:04.749Z] SGN.V: Fetched market_cap=null, revenue=52026000, net_income=-20139000, etc.
+[2025-03-12T00:04:05.272Z] SGU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:05.612Z] SGZ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:05.957Z] SHL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:06.291Z] SIC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:06.620Z] SIG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:06.963Z] SIL.TO: Fetched market_cap=null, revenue=330271000, net_income=157260360, etc.
+[2025-03-12T00:04:07.308Z] SILV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:07.638Z] SKE.TO: Fetched market_cap=null, revenue=null, net_income=-108980000, etc.
+[2025-03-12T00:04:07.976Z] SKP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:08.308Z] SLI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:08.635Z] SLR.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:08.983Z] SLV.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:09.331Z] SLVR.V: Fetched market_cap=null, revenue=null, net_income=-3163980, etc.
+[2025-03-12T00:04:09.684Z] SM.V: Fetched market_cap=null, revenue=null, net_income=-54974690, etc.
+[2025-03-12T00:04:10.031Z] SMN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:10.361Z] SMT.TO: Fetched market_cap=null, revenue=310608410, net_income=null, etc.
+[2025-03-12T00:04:10.701Z] SNAG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:11.030Z] SNG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:11.375Z] SOI.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:11.732Z] SOMA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:12.060Z] SPA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:12.573Z] SPMC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:12.903Z] SPX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:13.234Z] SRC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:13.568Z] SRL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:13.905Z] SSL.TO: Fetched market_cap=null, revenue=250136760, net_income=20281050, etc.
+[2025-03-12T00:04:14.242Z] SSRM.TO: Fetched market_cap=null, revenue=995618000, net_income=-261277000, etc.
+[2025-03-12T00:04:14.584Z] SSV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:14.913Z] SSVR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:15.254Z] STGO.TO: Fetched market_cap=null, revenue=null, net_income=8894000, etc.
+[2025-03-12T00:04:15.584Z] STLR.TO: Fetched market_cap=null, revenue=null, net_income=-20984300, etc.
+[2025-03-12T00:04:15.933Z] STRR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:16.272Z] STS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:16.616Z] STU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:16.957Z] SUP.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:17.304Z] SURG.V: Fetched market_cap=null, revenue=null, net_income=-5803090, etc.
+[2025-03-12T00:04:17.644Z] SVE.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:17.994Z] SVM.TO: Fetched market_cap=null, revenue=215187000, net_income=49678000, etc.
+[2025-03-12T00:04:18.333Z] SVRS.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:18.665Z] SWA.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:18.998Z] SWLF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:19.331Z] SXGC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:19.665Z] TAJ.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:20.001Z] TAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:20.337Z] TBK.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:20.672Z] TBX.V: Fetched market_cap=null, revenue=null, net_income=-3713640, etc.
+[2025-03-12T00:04:21.002Z] TCO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:21.334Z] TDG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:21.663Z] TECT.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:21.994Z] TERA.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:22.333Z] TFPM.TO: Fetched market_cap=null, revenue=268991000, net_income=-23084000, etc.
+[2025-03-12T00:04:22.664Z] TG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:22.997Z] TGOL.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:23.337Z] THX.V: Fetched market_cap=null, revenue=193354970, net_income=14879510, etc.
+[2025-03-12T00:04:23.681Z] TIN.V: Fetched market_cap=null, revenue=null, net_income=-2174320, etc.
+[2025-03-12T00:04:24.013Z] TK.V: Fetched market_cap=null, revenue=null, net_income=-3188840, etc.
+[2025-03-12T00:04:24.350Z] TLG.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:24.680Z] TSG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:25.190Z] TM.V: Fetched market_cap=null, revenue=9587210, net_income=-773940, etc.
+[2025-03-12T00:04:25.535Z] TMQ.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:25.917Z] TNR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:26.245Z] TOC.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:26.591Z] TORQ.V: Fetched market_cap=null, revenue=null, net_income=-19211640, etc.
+[2025-03-12T00:04:26.932Z] TRO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:27.280Z] TRX.TO: Fetched market_cap=null, revenue=57663180, net_income=null, etc.
+[2025-03-12T00:04:27.614Z] TSG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:27.959Z] TSK.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:28.306Z] TSLV.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:28.638Z] TUD.V: Fetched market_cap=null, revenue=null, net_income=-7737290, etc.
+[2025-03-12T00:04:28.967Z] TUF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:29.305Z] TUO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:29.640Z] TWR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:29.975Z] TXG.TO: Fetched market_cap=null, revenue=1586765290, net_income=191464460, etc.
+[2025-03-12T00:04:30.310Z] UGD.V: Fetched market_cap=null, revenue=null, net_income=-7445950, etc.
+[2025-03-12T00:04:30.647Z] USA.TO: Fetched market_cap=null, revenue=121277700, net_income=-47337330, etc.
+[2025-03-12T00:04:30.981Z] USGD.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:31.317Z] VAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:31.676Z] VEIN.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:32.014Z] VG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:32.498Z] VIO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:32.829Z] VIPR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:33.163Z] VLC.V: Fetched market_cap=null, revenue=null, net_income=-2019230, etc.
+[2025-03-12T00:04:33.491Z] VML.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:33.844Z] VOXR.TO: Fetched market_cap=null, revenue=11047760, net_income=-1649080, etc.
+[2025-03-12T00:04:34.186Z] VROY.V: Fetched market_cap=null, revenue=null, net_income=-183630, etc.
+[2025-03-12T00:04:34.514Z] VVC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:35.062Z] WAM.V: Fetched market_cap=null, revenue=null, net_income=-4360910, etc.
+[2025-03-12T00:04:35.399Z] WDO.TO: Fetched market_cap=null, revenue=333173000, net_income=-6187000, etc.
+[2025-03-12T00:04:35.905Z] WEX.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:36.244Z] WG.CN: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:36.580Z] WGF.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:36.914Z] WGLD.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:37.249Z] WGO.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:37.588Z] WGX.TO: Fetched market_cap=null, revenue=716472570, net_income=95231530, etc.
+[2025-03-12T00:04:37.924Z] WHN.V: Fetched market_cap=null, revenue=null, net_income=-1249350, etc.
+[2025-03-12T00:04:38.254Z] WHY.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:38.932Z] WPG.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:39.267Z] WPM.TO: Fetched market_cap=null, revenue=1016045000, net_income=537644000, etc.
+[2025-03-12T00:04:39.607Z] WRLG.V: Fetched market_cap=null, revenue=null, net_income=-32506640, etc.
+[2025-03-12T00:04:39.958Z] WRN.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:40.287Z] WRR.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:40.618Z] WVM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:40.962Z] XIM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:41.290Z] XTG.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:41.626Z] XTM.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:41.957Z] YGT.V: Fetched market_cap=null, revenue=null, net_income=-1860100, etc.
+[2025-03-12T00:04:42.294Z] YRB.TO: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:42.626Z] ZAC.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:04:42.966Z] ZAU.V: Fetched market_cap=null, revenue=null, net_income=null, etc.
+[2025-03-12T00:46:28.037Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:46:43.561Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:46:58.879Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450 from Yahoo
+[2025-03-12T00:47:14.176Z] ITR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:16.979Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:17.311Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:17.646Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450 from Yahoo
+[2025-03-12T00:48:17.979Z] ITR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:18.315Z] AAG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:18.647Z] AAN.V: Fetched market_cap=null, revenue=null, net_income=-2465880 from Yahoo
+[2025-03-12T00:48:18.985Z] AAUC.TO: Fetched market_cap=null, revenue=655691000, net_income=-208482000 from Yahoo
+[2025-03-12T00:48:19.318Z] ABI.V: Fetched market_cap=null, revenue=null, net_income=-5337040 from Yahoo
+[2025-03-12T00:48:19.667Z] ABRA.TO: Fetched market_cap=null, revenue=null, net_income=-13728560 from Yahoo
+[2025-03-12T00:48:20.013Z] ADY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:20.342Z] ADZ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:20.683Z] AE.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:21.022Z] AEM.TO: Fetched market_cap=null, revenue=8285753000, net_income=1895581000 from Yahoo
+[2025-03-12T00:48:21.367Z] AERO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:21.708Z] AG.TO: Fetched market_cap=null, revenue=797442370, net_income=-144928360 from Yahoo
+[2025-03-12T00:48:22.217Z] AGA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:22.549Z] AGAG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:23.222Z] AGI.TO: Fetched market_cap=null, revenue=1346900000, net_income=284300000 from Yahoo
+[2025-03-12T00:48:23.557Z] AGLD.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:48:23.892Z] AGMR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:01.835Z] AGX.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:49:02.187Z] ALDE.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:02.528Z] ALEX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:02.860Z] ALTA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:03.211Z] AMC.TO: Fetched market_cap=null, revenue=null, net_income=-24348030 from Yahoo
+[2025-03-12T00:49:03.560Z] AMQ.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:03.886Z] AMRQ.V: Fetched market_cap=null, revenue=null, net_income=-613790 from Yahoo
+[2025-03-12T00:49:04.227Z] AMX.V: Fetched market_cap=null, revenue=null, net_income=680170 from Yahoo
+[2025-03-12T00:49:04.731Z] ANK.V: Fetched market_cap=null, revenue=null, net_income=-5681410 from Yahoo
+[2025-03-12T00:49:05.063Z] ANTL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:05.395Z] AOT.TO: Fetched market_cap=null, revenue=null, net_income=-10430000 from Yahoo
+[2025-03-12T00:49:05.732Z] APGO.V: Fetched market_cap=null, revenue=null, net_income=-2710850 from Yahoo
+[2025-03-12T00:49:06.065Z] APM.TO: Fetched market_cap=null, revenue=125324000, net_income=38540000 from Yahoo
+[2025-03-12T00:49:06.401Z] ARIC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:06.733Z] ARIS.TO: Fetched market_cap=null, revenue=447674000, net_income=11419000 from Yahoo
+[2025-03-12T00:49:07.067Z] ARK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:07.401Z] ARTG.V: Fetched market_cap=null, revenue=null, net_income=-8476930 from Yahoo
+[2025-03-12T00:49:07.907Z] ARU.V: Fetched market_cap=null, revenue=null, net_income=-9971550 from Yahoo
+[2025-03-12T00:49:08.242Z] ASE.CN: Fetched market_cap=null, revenue=274729000, net_income=null from Yahoo
+[2025-03-12T00:49:08.751Z] ASM.TO: Fetched market_cap=null, revenue=59511730, net_income=734930 from Yahoo
+[2025-03-12T00:49:09.082Z] ASTR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:09.414Z] ATHA.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:09.923Z] AU.V: Fetched market_cap=null, revenue=null, net_income=-2877370 from Yahoo
+[2025-03-12T00:49:10.261Z] AUAU.V: Fetched market_cap=null, revenue=null, net_income=-2850900 from Yahoo
+[2025-03-12T00:49:10.591Z] AWM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:10.923Z] AUM.V: Fetched market_cap=null, revenue=2905190, net_income=-5505610 from Yahoo
+[2025-03-12T00:49:11.261Z] AUMB.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:11.587Z] AUOZ.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:13.291Z] AUR.H.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:49:14.376Z] AXM.H.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:49:14.712Z] AYA.TO: Fetched market_cap=null, revenue=42849000, net_income=null from Yahoo
+[2025-03-12T00:49:15.038Z] AZM.V: Fetched market_cap=null, revenue=null, net_income=-378950 from Yahoo
+[2025-03-12T00:49:15.382Z] AZS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:15.898Z] AZT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:16.228Z] BAT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:16.557Z] BAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:16.889Z] BBB.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:17.222Z] BCM.V: Fetched market_cap=null, revenue=82177900, net_income=-30431320 from Yahoo
+[2025-03-12T00:49:17.559Z] BEX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:18.093Z] BGF.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:18.419Z] BGS: Fetched market_cap=null, revenue=1932454000, net_income=-251251000 from Yahoo
+[2025-03-12T00:49:18.756Z] BHS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:19.261Z] BIG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:19.589Z] BLLG.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:19.920Z] BMM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:20.253Z] BOGO.V: Fetched market_cap=null, revenue=null, net_income=-6119890 from Yahoo
+[2025-03-12T00:49:20.587Z] BRAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:20.919Z] BRAZ.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:21.257Z] BRC.V: Fetched market_cap=null, revenue=null, net_income=-11757080 from Yahoo
+[2025-03-12T00:49:21.765Z] BSX.TO: Fetched market_cap=null, revenue=null, net_income=-4913930 from Yahoo
+[2025-03-12T00:49:22.278Z] BTO.TO: Fetched market_cap=null, revenue=1902030000, net_income=-629891000 from Yahoo
+[2025-03-12T00:49:22.609Z] BTR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:23.118Z] BYN.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:23.451Z] BZ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:23.769Z] CANX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:24.105Z] CAPT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:24.445Z] CBI.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:24.782Z] CBR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:25.116Z] CC.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:25.455Z] CCM.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:25.790Z] CDPR.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:26.112Z] CERT.V: Fetched market_cap=null, revenue=100101000, net_income=-6753000 from Yahoo
+[2025-03-12T00:49:26.450Z] CFE.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:26.786Z] CG.TO: Fetched market_cap=null, revenue=1214503000, net_income=80394000 from Yahoo
+[2025-03-12T00:49:27.127Z] CGC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:27.461Z] CGG.TO: Fetched market_cap=null, revenue=621756630, net_income=-34509410 from Yahoo
+[2025-03-12T00:49:27.797Z] CKG.V: Fetched market_cap=null, revenue=null, net_income=-10687100 from Yahoo
+[2025-03-12T00:49:29.415Z] CLZ.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:49:29.760Z] CMB.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:30.779Z] CN.TO: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:49:31.121Z] CNL.TO: Fetched market_cap=null, revenue=null, net_income=-25909270 from Yahoo
+[2025-03-12T00:49:31.468Z] CPAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:31.982Z] CRB.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:32.479Z] CRI.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:32.825Z] CSR.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:33.171Z] CTM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:33.508Z] CTN.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:33.839Z] CVB.V: Fetched market_cap=null, revenue=null, net_income=-905960 from Yahoo
+[2025-03-12T00:49:34.166Z] CXB.TO: Fetched market_cap=null, revenue=833372540, net_income=49416610 from Yahoo
+[2025-03-12T00:49:34.500Z] CYG.V: Fetched market_cap=null, revenue=null, net_income=-13500300 from Yahoo
+[2025-03-12T00:49:34.817Z] DAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:35.153Z] DEF.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:35.491Z] DEX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:35.820Z] DLTA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:36.151Z] DNG.TO: Fetched market_cap=null, revenue=null, net_income=15068340 from Yahoo
+[2025-03-12T00:49:36.485Z] DPM.TO: Fetched market_cap=null, revenue=606992000, net_income=243240000 from Yahoo
+[2025-03-12T00:49:36.821Z] DRY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:37.151Z] DSV.TO: Fetched market_cap=null, revenue=null, net_income=-41095770 from Yahoo
+[2025-03-12T00:49:37.489Z] DV.V: Fetched market_cap=null, revenue=null, net_income=-14308580 from Yahoo
+[2025-03-12T00:49:37.823Z] DYG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:38.159Z] EAM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:38.490Z] ECR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:38.817Z] EDG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:39.160Z] EDGM.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:39.497Z] EDR.TO: Fetched market_cap=null, revenue=314155650, net_income=-45442850 from Yahoo
+[2025-03-12T00:49:39.847Z] ELD.TO: Fetched market_cap=null, revenue=1322600000, net_income=289121000 from Yahoo
+[2025-03-12T00:49:40.179Z] ELE.V: Fetched market_cap=null, revenue=11744000, net_income=null from Yahoo
+[2025-03-12T00:49:40.514Z] ELEF.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:49:40.921Z] ELO.TO: Fetched market_cap=null, revenue=null, net_income=-17006340 from Yahoo
+[2025-03-12T00:49:42.212Z] ELVT.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:49:42.611Z] EMNT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:20.043Z] EMO.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:50:20.386Z] EMPR.V: Fetched market_cap=null, revenue=11566930, net_income=null from Yahoo
+[2025-03-12T00:50:20.722Z] EMX.V: Fetched market_cap=null, revenue=36212550, net_income=null from Yahoo
+[2025-03-12T00:50:21.051Z] ENDR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:21.377Z] EPL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:21.703Z] EQTY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:22.039Z] EQX.TO: Fetched market_cap=null, revenue=1514120000, net_income=339287000 from Yahoo
+[2025-03-12T00:50:22.370Z] ER.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:22.702Z] ERD.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:23.034Z] ESK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:23.373Z] ESM.TO: Fetched market_cap=null, revenue=null, net_income=-13667060 from Yahoo
+[2025-03-12T00:50:23.707Z] ETR.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:24.036Z] EXN.TO: Fetched market_cap=null, revenue=47466140, net_income=null from Yahoo
+[2025-03-12T00:50:24.374Z] FAS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:24.874Z] FDR.V: Fetched market_cap=null, revenue=null, net_income=-7738460 from Yahoo
+[2025-03-12T00:50:25.204Z] FF.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:25.543Z] FFOX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:25.876Z] FIN.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:26.207Z] FISH.V: Fetched market_cap=null, revenue=2333090, net_income=-1105860 from Yahoo
+[2025-03-12T00:50:26.579Z] FKM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:26.904Z] FMAN.V: Fetched market_cap=null, revenue=null, net_income=-1671110 from Yahoo
+[2025-03-12T00:50:27.244Z] FMC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:27.576Z] FMT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:27.912Z] FNAU.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:28.412Z] FNM.V: Fetched market_cap=null, revenue=null, net_income=-1827530 from Yahoo
+[2025-03-12T00:50:28.751Z] FNV.TO: Fetched market_cap=null, revenue=1113600000, net_income=552100000 from Yahoo
+[2025-03-12T00:50:29.079Z] FOR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:29.416Z] FPC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:29.755Z] FRED.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:30.084Z] FRG.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:30.419Z] FURY.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:30.758Z] FVI.TO: Fetched market_cap=null, revenue=1062037000, net_income=128735000 from Yahoo
+[2025-03-12T00:50:31.101Z] FVL.TO: Fetched market_cap=null, revenue=null, net_income=-760980 from Yahoo
+[2025-03-12T00:50:31.434Z] GAL.V: Fetched market_cap=null, revenue=null, net_income=-5284430 from Yahoo
+[2025-03-12T00:50:31.769Z] GAU.TO: Fetched market_cap=null, revenue=256543000, net_income=26085000 from Yahoo
+[2025-03-12T00:50:32.096Z] GBRC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:32.431Z] GDX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:32.937Z] GFG.V: Fetched market_cap=null, revenue=null, net_income=-807430 from Yahoo
+[2025-03-12T00:50:33.258Z] G.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:33.614Z] GCC.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:33.943Z] GHRT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:34.279Z] GG.V: Fetched market_cap=null, revenue=49068780, net_income=4434030 from Yahoo
+[2025-03-12T00:50:34.626Z] GGA.V: Fetched market_cap=null, revenue=30893160, net_income=null from Yahoo
+[2025-03-12T00:50:34.967Z] GGD.TO: Fetched market_cap=null, revenue=40566250, net_income=-10577260 from Yahoo
+[2025-03-12T00:50:35.295Z] GGL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:35.624Z] GGM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:35.945Z] GGO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:36.280Z] GLDC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:37.600Z] GLDN.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:50:37.939Z] GLM.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:38.276Z] GMIN.TO: Fetched market_cap=null, revenue=null, net_income=-9757230 from Yahoo
+[2025-03-12T00:50:38.620Z] GMTN.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:38.955Z] GMV.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:39.297Z] GMX.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:39.634Z] GNG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:39.967Z] GOLD.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:40.306Z] GOT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:40.636Z] GPAC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:40.974Z] GPG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:41.313Z] GTWO.TO: Fetched market_cap=null, revenue=530650, net_income=-3098100 from Yahoo
+[2025-03-12T00:50:41.660Z] GQ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:41.992Z] GQC.V: Fetched market_cap=null, revenue=null, net_income=-6147150 from Yahoo
+[2025-03-12T00:50:42.574Z] GRC.TO: Fetched market_cap=null, revenue=null, net_income=-9988130 from Yahoo
+[2025-03-12T00:50:42.902Z] GRG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:43.242Z] GRSL.V: Fetched market_cap=null, revenue=null, net_income=-25597990 from Yahoo
+[2025-03-12T00:50:43.578Z] GSHR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:50:43.909Z] GSTM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:21.279Z] GSVR.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:51:21.626Z] GTCH.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:21.963Z] GUN.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:22.290Z] GUS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:22.808Z] GWM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:23.132Z] GXX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:23.466Z] HAMR.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:23.804Z] HML.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:24.131Z] HSLV.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:24.472Z] HSTR.V: Fetched market_cap=null, revenue=null, net_income=-19934400 from Yahoo
+[2025-03-12T00:51:24.798Z] HUNT.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:25.130Z] HWY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:26.426Z] IAU.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:51:26.767Z] IGO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:27.097Z] IMG.TO: Fetched market_cap=null, revenue=1633000000, net_income=819600000 from Yahoo
+[2025-03-12T00:51:27.455Z] IPT.V: Fetched market_cap=null, revenue=16684660, net_income=null from Yahoo
+[2025-03-12T00:51:27.809Z] IVS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:28.135Z] JAG.TO: Fetched market_cap=null, revenue=136528000, net_income=null from Yahoo
+[2025-03-12T00:51:28.466Z] JG.V: Fetched market_cap=null, revenue=null, net_income=-3713670 from Yahoo
+[2025-03-12T00:51:29.468Z] JUB.H: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:51:29.798Z] JUGR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:30.131Z] JZR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:30.592Z] K.TO: Fetched market_cap=null, revenue=5148800000, net_income=948800000 from Yahoo
+[2025-03-12T00:51:30.937Z] KALO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:31.275Z] KAPA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:31.600Z] KFR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:31.940Z] KG.V: Fetched market_cap=null, revenue=null, net_income=-845960 from Yahoo
+[2025-03-12T00:51:32.268Z] KGC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:32.605Z] KLD.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:32.948Z] KLM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:33.277Z] KNG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:33.789Z] KNT.TO: Fetched market_cap=null, revenue=271872200, net_income=45023080 from Yahoo
+[2025-03-12T00:51:34.121Z] KOG.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:34.455Z] KORE.V: Fetched market_cap=null, revenue=null, net_income=-9195480 from Yahoo
+[2025-03-12T00:51:34.789Z] KRI.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:35.125Z] KS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:35.473Z] KTN.V: Fetched market_cap=null, revenue=null, net_income=-2440150 from Yahoo
+[2025-03-12T00:51:35.803Z] KTO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:36.143Z] KUYA.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:36.476Z] LAB.V: Fetched market_cap=null, revenue=null, net_income=-796850 from Yahoo
+[2025-03-12T00:51:36.819Z] LECR.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:37.157Z] LEGY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:37.493Z] LFLR.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:37.832Z] LG.V: Fetched market_cap=null, revenue=null, net_income=-2225250 from Yahoo
+[2025-03-12T00:51:38.162Z] LGC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:38.662Z] LGD.TO: Fetched market_cap=null, revenue=null, net_income=-27324840 from Yahoo
+[2025-03-12T00:51:38.993Z] LIO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:39.323Z] LME.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:39.654Z] LMG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:40.169Z] LN.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:40.502Z] LOD.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:40.833Z] LOT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:41.167Z] LPK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:41.511Z] LSTR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:51:41.852Z] LUCA.V: Fetched market_cap=null, revenue=68275000, net_income=-14996000 from Yahoo
+[2025-03-12T00:51:42.185Z] LUG.TO: Fetched market_cap=null, revenue=1694059420, net_income=604965440 from Yahoo
+[2025-03-12T00:52:19.761Z] LUM.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:52:20.109Z] LVG.V: Fetched market_cap=null, revenue=null, net_income=-2940090 from Yahoo
+[2025-03-12T00:52:20.446Z] MAE.V: Fetched market_cap=null, revenue=null, net_income=-2543760 from Yahoo
+[2025-03-12T00:52:20.782Z] MAG.TO: Fetched market_cap=null, revenue=null, net_income=48659000 from Yahoo
+[2025-03-12T00:52:58.404Z] MAI.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:52:58.740Z] MAU.V: Fetched market_cap=null, revenue=null, net_income=-24419710 from Yahoo
+[2025-03-12T00:52:59.088Z] MEK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:52:59.425Z] MEX.V: Fetched market_cap=null, revenue=16150, net_income=null from Yahoo
+[2025-03-12T00:52:59.755Z] MFG.V: Fetched market_cap=null, revenue=null, net_income=-18228000 from Yahoo
+[2025-03-12T00:53:00.092Z] MFL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:00.422Z] MGG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:00.754Z] MGM.V: Fetched market_cap=null, revenue=null, net_income=-7032140 from Yahoo
+[2025-03-12T00:53:01.085Z] MIS.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:01.419Z] MJS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:01.757Z] MKO.V: Fetched market_cap=null, revenue=10568990, net_income=null from Yahoo
+[2025-03-12T00:53:02.977Z] MLM.TO: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:53:03.324Z] MMET.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:03.663Z] MMG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:04.012Z] MMN.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:04.347Z] MMY.V: Fetched market_cap=null, revenue=69387500, net_income=null from Yahoo
+[2025-03-12T00:53:04.681Z] MND.TO: Fetched market_cap=null, revenue=240655000, net_income=47761000 from Yahoo
+[2025-03-12T00:53:05.006Z] MNO.TO: Fetched market_cap=null, revenue=null, net_income=-16230290 from Yahoo
+[2025-03-12T00:53:05.338Z] MRZ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:05.682Z] MSA.TO: Fetched market_cap=null, revenue=2212482984600, net_income=null from Yahoo
+[2025-03-12T00:53:06.012Z] MSG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:06.341Z] MSR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:06.681Z] MSV.TO: Fetched market_cap=null, revenue=null, net_income=-2987030 from Yahoo
+[2025-03-12T00:53:44.100Z] MTA.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:53:44.631Z] MTS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:44.963Z] MTT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:45.299Z] MUN.V: Fetched market_cap=null, revenue=null, net_income=-2384270 from Yahoo
+[2025-03-12T00:53:45.627Z] MUX.TO: Fetched market_cap=null, revenue=166231000, net_income=54730000 from Yahoo
+[2025-03-12T00:53:45.959Z] NAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:46.293Z] NBRK.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:46.630Z] NCAU.V: Fetched market_cap=null, revenue=null, net_income=-2423770 from Yahoo
+[2025-03-12T00:53:46.971Z] NCX.V: Fetched market_cap=null, revenue=null, net_income=-6663370 from Yahoo
+[2025-03-12T00:53:47.307Z] NDM.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:47.653Z] NEV.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:47.981Z] NEXG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:48.313Z] NFG.V: Fetched market_cap=null, revenue=null, net_income=-79890760 from Yahoo
+[2025-03-12T00:53:48.649Z] NG.TO: Fetched market_cap=null, revenue=null, net_income=-65600260 from Yahoo
+[2025-03-12T00:53:48.993Z] NGD.TO: Fetched market_cap=null, revenue=924500000, net_income=102600000 from Yahoo
+[2025-03-12T00:53:49.510Z] NGEX.TO: Fetched market_cap=null, revenue=null, net_income=-27727850 from Yahoo
+[2025-03-12T00:53:49.850Z] NILI.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:50.181Z] NIM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:50.514Z] NKG.V: Fetched market_cap=null, revenue=null, net_income=-27013840 from Yahoo
+[2025-03-12T00:53:50.843Z] NFLD.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:51.177Z] NL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:51.517Z] NOM.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:51.845Z] NPR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:52.177Z] NRC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:52.513Z] NSG.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:52.856Z] NTH.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:53.195Z] NUAG.TO: Fetched market_cap=null, revenue=null, net_income=-8172240 from Yahoo
+[2025-03-12T00:53:53.526Z] NVO.TO: Fetched market_cap=null, revenue=112243000, net_income=null from Yahoo
+[2025-03-12T00:53:53.857Z] NVPC.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:54.201Z] OCG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:54.529Z] OCO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:54.868Z] ODV.V: Fetched market_cap=null, revenue=31625000, net_income=-181873000 from Yahoo
+[2025-03-12T00:53:55.195Z] OGC.TO: Fetched market_cap=null, revenue=1294000000, net_income=187400000 from Yahoo
+[2025-03-12T00:53:55.527Z] OGN.V: Fetched market_cap=null, revenue=7828610, net_income=null from Yahoo
+[2025-03-12T00:53:55.866Z] OIII.V: Fetched market_cap=null, revenue=null, net_income=-34111000 from Yahoo
+[2025-03-12T00:53:56.199Z] OLA.TO: Fetched market_cap=null, revenue=233600000, net_income=-27010000 from Yahoo
+[2025-03-12T00:53:56.525Z] OMG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:56.857Z] OMGA.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:57.194Z] OMI.V: Fetched market_cap=null, revenue=37100000, net_income=-36845000 from Yahoo
+[2025-03-12T00:53:57.523Z] OMM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:57.857Z] ONAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:58.192Z] ONYX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:58.525Z] OPW.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:53:58.863Z] OR.TO: Fetched market_cap=null, revenue=271915100, net_income=23139320 from Yahoo
+[2025-03-12T00:53:59.209Z] ORA.TO: Fetched market_cap=null, revenue=852481310, net_income=-43431620 from Yahoo
+[2025-03-12T00:53:59.559Z] ORE.TO: Fetched market_cap=null, revenue=368448580, net_income=58554730 from Yahoo
+[2025-03-12T00:53:59.899Z] ORV.TO: Fetched market_cap=null, revenue=null, net_income=-1592000 from Yahoo
+[2025-03-12T00:54:00.221Z] OZ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:00.734Z] PA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:01.067Z] PAAS.TO: Fetched market_cap=null, revenue=2818900000, net_income=111500000 from Yahoo
+[2025-03-12T00:54:02.291Z] PAL.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:54:02.646Z] PAU.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:02.972Z] PEX.V: Fetched market_cap=null, revenue=null, net_income=-7799250 from Yahoo
+[2025-03-12T00:54:03.300Z] PGC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:03.634Z] PGDC.V: Fetched market_cap=null, revenue=23999760, net_income=728600 from Yahoo
+[2025-03-12T00:54:03.971Z] PGLD.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:04.479Z] PGX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:04.816Z] PJX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:05.187Z] PLY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:05.526Z] PNTR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:05.861Z] PPP.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:06.191Z] PPX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:06.533Z] PRB.TO: Fetched market_cap=null, revenue=null, net_income=-25403250 from Yahoo
+[2025-03-12T00:54:06.867Z] PRG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:07.197Z] PRIZ.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:07.712Z] PRU.TO: Fetched market_cap=null, revenue=1513156110, net_income=478346900 from Yahoo
+[2025-03-12T00:54:08.047Z] PRYM.TO: Fetched market_cap=null, revenue=null, net_income=-17971330 from Yahoo
+[2025-03-12T00:54:08.377Z] PUMA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:08.710Z] PX.V: Fetched market_cap=null, revenue=30180, net_income=-3709150 from Yahoo
+[2025-03-12T00:54:09.043Z] QIM.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:09.376Z] QZM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:09.711Z] RAGE.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:10.042Z] RAMP.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:10.382Z] RBX.V: Fetched market_cap=null, revenue=null, net_income=-6637040 from Yahoo
+[2025-03-12T00:54:10.717Z] RDG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:11.046Z] RDS.V: Fetched market_cap=null, revenue=null, net_income=-1984150 from Yahoo
+[2025-03-12T00:54:11.392Z] RDU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:11.727Z] REX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:12.067Z] RG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:12.568Z] RGC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:12.902Z] RGLD.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:13.243Z] RIO.V: Fetched market_cap=null, revenue=null, net_income=-16731120 from Yahoo
+[2025-03-12T00:54:13.576Z] RK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:13.908Z] RKR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:14.249Z] RLYG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:14.576Z] ROCK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:14.912Z] ROS.V: Fetched market_cap=null, revenue=null, net_income=-16782370 from Yahoo
+[2025-03-12T00:54:15.240Z] ROX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:15.573Z] RPX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:15.913Z] RR.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:16.245Z] RRI.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:16.580Z] RSG.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:16.911Z] RSLV.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:17.250Z] RSM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:17.584Z] RSMX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:17.915Z] RTG.TO: Fetched market_cap=null, revenue=null, net_income=-111050740 from Yahoo
+[2025-03-12T00:54:18.251Z] RUA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:18.585Z] RUG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:18.929Z] RUP.TO: Fetched market_cap=null, revenue=null, net_income=-13099970 from Yahoo
+[2025-03-12T00:54:19.267Z] RUSH.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:19.597Z] RVG.V: Fetched market_cap=null, revenue=null, net_income=-8594520 from Yahoo
+[2025-03-12T00:54:20.286Z] RYE.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:20.612Z] RYR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:20.957Z] SAG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:21.288Z] SAM.TO: Fetched market_cap=null, revenue=22907000, net_income=-5256000 from Yahoo
+[2025-03-12T00:54:21.616Z] SANU.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:21.969Z] SBMI.V: Fetched market_cap=null, revenue=null, net_income=-2270150 from Yahoo
+[2025-03-12T00:54:22.302Z] SCOT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:22.634Z] SCZ.V: Fetched market_cap=null, revenue=null, net_income=16148000 from Yahoo
+[2025-03-12T00:54:22.971Z] SDR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:23.305Z] SEA.TO: Fetched market_cap=null, revenue=null, net_income=-7394000 from Yahoo
+[2025-03-12T00:54:23.635Z] SEEM.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:23.966Z] SGC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:24.300Z] SGD.V: Fetched market_cap=null, revenue=null, net_income=-23945920 from Yahoo
+[2025-03-12T00:54:24.635Z] SGLD.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:24.984Z] SGO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:25.319Z] SGN.V: Fetched market_cap=null, revenue=52026000, net_income=-20139000 from Yahoo
+[2025-03-12T00:54:25.673Z] SGU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:26.005Z] SGZ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:26.335Z] SHL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:26.670Z] SIC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:27.005Z] SIG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:27.341Z] SIL.TO: Fetched market_cap=null, revenue=330271000, net_income=157260360 from Yahoo
+[2025-03-12T00:54:27.674Z] SILV.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:28.006Z] SKE.TO: Fetched market_cap=null, revenue=null, net_income=-108980000 from Yahoo
+[2025-03-12T00:54:28.337Z] SKP.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:28.677Z] SLI.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:29.013Z] SLR.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:29.355Z] SLV.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:29.694Z] SLVR.V: Fetched market_cap=null, revenue=null, net_income=-3163980 from Yahoo
+[2025-03-12T00:54:30.030Z] SM.V: Fetched market_cap=null, revenue=null, net_income=-54974690 from Yahoo
+[2025-03-12T00:54:30.358Z] SMN.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:30.694Z] SMT.TO: Fetched market_cap=null, revenue=310608410, net_income=null from Yahoo
+[2025-03-12T00:54:31.029Z] SNAG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:31.364Z] SNG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:31.696Z] SOI.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:32.026Z] SOMA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:32.363Z] SPA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:32.704Z] SPMC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:33.031Z] SPX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:33.374Z] SRC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:33.729Z] SRL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:34.066Z] SSL.TO: Fetched market_cap=null, revenue=250136760, net_income=20281050 from Yahoo
+[2025-03-12T00:54:34.399Z] SSRM.TO: Fetched market_cap=null, revenue=995618000, net_income=-261277000 from Yahoo
+[2025-03-12T00:54:34.734Z] SSV.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:35.241Z] SSVR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:35.700Z] STGO.TO: Fetched market_cap=null, revenue=null, net_income=8894000 from Yahoo
+[2025-03-12T00:54:36.044Z] STLR.TO: Fetched market_cap=null, revenue=null, net_income=-20984300 from Yahoo
+[2025-03-12T00:54:36.385Z] STRR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:36.718Z] STS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:37.057Z] STU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:37.384Z] SUP.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:37.721Z] SURG.V: Fetched market_cap=null, revenue=null, net_income=-5803090 from Yahoo
+[2025-03-12T00:54:38.052Z] SVE.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:38.392Z] SVM.TO: Fetched market_cap=null, revenue=215187000, net_income=49678000 from Yahoo
+[2025-03-12T00:54:38.722Z] SVRS.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:39.058Z] SWA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:39.391Z] SWLF.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:39.724Z] SXGC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:40.068Z] TAJ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:40.579Z] TAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:40.912Z] TBK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:41.245Z] TBX.V: Fetched market_cap=null, revenue=null, net_income=-3713640 from Yahoo
+[2025-03-12T00:54:41.583Z] TCO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:41.910Z] TDG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:42.247Z] TECT.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:42.580Z] TERA.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:42.920Z] TFPM.TO: Fetched market_cap=null, revenue=268991000, net_income=-23084000 from Yahoo
+[2025-03-12T00:54:43.250Z] TG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:43.582Z] TGOL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:43.925Z] THX.V: Fetched market_cap=null, revenue=193354970, net_income=14879510 from Yahoo
+[2025-03-12T00:54:44.253Z] TIN.V: Fetched market_cap=null, revenue=null, net_income=-2174320 from Yahoo
+[2025-03-12T00:54:44.587Z] TK.V: Fetched market_cap=null, revenue=null, net_income=-3188840 from Yahoo
+[2025-03-12T00:54:44.916Z] TLG.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:45.251Z] TSG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:45.586Z] TM.V: Fetched market_cap=null, revenue=9587210, net_income=-773940 from Yahoo
+[2025-03-12T00:54:45.916Z] TMQ.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:46.248Z] TNR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:46.581Z] TOC.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:46.917Z] TORQ.V: Fetched market_cap=null, revenue=null, net_income=-19211640 from Yahoo
+[2025-03-12T00:54:47.250Z] TRO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:47.586Z] TRX.TO: Fetched market_cap=null, revenue=57663180, net_income=null from Yahoo
+[2025-03-12T00:54:47.932Z] TSG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:48.273Z] TSK.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:48.605Z] TSLV.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:48.934Z] TUD.V: Fetched market_cap=null, revenue=null, net_income=-7737290 from Yahoo
+[2025-03-12T00:54:49.270Z] TUF.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:49.601Z] TUO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:49.933Z] TWR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:50.271Z] TXG.TO: Fetched market_cap=null, revenue=1586765290, net_income=191464460 from Yahoo
+[2025-03-12T00:54:50.603Z] UGD.V: Fetched market_cap=null, revenue=null, net_income=-7445950 from Yahoo
+[2025-03-12T00:54:50.938Z] USA.TO: Fetched market_cap=null, revenue=121277700, net_income=-47337330 from Yahoo
+[2025-03-12T00:54:51.268Z] USGD.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:51.604Z] VAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:52.112Z] VEIN.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:52.443Z] VG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:53.849Z] VGCX.TO: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:54:54.228Z] VIO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:54.559Z] VIPR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:54.896Z] VLC.V: Fetched market_cap=null, revenue=null, net_income=-2019230 from Yahoo
+[2025-03-12T00:54:55.225Z] VML.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:55.558Z] VOXR.TO: Fetched market_cap=null, revenue=11047760, net_income=-1649080 from Yahoo
+[2025-03-12T00:54:55.891Z] VROY.V: Fetched market_cap=null, revenue=null, net_income=-183630 from Yahoo
+[2025-03-12T00:54:56.223Z] VVC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:57.247Z] VZLA.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:54:57.596Z] WAM.V: Fetched market_cap=null, revenue=null, net_income=-4360910 from Yahoo
+[2025-03-12T00:54:57.927Z] WDO.TO: Fetched market_cap=null, revenue=333173000, net_income=-6187000 from Yahoo
+[2025-03-12T00:54:58.262Z] WEX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:58.595Z] WG.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:58.931Z] WGF.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:59.264Z] WGLD.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:59.582Z] WGO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:54:59.914Z] WGX.TO: Fetched market_cap=null, revenue=716472570, net_income=95231530 from Yahoo
+[2025-03-12T00:55:00.252Z] WHN.V: Fetched market_cap=null, revenue=null, net_income=-1249350 from Yahoo
+[2025-03-12T00:55:00.589Z] WHY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:55:37.895Z] WLF.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:56:15.543Z] WM.TO: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T00:56:15.911Z] WPG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:16.251Z] WPM.TO: Fetched market_cap=null, revenue=1016045000, net_income=537644000 from Yahoo
+[2025-03-12T00:56:16.752Z] WRLG.V: Fetched market_cap=null, revenue=null, net_income=-32506640 from Yahoo
+[2025-03-12T00:56:17.097Z] WRN.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:17.417Z] WRR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:17.754Z] WVM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:18.085Z] XIM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:18.416Z] XTG.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:18.752Z] XTM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:19.071Z] YGT.V: Fetched market_cap=null, revenue=null, net_income=-1860100 from Yahoo
+[2025-03-12T00:56:19.413Z] YRB.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:19.748Z] ZAC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T00:56:20.087Z] ZAU.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:01:49.482Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:04.778Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:35.282Z] AAB.TO: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:35.605Z] IRV.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:35.941Z] ITH.TO: Fetched market_cap=null, revenue=null, net_income=-5271450 from Yahoo
+[2025-03-12T01:02:36.453Z] ITR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:36.787Z] AAG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:37.133Z] AAN.V: Fetched market_cap=null, revenue=null, net_income=-2465880 from Yahoo
+[2025-03-12T01:02:37.468Z] AAUC.TO: Fetched market_cap=null, revenue=655691000, net_income=-208482000 from Yahoo
+[2025-03-12T01:02:37.799Z] ABI.V: Fetched market_cap=null, revenue=null, net_income=-5337040 from Yahoo
+[2025-03-12T01:02:38.140Z] ABRA.TO: Fetched market_cap=null, revenue=null, net_income=-13728560 from Yahoo
+[2025-03-12T01:02:38.491Z] ADY.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:38.818Z] ADZ.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:39.164Z] AE.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:39.499Z] AEM.TO: Fetched market_cap=null, revenue=8285753000, net_income=1895581000 from Yahoo
+[2025-03-12T01:02:39.836Z] AERO.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:40.190Z] AG.TO: Fetched market_cap=null, revenue=797442370, net_income=-144928360 from Yahoo
+[2025-03-12T01:02:40.511Z] AGA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:40.845Z] AGAG.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:41.206Z] AGI.TO: Fetched market_cap=null, revenue=1346900000, net_income=284300000 from Yahoo
+[2025-03-12T01:02:41.551Z] AGLD.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:02:41.901Z] AGMR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:19.878Z] AGX.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T01:03:20.208Z] ALDE.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:20.546Z] ALEX.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:20.880Z] ALTA.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:21.221Z] AMC.TO: Fetched market_cap=null, revenue=null, net_income=-24348030 from Yahoo
+[2025-03-12T01:03:21.564Z] AMQ.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:21.896Z] AMRQ.V: Fetched market_cap=null, revenue=null, net_income=-613790 from Yahoo
+[2025-03-12T01:03:22.238Z] AMX.V: Fetched market_cap=null, revenue=null, net_income=680170 from Yahoo
+[2025-03-12T01:03:22.562Z] ANK.V: Fetched market_cap=null, revenue=null, net_income=-5681410 from Yahoo
+[2025-03-12T01:03:22.895Z] ANTL.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:23.220Z] AOT.TO: Fetched market_cap=null, revenue=null, net_income=-10430000 from Yahoo
+[2025-03-12T01:03:23.559Z] APGO.V: Fetched market_cap=null, revenue=null, net_income=-2710850 from Yahoo
+[2025-03-12T01:03:23.893Z] APM.TO: Fetched market_cap=null, revenue=125324000, net_income=38540000 from Yahoo
+[2025-03-12T01:03:24.221Z] ARIC.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:24.567Z] ARIS.TO: Fetched market_cap=null, revenue=447674000, net_income=11419000 from Yahoo
+[2025-03-12T01:03:24.915Z] ARK.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:25.244Z] ARTG.V: Fetched market_cap=null, revenue=null, net_income=-8476930 from Yahoo
+[2025-03-12T01:03:25.584Z] ARU.V: Fetched market_cap=null, revenue=null, net_income=-9971550 from Yahoo
+[2025-03-12T01:03:25.921Z] ASE.CN: Fetched market_cap=null, revenue=274729000, net_income=null from Yahoo
+[2025-03-12T01:03:26.265Z] ASM.TO: Fetched market_cap=null, revenue=59511730, net_income=734930 from Yahoo
+[2025-03-12T01:03:26.606Z] ASTR.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:26.940Z] ATHA.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:27.276Z] AU.V: Fetched market_cap=null, revenue=null, net_income=-2877370 from Yahoo
+[2025-03-12T01:03:27.615Z] AUAU.V: Fetched market_cap=null, revenue=null, net_income=-2850900 from Yahoo
+[2025-03-12T01:03:27.957Z] AWM.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:28.303Z] AUM.V: Fetched market_cap=null, revenue=2905190, net_income=-5505610 from Yahoo
+[2025-03-12T01:03:28.635Z] AUMB.V: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:28.971Z] AUOZ.CN: Fetched market_cap=null, revenue=null, net_income=null from Yahoo
+[2025-03-12T01:03:30.258Z] AUR.H.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T01:03:31.325Z] AXM.H.V: Fetched market_cap=null, revenue=null, net_income=null from Google
+[2025-03-12T01:03:31.665Z] AYA.TO: Fetched market_cap=null, revenue=42849000, net_income=null from Yahoo

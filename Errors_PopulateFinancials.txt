@@ -1,0 +1,129 @@
+
+Attempt 1 failed for AUR.H.V: Quote not found for ticker symbol: AUR.H.V
+Attempt 2 failed for AUR.H.V: Quote not found for ticker symbol: AUR.H.V
+Attempt 3 failed for AUR.H.V: Quote not found for ticker symbol: AUR.H.V
+
+Attempt 1 failed for AXM.H.V: Quote not found for ticker symbol: AXM.H.V
+Attempt 2 failed for AXM.H.V: Quote not found for ticker symbol: AXM.H.V
+Attempt 3 failed for AXM.H.V: Quote not found for ticker symbol: AXM.H.V
+Exhausted retries for AXM.H.V
+
+Attempt 1 failed for CLZ.V: Quote not found for ticker symbol: CLZ.V
+Attempt 2 failed for CLZ.V: Quote not found for ticker symbol: CLZ.V
+Attempt 3 failed for CLZ.V: Quote not found for ticker symbol: CLZ.V
+Exhausted retries for CLZ.V
+Updated financials for CMB.V
+Attempt 1 failed for CN.TO: Quote not found for ticker symbol: CN.TO
+Attempt 2 failed for CN.TO: Quote not found for ticker symbol: CN.TO
+Attempt 3 failed for CN.TO: Quote not found for ticker symbol: CN.TO
+Exhausted retries for CN.TO
+
+Attempt 1 failed for AGX.V: Failed Yahoo Schema validation
+{
+  "type": 62,
+  "schema": {
+    "title": "YahooNumber",
+    "anyOf": [
+      {
+        "title": "RawNumber",
+        "type": "object",
+        "properties": {
+          "raw": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "raw"
+        ]
+      },
+      {
+        "type": "number"
+      }
+    ]
+  },
+  "path": "/defaultKeyStatistics/forwardPE",
+  "value": "Infinity",
+  "message": "Expected union value"
+}
+
+    This may happen intermittently and you should catch errors appropriately.
+    However:  1) if this recently started happening on every request for a symbol
+    that used to work, Yahoo may have changed their API.  2) If this happens on
+    every request for a symbol you've never used before, but not for other
+    symbols, you've found an edge-case (OR, we may just be protecting you from
+    "bad" data sometimes stored for e.g. misspelt symbols on Yahoo's side).
+    Please see if anyone has reported this previously:
+
+      https://github.com/gadicc/node-yahoo-finance2/issues?q=is%3Aissue+QuoteSummaryResult
+
+    or open a new issue (and mention the symbol):  yahoo-finance2 v2.13.3
+
+      https://github.com/gadicc/node-yahoo-finance2/issues/new?labels=bug%2C+validation&template=validation.md&title=QuoteSummaryResult
+
+    For information on how to turn off the above logging or skip these errors,
+    see https://github.com/gadicc/node-yahoo-finance2/tree/devel/docs/validation.md.
+
+    At the end of the doc, there's also a section on how to
+    [Help Fix Validation Errors](https://github.com/gadicc/node-yahoo-finance2/blob/devel/docs/validation.md#help-fix)
+    in case you'd like to contribute to the project.  Most of the time, these
+    fixes are very quick and easy; it's just hard for our small core team to keep up,
+    so help is always appreciated!
+
+Attempt 1 failed for ELVT.V: Quote not found for ticker symbol: ELVT.V
+Attempt 2 failed for ELVT.V: Quote not found for ticker symbol: ELVT.V
+Attempt 3 failed for ELVT.V: Quote not found for ticker symbol: ELVT.V
+Exhausted retries for ELVT.V
+Updated financials for EMNT.V
+{
+  "type": 62,
+  "schema": {
+    "title": "YahooNumber",
+    "anyOf": [
+      {
+        "title": "RawNumber",
+        "type": "object",
+        "properties": {
+          "raw": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "raw"
+        ]
+      },
+      {
+        "type": "number"
+      }
+    ]
+  },
+  "path": "/defaultKeyStatistics/forwardPE",
+  "value": "Infinity",
+  "message": "Expected union value"
+}
+
+    This may happen intermittently and you should catch errors appropriately.
+    However:  1) if this recently started happening on every request for a symbol
+    that used to work, Yahoo may have changed their API.  2) If this happens on
+    every request for a symbol you've never used before, but not for other
+    symbols, you've found an edge-case (OR, we may just be protecting you from
+    "bad" data sometimes stored for e.g. misspelt symbols on Yahoo's side).
+    Please see if anyone has reported this previously:
+
+      https://github.com/gadicc/node-yahoo-finance2/issues?q=is%3Aissue+QuoteSummaryResult
+
+    or open a new issue (and mention the symbol):  yahoo-finance2 v2.13.3
+
+      https://github.com/gadicc/node-yahoo-finance2/issues/new?labels=bug%2C+validation&template=validation.md&title=QuoteSummaryResult
+
+    For information on how to turn off the above logging or skip these errors,
+    see https://github.com/gadicc/node-yahoo-finance2/tree/devel/docs/validation.md.
+
+    At the end of the doc, there's also a section on how to
+    [Help Fix Validation Errors](https://github.com/gadicc/node-yahoo-finance2/blob/devel/docs/validation.md#help-fix)
+    in case you'd like to contribute to the project.  Most of the time, these
+    fixes are very quick and easy; it's just hard for our small core team to keep up,
+    so help is always appreciated!
+
+Attempt 1 failed for EMO.V: Failed Yahoo Schema validation
+Attempt 3 failed for EMO.V: Failed Yahoo Schema validation
+Exhausted retries for EMO.V

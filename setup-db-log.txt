@@ -1,0 +1,16 @@
+[2025-03-11T03:12:06.408Z] INFO: Starting database setup
+[2025-03-11T03:12:06.454Z] INFO: Successfully created or verified companies (rows affected: 0)
+[2025-03-11T03:21:39.865Z] INFO: Starting database setup
+[2025-03-11T03:24:01.852Z] INFO: Starting database setup
+[2025-03-11T03:24:01.863Z] INFO: Successfully created or verified companies (rows affected: 0)
+[2025-03-11T03:24:01.874Z] INFO: Successfully created or verified financials (rows affected: 0)
+[2025-03-11T03:24:01.885Z] INFO: Successfully created or verified stock_prices (rows affected: 0)
+[2025-03-11T03:24:01.895Z] INFO: Successfully created or verified capital_structure (rows affected: 0)
+[2025-03-11T03:24:01.906Z] INFO: Successfully created or verified mineral_estimates (rows affected: 0)
+[2025-03-11T03:24:01.915Z] INFO: Successfully created or verified production (rows affected: 0)
+[2025-03-11T03:24:01.924Z] INFO: Successfully created or verified costs (rows affected: 0)
+[2025-03-11T03:24:01.933Z] INFO: Successfully created or verified valuation_metrics (rows affected: 0)
+[2025-03-11T03:24:01.943Z] INFO: Successfully created or verified company_urls (rows affected: 0)
+[2025-03-11T03:24:01.953Z] INFO: Successfully created or verified exchange_rates (rows affected: 0)
+[2025-03-11T03:24:01.953Z] INFO: Database schema creation completed successfully
+[2025-03-11T03:24:01.956Z] INFO: Database connection closed

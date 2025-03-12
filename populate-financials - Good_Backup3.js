@@ -11,9 +11,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const similarity = require('string-similarity');
 
-// Global Configuration
-const USE_GOOGLE_FINANCE = false; // Set to true to enable Google Finance fetching
-const USE_JMN = false;           // Set to true to enable Junior Mining Network fetching
+// Constants
 const CSV_FILE = 'public/data/companies.csv';
 const LOG_FILE = 'financial_population_log.txt';
 const ERROR_LOG_FILE = 'financial_population_errors.txt';
@@ -150,7 +148,7 @@ async function fetchYahooFinancials(ticker, companyName, nameAlt) {
     const balanceSheet = quoteSummary?.balanceSheetHistory?.balanceSheetStatements?.[0] || {};
 
     const data = {
-      market_cap_value: cleanFinancialValue(summaryDetail.marketCap),
+      market_cap_value: cleanFinancialValue(summaryDetail.marketCap), // Updated to handle both number and object
       enterprise_value_value: cleanFinancialValue(financialData.enterpriseValue?.raw),
       trailing_pe: cleanFinancialValue(financialData.trailingPE),
       forward_pe: cleanFinancialValue(keyStats.forwardPE),
@@ -186,10 +184,6 @@ async function fetchYahooFinancials(ticker, companyName, nameAlt) {
 }
 
 async function fetchGoogleFinance(ticker, companyName) {
-  if (!USE_GOOGLE_FINANCE) {
-    logInfo(`[${ticker}] Google Finance fetch skipped (disabled)`);
-    return null;
-  }
   return retryFetch(async () => {
     const exchange = ticker.endsWith('.TO') ? ':TSE' : ticker.endsWith('.V') ? ':CVE' : '';
     const url = `https://www.google.com/finance/quote/${ticker}${exchange}`;
@@ -218,10 +212,6 @@ async function fetchGoogleFinance(ticker, companyName) {
 }
 
 async function fetchJuniorMiningNetwork(ticker, companyName) {
-  if (!USE_JMN) {
-    logInfo(`[${ticker}] JMN fetch skipped (disabled)`);
-    return null;
-  }
   return retryFetch(async () => {
     const urls = [
       'https://www.juniorminingnetwork.com/mining-stocks/gold-mining-stocks.html',
@@ -352,7 +342,7 @@ async function updateDatabase(companyId, finalData) {
           enterprise_to_revenue, enterprise_to_ebitda, revenue_value, currency,
           cost_of_revenue, gross_profit, operating_expense, operating_income,
           net_income_value, currency, ebitda, cash_value, currency,
-          debt_value, currency, lastUpdated, 'Merged (Yahoo' + (USE_GOOGLE_FINANCE ? ', Google' : '') + (USE_JMN ? ', JMN' : '') + ')', shares_outstanding,
+          debt_value, currency, lastUpdated, 'Merged (Yahoo, Google, JMN)', shares_outstanding,
           existingFinancial
         ],
         (err) => {
@@ -379,7 +369,7 @@ async function updateDatabase(companyId, finalData) {
           enterprise_to_revenue, enterprise_to_ebitda, revenue_value, currency,
           cost_of_revenue, gross_profit, operating_expense, operating_income,
           net_income_value, currency, ebitda, cash_value, currency,
-          debt_value, currency, lastUpdated, 'Merged (Yahoo' + (USE_GOOGLE_FINANCE ? ', Google' : '') + (USE_JMN ? ', JMN' : '') + ')', shares_outstanding
+          debt_value, currency, lastUpdated, 'Merged (Yahoo, Google, JMN)', shares_outstanding
         ],
         (err) => {
           if (err) reject(err);
@@ -455,18 +445,18 @@ async function updateFinancials() {
       continue;
     }
 
-    const fetchPromises = [fetchYahooFinancials(ticker, companyName, nameAlt)];
-    if (USE_GOOGLE_FINANCE) fetchPromises.push(fetchGoogleFinance(ticker, companyName));
-    if (USE_JMN) fetchPromises.push(fetchJuniorMiningNetwork(ticker, companyName));
+    const [yahooData, googleData, jmnData] = await Promise.all([
+      fetchYahooFinancials(ticker, companyName, nameAlt),
+      fetchGoogleFinance(ticker, companyName),
+      fetchJuniorMiningNetwork(ticker, companyName)
+    ]);
 
-    const [yahooData, googleData, jmnData] = await Promise.all(fetchPromises);
-
-    if (!yahooData && (!USE_GOOGLE_FINANCE || !googleData) && (!USE_JMN || !jmnData)) {
-      logInfo(`[${ticker}] Skipping - all enabled data sources failed`);
+    if (!yahooData && !googleData && !jmnData) {
+      logInfo(`[${ticker}] Skipping - all data sources failed`);
       continue;
     }
 
-    const finalData = mergeData(ticker, yahooData, USE_GOOGLE_FINANCE ? googleData : null, USE_JMN ? jmnData : null);
+    const finalData = mergeData(ticker, yahooData, googleData, jmnData);
     await updateDatabase(companyId, finalData);
     await delay(DELAY_BETWEEN_CALLS);
   }

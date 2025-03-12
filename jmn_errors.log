@@ -1,0 +1,8 @@
+2025-03-12T06:46:11.389Z [ERROR]: [AAB.TO] Skipping due to fetch failure
+2025-03-12T06:46:13.319Z [ERROR]: [AAG.V] Skipping due to fetch failure
+2025-03-12T06:46:15.216Z [ERROR]: [AAN.V] Skipping due to fetch failure
+2025-03-12T06:46:17.123Z [ERROR]: [AAUC.TO] Skipping due to fetch failure
+2025-03-12T06:46:18.990Z [ERROR]: [ABI.V] Skipping due to fetch failure
+2025-03-12T06:46:20.875Z [ERROR]: [ABRA.TO] Skipping due to fetch failure
+2025-03-12T07:14:19.473Z [ERROR]: [AAB.TO] Failed after 4 retries: url_STATS is not defined
+2025-03-12T07:14:30.716Z [ERROR]: [AAG.V] Failed after 4 retries: url_STATS is not defined

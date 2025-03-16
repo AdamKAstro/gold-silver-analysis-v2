@@ -1,7 +1,7 @@
 [
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776561945.908166,
+        "expirationDate": 1776560548.160236,
         "hostOnly": false,
         "httpOnly": false,
         "name": "ab_uuid",
@@ -14,7 +14,7 @@
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776129963,
+        "expirationDate": 1776128558,
         "hostOnly": false,
         "httpOnly": false,
         "name": "cX_G",
@@ -23,11 +23,23 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "cx%3A1tq75s6indh3g3ahjz96g8mniy%3A3s7v60oedfkcn"
+        "value": "cx%3A25huquv4kw3h43sf7h2h1aglqk%3A1k35l1slaebmf"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1749777977,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "regulationApplies",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "gdpr%3Afalse%2Ccpra%3Afalse%2Cvcdpa%3Afalse"
+    },
+    {
+        "domain": ".barrons.com",
+        "expirationDate": 1749776558,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_rdt_uuid",
@@ -36,11 +48,24 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "1742001940331.fa94ac66-ba71-4288-b207-ab9ff135b390"
+        "value": "1742000540785.1843c839-8f7a-41ae-9033-7f5e025f7b28"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776129953,
+        "expirationDate": 1773536496.43977,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "consentUUID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "e81754d7-0100-468d-bde2-05c31f77136d"
+    },
+    {
+        "domain": ".barrons.com",
+        "expirationDate": 1776128549,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_pcid",
@@ -49,24 +74,24 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "%7B%22browserId%22%3A%22m89izasbc6uo1xes%22%7D"
+        "value": "%7B%22browserId%22%3A%22m89i56u02cx95ja9%22%7D"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1757899601,
+        "expirationDate": 1742004095.637271,
         "hostOnly": false,
         "httpOnly": false,
-        "name": "permutive-id",
+        "name": "DJSESSION",
         "path": "/",
-        "sameSite": "no_restriction",
+        "sameSite": null,
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "9d1824f9-9cb9-46cc-b570-0e0d74fe1de3"
+        "value": "country%3Djp%7C%7Ccontinent%3Das%7C%7Cregion%3D"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1773537915.551163,
+        "expirationDate": 1773536535.082983,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ncg_domain_id_",
@@ -75,11 +100,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "7dc903e5-f6bb-4984-b09f-247ed999822a.1.1742001915.1773537915"
+        "value": "c28c13f9-2b85-42f6-96ad-c673e76d779e.1.1742000535.1773536535"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1742003778,
+        "expirationDate": 1742002358,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ncg_sp_ses.e48a",
@@ -92,7 +117,7 @@
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1742005545.907873,
+        "expirationDate": 1742004148.160049,
         "hostOnly": false,
         "httpOnly": false,
         "name": "usr_prof_v2",
@@ -105,7 +130,7 @@
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1773537979.078854,
+        "expirationDate": 1773536559.78833,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_dj_sp_id",
@@ -114,11 +139,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "ee11e11b-83c7-491b-abc3-9276cce91eb4"
+        "value": "6d5890f8-c3d0-42a8-8598-eb1d9d96e13a"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1773537914.890517,
+        "expirationDate": 1773536535.525611,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ncg_g_id_",
@@ -127,11 +152,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "e1932b89-3f8a-4546-a601-dc41a504c8cd.3.1742001934.1773537915"
+        "value": "4b2600c7-5f66-449f-b142-983e998f7f4e.3.1742000537.1773536535"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776129976.577,
+        "expirationDate": 1776128557.693,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_awl",
@@ -140,11 +165,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "2.1742001976.5-22d342fff3d91d11c7c2e2b4ada3844a-6763652d617369612d6561737431-0"
+        "value": "2.1742000556.5-8abcb8a6ef298cf938d87e0eb4c0e12e-6763652d617369612d6561737431-0"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1773537966.495171,
+        "expirationDate": 1773536565.777654,
         "hostOnly": false,
         "httpOnly": false,
         "name": "datadome",
@@ -153,11 +178,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "tK5KSzj2HbrQRYDbsOCnliaPyO7PKqe9Imrh6oCVITaSWvQ8TjziSc6967tiwCS3krGBaJ9_att519QwahOQqFTXA6z1XtrJA6ylP1wNA7eCRaFd6m7yNu_q0OcuoVGq"
+        "value": "4jFx~~ah3LujWo7XIym0ELaP0Qd6ypbY1dKCoW3iSQASjbEtcxj~A~hvqzFNjjoTUnAm1kRmj2_S4o5qYl1V_e89jyyGV6uJ6PpYj~2iQ4NOPMV6vMnCWNexq~pAS0VN"
     },
     {
         "domain": "www.barrons.com",
-        "expirationDate": 1749777941,
+        "expirationDate": 1749776551,
         "hostOnly": true,
         "httpOnly": false,
         "name": "_meta_facebookTag_sync",
@@ -166,11 +191,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "1742001941864"
+        "value": "1742000551145"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776561957.532922,
+        "expirationDate": 1776560554.455112,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_cls_v",
@@ -179,11 +204,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "b3cec41d-c13d-417b-9a18-0efb03cac713"
+        "value": "4f62276e-9c65-4d07-9bb2-92acb3319570"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1775697913,
+        "expirationDate": 1775696496,
         "hostOnly": false,
         "httpOnly": false,
         "name": "__gpi",
@@ -192,11 +217,36 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "UID=000010616bebba3c:T=1742001913:RT=1742001913:S=ALNI_MbPxW9H21SUic6N8fuy2gNXaFf6Fg"
+        "value": "UID=000010616ac36d01:T=1742000496:RT=1742000496:S=ALNI_MYTMsy1fj7HfGVashqy3UiEGEREMA"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776129960,
+        "expirationDate": 1744592531.575013,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "wsjregion",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "na%2Cus"
+    },
+    {
+        "domain": ".barrons.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "vcdpaApplies",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".barrons.com",
+        "expirationDate": 1776128562,
         "hostOnly": false,
         "httpOnly": false,
         "name": "cX_P",
@@ -205,11 +255,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "m89izasbc6uo1xes"
+        "value": "m89i56u02cx95ja9"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776129960,
+        "expirationDate": 1776128554,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_pctx",
@@ -222,7 +272,7 @@
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1757553913,
+        "expirationDate": 1757552496,
         "hostOnly": false,
         "httpOnly": false,
         "name": "__eoi",
@@ -231,11 +281,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "ID=8f1f7cc31cd39f76:T=1742001913:RT=1742001913:S=AA-AfjbZb753t5Pb97pxhVgfcMRG"
+        "value": "ID=6fe294ceff5869c6:T=1742000496:RT=1742000496:S=AA-AfjZP8yBdAVNTYksIMNE20LZM"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1775697913,
+        "expirationDate": 1775696496,
         "hostOnly": false,
         "httpOnly": false,
         "name": "__gads",
@@ -244,7 +294,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "ID=8dc70fe5bb8eb4f2:T=1742001913:RT=1742001913:S=ALNI_Mawo4BwO-oueQOLJv4sX-mcGlBD_g"
+        "value": "ID=dc2689e12385584a:T=1742000496:RT=1742000496:S=ALNI_MZv2f6pU7M0wG2ptciZUImZv2Re2w"
     },
     {
         "domain": ".barrons.com",
@@ -256,7 +306,7 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "d7f20b7f-3d16-449a-84a7-1ecf97b35397:0"
+        "value": "c8ed6822-92fd-4ff8-8185-031682000c0c:0"
     },
     {
         "domain": ".barrons.com",
@@ -268,11 +318,11 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": ".1742001939.1.1742001977.1742001939.c6ef30b1-0023-47d7-a25a-3376995f4cc4"
+        "value": ".1742000541.1.1742000559.1742000541.babe92eb-8ecb-423e-9b6e-e2dc7dcf027a"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1742003777,
+        "expirationDate": 1742002358,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_dj_ses.c19f",
@@ -285,7 +335,7 @@
     },
     {
         "domain": "www.barrons.com",
-        "expirationDate": 1749777953,
+        "expirationDate": 1749776551,
         "hostOnly": true,
         "httpOnly": false,
         "name": "_fbp",
@@ -294,11 +344,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "fb.1.1742001941860.1329677367"
+        "value": "fb.1.1742000550569.163967996695458285"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1773537953,
+        "expirationDate": 1773536552,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_meta_cross_domain_id",
@@ -307,11 +357,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "d4f67798-7621-4f48-a60f-b1f76d11aac6"
+        "value": "ed2b2fe0-c400-4abc-9e31-ffe422bd1f2b"
     },
     {
         "domain": "www.barrons.com",
-        "expirationDate": 1742606743,
+        "expirationDate": 1742605352,
         "hostOnly": true,
         "httpOnly": false,
         "name": "_meta_cross_domain_recheck",
@@ -320,11 +370,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "1742001943163"
+        "value": "1742000552919"
     },
     {
         "domain": "www.barrons.com",
-        "expirationDate": 1745889941,
+        "expirationDate": 1745888551,
         "hostOnly": true,
         "httpOnly": false,
         "name": "_meta_googleAdsSegments_library_loaded",
@@ -333,11 +383,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "1742001941914"
+        "value": "1742000551178"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776561978.410185,
+        "expirationDate": 1776560558.952943,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ncg_sp_id.e48a",
@@ -346,11 +396,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": ".1742001941.1.1742001978..8c6a7b6d-787b-4fcc-8408-db96365daa18"
+        "value": ".1742000541.1.1742000559..be131c7a-334f-44c7-ae38-cd7e88e85098"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1775697949,
+        "expirationDate": 1775696551,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_scor_uid",
@@ -359,11 +409,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "5a13a38274bd464ea94b2de998640853"
+        "value": "cc33c34f798b48c083a783ebcaf0dc13"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1773537910.801282,
+        "expirationDate": 1773536495.397172,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_sp_su",
@@ -372,11 +422,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "false"
+        "value": "true"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1742412329.748045,
+        "expirationDate": 1742410929.725105,
         "hostOnly": false,
         "httpOnly": false,
         "name": "ca_id",
@@ -385,11 +435,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "0f7b9586-b922-4403-8396-039962f63385.eJw9kE1PwkAQhv_LnFvY72U5SQIaEuOBRC_GkOnuFFZaIO1iNcb_7hYNx3nmeWcy8w27-EHH7RFbgjksArZQQI1tbL5usE_dKVNqMTa5xiwdYmysu9uNaOJPY-hyiSF3GTLtNYZSs0ClkqjLStSyNEYYR0ESCzzbqUN_uAYqpTVqslYYrALz1nJZ-WAcl7UztZBOWa4YoTOV8jWnmWQ-qConCIOr87Du1FAP81e436xWm9VDuX5arl_Wy-fFI7wVgJe036Y4HsOtEoxxJ1kBviNMFLaYrpzPhBHKFRD_wU2kz_MfUFJeQezzNtindO7n0-kwDJOhfx_fMPVNpGOCn19zT2UA.ennjZcvjIAA2fBgzqVF2wpQePzbW3-TafRLOcz2Qx5l1s3CBdDkJdpl2kxkgnhZHsls7VdNKHp0I5eI7edJKdSvH1wQvOxahaq2-aa4FVZSQqncZSuhTP331sgcTfF9V5xxWrxI9VJMNjQXoV4MIv4QO87-dtMabe-xbVnv81z9uV8euEX_IQPL9McXoYm-PQFoF4t9pIPZdMFZBAKvdjsJ9ektcCbUyHrS1jPRxlv1AcyMEa1m9VMu61zUm4fvH3w1aah8dNxULgUMG6sFh_5FtmANG78FhAB0VGTJpUX7rdOkDQXevpPDmHCIY-7h-TIf_Dnskswvr1c9LX-GUhA"
+        "value": "0f7b9586-b922-4403-8396-039962f63385.eJw90F1LwzAUBuD_kut1zXeWXjlYlYF4MdAbkXGanG5x7Tba1Crifzetsss8ed-Ec77JIXzgeX-GFklB1h5asiA1tKH5umEfu0tSbCE06QwpdAqhMfbuMNHSXabSMASfbilQ5RT4TFGPmRSgsorXItOaa4teIPUspWMH7jQXKqkUKDSGa6g8dcYwUTmvLRO11TUXVhomKYLVlXQ1w5WgzssqNRC8rdNj3aXBnhSv5H5XlrvyIds-bbYv283z-pG8LQgM8biPYRqGGckppYrbBXEdQkS_hzg7W3HNZfLwD3NQ0DT45_UPpOAzhD79Ro4xXvsiz8dxXI79-7SG3DUBz5H8_AJyg2T5.Z22saNHodJtPJTvKe910m0EkpdIZhCPPnv9PryP4slegDWkjZ9nynYCaXSP5Wv84eEZQmBcRUshr2lXbmDhKZWM8cIOa5--xbOHUHrIUi0hQj1IV0TlC4C3HL3-eZwyjKy0VPc0a0NXv57-7clnxUaTXIaC9ptCe4dyfuOEL423vjlfffboc7rbb34kX64aZ4S2RNj7lGXJzSOZ4fViULeycfLtCB5DuXiDXLg-Vhk7airukT7U4jvFswGp-MC4fAyinTk4hkAapt0kFzpE8MhsrS2Z-XipqD45B-5wQWwSiS2pjvRgqoczSaxfORJUAsfjeXJD7alF8jZGwexYUEg"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776561930.747926,
+        "expirationDate": 1776560530.72504,
         "hostOnly": false,
         "httpOnly": true,
         "name": "ca_rt",
@@ -398,11 +448,23 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "6YHfF_cft_mHi55igidIuw.i68HCoMWImco7kx36NCmCrR9Tdtopqxnh9QszHLkPAg3cIIjxZDAKXFwL-04BQ4mXezKgSODkml6f50bbHrELYCVT-cgGFTtsM2rorvbOaQ"
+        "value": "V39RlKU_ap5XVMvNNllr4Q.Dvc3ADs6nMXLocox2Y8Tciild3D8qQdX5L-GmCAqRvEbptBtCpSsFHhSTbm1cBMhifIlIZpIsg3UmBfazM1oOyui8Yvx5Ng-sWXS648Db7E"
     },
     {
         "domain": ".barrons.com",
-        "expirationDate": 1776561913.395293,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ccpaApplies",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".barrons.com",
+        "expirationDate": 1776560496.997287,
         "hostOnly": false,
         "httpOnly": false,
         "name": "djcs_route",
@@ -411,6 +473,31 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "5fcc256e-3b02-45b3-ad62-44596aa25c76"
+        "value": "d8e018d4-4cb2-4e25-9f05-f5ff57af24f9"
+    },
+    {
+        "domain": ".barrons.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "gdprApplies",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".barrons.com",
+        "expirationDate": 1773536496.636108,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "usnatUUID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "06887703-b381-45b6-94f1-5468c02689be"
     }
 ]

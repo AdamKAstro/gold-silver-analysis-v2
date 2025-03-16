@@ -308,3 +308,5 @@
 {"attempt":0,"level":"warn","message":"No financial data detected on financials page, retrying","ticker":"AAB.TO","timestamp":"2025-03-14T06:21:29.912Z"}
 {"error":"Could not load body for this request. This might happen if the request is a preflight request.","level":"warn","message":"Failed to parse network response","timestamp":"2025-03-14T06:21:34.036Z","url":"https://api.permutive.com/v2.0/batch/events?enrich=true&sdkp=false&k=6c1a38c7-5ed9-4ac8-b4dc-ff261fe14746"}
 {"error":"Could not load body for this request. This might happen if the request is a preflight request.","level":"warn","message":"Failed to parse network response","timestamp":"2025-03-14T06:21:34.037Z","url":"https://api.permutive.com/v2.0/batch/events?enrich=false&sdkp=true&k=6c1a38c7-5ed9-4ac8-b4dc-ff261fe14746"}
+{"error":"SQLITE_ERROR: no such table: companies","level":"error","message":"Script execution failed","timestamp":"2025-03-14T12:52:35.100Z"}
+{"level":"info","message":"Execution completed successfully","timestamp":"2025-03-14T12:52:35.103Z"}

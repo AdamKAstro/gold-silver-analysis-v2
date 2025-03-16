@@ -1,0 +1,12 @@
+{"level":"debug","message":"Switching to Income Statement","ticker":"AAB.TO","timestamp":"2025-03-16 22:19:06.044"}
+{"level":"warn","message":"Income Statement tab not found","ticker":"AAB.TO","timestamp":"2025-03-16 22:20:31.529"}
+{"level":"debug","message":"Switching to Balance Sheet","ticker":"AAB.TO","timestamp":"2025-03-16 22:20:31.531"}
+{"level":"warn","message":"Balance Sheet tab not found","ticker":"AAB.TO","timestamp":"2025-03-16 22:21:57.941"}
+{"level":"debug","message":"Switching to Cash Flow Statement","ticker":"AAB.TO","timestamp":"2025-03-16 22:21:57.944"}
+{"level":"warn","message":"Cash Flow Statement tab not found","ticker":"AAB.TO","timestamp":"2025-03-16 22:23:15.064"}
+{"level":"debug","message":"Switching to Income Statement","ticker":"AAB.TO","timestamp":"2025-03-16 22:24:14.369"}
+{"level":"warn","message":"Income Statement tab not found","ticker":"AAB.TO","timestamp":"2025-03-16 22:25:34.992"}
+{"level":"debug","message":"Switching to Balance Sheet","ticker":"AAB.TO","timestamp":"2025-03-16 22:25:34.994"}
+{"level":"warn","message":"Balance Sheet tab not found","ticker":"AAB.TO","timestamp":"2025-03-16 22:27:02.760"}
+{"level":"debug","message":"Switching to Cash Flow Statement","ticker":"AAB.TO","timestamp":"2025-03-16 22:27:02.762"}
+{"level":"warn","message":"Cash Flow Statement tab not found","ticker":"AAB.TO","timestamp":"2025-03-16 22:28:32.684"}

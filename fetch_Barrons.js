@@ -1,31 +1,71 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const sqlite3 = require('sqlite3').verbose();
 const winston = require('winston');
-const fs = require('fs').promises;
+const fs = require('fs-extra');
+const path = require('path');
 
+puppeteer.use(StealthPlugin());
+
+// Configuration
+const CONFIG = {
+  dbPath: 'C:\\Users\\akiil\\gold-silver-analysis-v2\\mining_companies.db',
+  cookiePath: path.join(__dirname, 'cookies.json'),
+  pwdPath: path.join(__dirname, 'Barrons_pwdjson.json'),
+  headless: false,
+  maxRetries: 3,
+  delays: {
+    initial: { min: 10000, max: 20000 },
+    tabSwitch: { min: 60000, max: 90000 },
+    click: { min: 20000, max: 40000 },
+    interCompany: { min: 30000, max: 60000 },
+    behavior: { min: 1000, max: 2000 }
+  },
+  userAgents: [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0'
+  ],
+  loginUrl: 'https://www.barrons.com/login'
+};
+
+// Logger Setup
 const logger = winston.createLogger({
-  level: 'info',
+  level: 'debug',
   format: winston.format.combine(
-    winston.format.timestamp(),
+    winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss.SSS' }),
     winston.format.json()
   ),
   transports: [
     new winston.transports.Console(),
-    new winston.transports.File({ filename: 'scraper.log' })
+    new winston.transports.File({ filename: path.join(__dirname, 'logs', 'scraper.log') })
   ]
 });
 
-function delay(min, max) {
+// Utilities
+function delay(min, max, context = 'generic') {
   const time = Math.floor(Math.random() * (max - min + 1)) + min;
-  logger.debug({ message: `Delaying for ${time}ms` });
+  logger.debug({ context, message: `Delaying for ${time}ms` });
   return new Promise(resolve => setTimeout(resolve, time));
 }
 
-async function loadCookies() {
+async function loadCookies(page) {
   try {
-    const cookiesData = await fs.readFile('cookies.json', 'utf8');
-    return JSON.parse(cookiesData);
+    const cookies = await fs.readJson(CONFIG.cookiePath);
+    const sanitizedCookies = cookies.map(cookie => ({
+      name: cookie.name,
+      value: cookie.value,
+      domain: cookie.domain,
+      path: cookie.path,
+      expires: cookie.expires,
+      httpOnly: cookie.httpOnly,
+      secure: cookie.secure,
+      sameSite: cookie.sameSite === 'Lax' || cookie.sameSite === 'Strict' || cookie.sameSite === 'None' ? cookie.sameSite : 'Lax'
+    }));
+    await page.setCookie(...sanitizedCookies);
+    logger.debug({ message: 'Loaded cookies', cookieCount: sanitizedCookies.length });
+    return sanitizedCookies;
   } catch (err) {
+    logger.warn({ message: 'No cookies found or invalid format', error: err.message });
     return [];
   }
 }
@@ -33,542 +73,434 @@ async function loadCookies() {
 async function saveCookies(page) {
   try {
     const cookies = await page.cookies();
-    await fs.writeFile('cookies.json', JSON.stringify(cookies, null, 2));
-    logger.debug({ message: 'Cookies saved' });
+    await fs.writeJson(CONFIG.cookiePath, cookies, { spaces: 2 });
+    logger.debug({ message: 'Saved cookies', cookieCount: cookies.length });
   } catch (err) {
-    logger.warn({ message: 'Failed to save cookies', error: err.message });
+    logger.error({ message: 'Failed to save cookies', error: err.message });
   }
 }
 
-const userAgents = [
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0',
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 14.3; rv:123.0) Gecko/20100101 Firefox/123.0',
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.2210.91'
-];
-
-async function simulateMinimalBehavior(page) {
-  logger.debug({ message: 'Simulating minimal human-like behavior' });
+async function simulateMinimalBehavior(page, ticker) {
+  logger.debug({ ticker, message: 'Simulating minimal behavior' });
   try {
-    const currentUrl = await page.url();
-    if (!currentUrl.includes('barrons.com')) {
-      throw new Error('Page navigated away unexpectedly');
-    }
-    await page.evaluate(() => true).catch(() => { throw new Error('Page target closed'); });
-
-    const viewport = await page.evaluate(() => ({
-      width: window.innerWidth,
-      height: window.innerHeight
-    }));
-
-    await page.evaluate(() => { window.scrollBy(0, Math.random() * 500 + 200); }); // Increased scroll range
-    await delay(2000, 4000); // Increased delay
-
-    await page.mouse.move(Math.random() * viewport.width, Math.random() * viewport.height); // Mouse move
+    const viewport = await page.evaluate(() => ({ width: window.innerWidth, height: window.innerHeight }));
+    await page.evaluate(() => window.scrollBy(0, Math.random() * 300 + 200));
+    await delay(CONFIG.delays.behavior.min, CONFIG.delays.behavior.max, 'scroll');
     await page.mouse.click(Math.random() * viewport.width * 0.7, Math.random() * viewport.height * 0.7);
-    await delay(2000, 4000);
+    await delay(CONFIG.delays.behavior.min, CONFIG.delays.behavior.max, 'click');
   } catch (err) {
-    logger.warn({ message: 'Error in simulateMinimalBehavior', error: err.message });
-    throw err;
+    logger.warn({ ticker, message: 'Behavior simulation failed', error: err.message });
   }
 }
 
-async function simulateContinuousBehavior(page, pauseSimulation) {
-  logger.debug({ message: 'Starting continuous behavior simulation' });
+async function simulateContinuousBehavior(page, ticker, pauseSimulation) {
+  logger.debug({ ticker, message: 'Starting continuous behavior' });
   const interval = setInterval(async () => {
-    if (pauseSimulation()) {
-      logger.debug({ message: 'Continuous behavior simulation paused' });
-      return;
-    }
-    try {
-      await simulateMinimalBehavior(page);
-      if (Math.random() < 0.3) { // Increased pause probability
-        logger.debug({ message: 'Simulating reading pause' });
-        await delay(10000, 20000); // Increased pause duration
-      }
-    } catch (err) {
-      logger.warn({ message: 'Error in continuous behavior simulation', error: err.message });
-      clearInterval(interval);
-    }
-  }, 15000); // Increased interval to 15s
-
+    if (pauseSimulation()) return;
+    await simulateMinimalBehavior(page, ticker);
+  }, 20000);
   return interval;
 }
 
+async function launchBrowser(ticker) {
+  const browser = await puppeteer.launch({
+    headless: CONFIG.headless,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--start-maximized',
+      '--shm-size=2gb',
+      '--disable-accelerated-2d-canvas'
+    ],
+    defaultViewport: null
+  });
+
+  const page = await browser.newPage();
+  const ua = CONFIG.userAgents[Math.floor(Math.random() * CONFIG.userAgents.length)];
+  await page.setUserAgent(ua);
+  await page.setExtraHTTPHeaders({
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Referer': 'https://www.barrons.com/'
+  });
+
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => false });
+    Object.defineProperty(navigator, 'platform', { get: () => 'Win32' });
+  });
+
+  logger.debug({ ticker, message: 'Browser launched', userAgent: ua });
+  return { browser, page };
+}
+
+async function autoLogin(page, ticker) {
+  try {
+    const { email, pwd } = await fs.readJson(CONFIG.pwdPath);
+    logger.info({ ticker, message: 'Attempting auto-login', email });
+    await page.goto(CONFIG.loginUrl, { waitUntil: 'networkidle2', timeout: 180000 });
+    await page.waitForSelector('input[name="username"]', { timeout: 60000 });
+    await page.type('input[name="username"]', email, { delay: 100 });
+    await page.type('input[name="password"]', pwd, { delay: 100 });
+    await page.click('button[type="submit"]');
+    await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 180000 });
+    await saveCookies(page);
+    logger.info({ ticker, message: 'Auto-login completed, cookies saved' });
+  } catch (err) {
+    logger.error({ ticker, message: 'Auto-login failed', error: err.message, stack: err.stack });
+    throw err;
+  }
+}
+
+async function ensureLogin(page, ticker, financialsUrl) {
+  logger.info({ ticker, message: 'Checking login state' });
+  await loadCookies(page);
+  await page.goto(financialsUrl, { waitUntil: 'networkidle2', timeout: 180000 });
+
+  const isLoggedIn = await page.evaluate(() => !!document.querySelector('[data-id="FinancialTables_table"]') || !!document.querySelector('.ModuleSubNav__Tab-sc-n8aem8-2'));
+  if (!isLoggedIn) {
+    logger.warn({ ticker, message: 'Cookies invalid or expired, attempting auto-login' });
+    await autoLogin(page, ticker);
+    await page.goto(financialsUrl, { waitUntil: 'networkidle2', timeout: 180000 });
+  }
+  const loginSuccess = await page.evaluate(() => !!document.querySelector('[data-id="FinancialTables_table"]'));
+  logger.debug({ ticker, message: 'Login check result', isLoggedIn: loginSuccess });
+}
+
 async function fetchWithPuppeteer(company) {
-  let browser;
-  let page;
-  let behaviorInterval;
+  const { ticker, company_id } = company;
+  let browser, page, behaviorInterval;
+  let attempt = 0;
   let isScraping = false;
 
-  try {
-    browser = await puppeteer.launch({
-      headless: false,
-      args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage',
-        '--window-size=1920x1080',
-        '--disable-background-timer-throttling',
-        '--disable-backgrounding-occluded-windows',
-        '--disable-renderer-backgrounding',
-        '--enable-low-end-device-mode',
-        '--shm-size=2gb'
-      ]
-    });
-    page = await browser.newPage();
-
-    const randomUserAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
-    await page.setUserAgent(randomUserAgent);
-    logger.debug({ message: `Using user-agent: ${randomUserAgent}` });
-
-    await page.evaluateOnNewDocument(() => {
-      Object.defineProperty(navigator, 'webdriver', { get: () => false });
-      Object.defineProperty(navigator, 'platform', { get: () => 'Win32' });
-    });
-
-    await page.setViewport({ width: 1920, height: 1080 });
-
-    await page.setRequestInterception(true);
-    page.on('request', request => {
-      const resourceType = request.resourceType();
-      const url = request.url();
-      if (
-        resourceType === 'media' ||
-        url.includes('doubleclick') ||
-        url.includes('linkedin') ||
-        url.includes('google-analytics') ||
-        url.includes('dianomi') // Block ad-related requests
-      ) {
-        request.abort();
-      } else {
-        request.continue();
-      }
-    });
-
-    let networkData = [];
-    page.on('response', async response => {
-      const url = response.url();
-      const contentType = response.headers()['content-type'] || '';
-      if (
-        contentType.includes('application/json') &&
-        (url.includes('financials') || url.includes('data') || url.includes('api')) &&
-        !url.includes('bam.nr-data.net')
-      ) {
-        try {
-          const json = await response.json();
-          networkData.push({ url, data: json });
-          logger.debug({ message: 'Intercepted network data', url, data: JSON.stringify(json).substring(0, 100) + '...' });
-        } catch (e) {
-          logger.warn({ message: 'Failed to parse network response', url, error: e.message });
-        }
-      } else {
-        logger.debug({ message: 'Skipped non-JSON or non-financial response', url, contentType });
-      }
-    });
-
-    const cookies = await loadCookies();
-    if (cookies.length > 0) {
-      await page.setCookie(...cookies);
-      logger.debug({ message: 'Loaded cookies' });
-    }
-
-    // Construct URL
-    const baseTicker = company.tsx_code.replace(/\.([A-Z]{2})$/, '').toLowerCase();
-    const fullTicker = company.tsx_code;
-    const financialsUrl = `https://www.barrons.com/market-data/stocks/${baseTicker}/financials?countrycode=ca&mod=searchresults_companyquotes&mod=searchbar&search_keywords=${fullTicker}&search_statement_type=suggested`;
-
-    // Try the financials URL
-    let pageLoaded = false;
-    for (let attempt = 0; attempt < 3; attempt++) {
-      try {
-        await page.goto(financialsUrl, { waitUntil: 'networkidle2', timeout: 60000 });
-        await delay(10000, 20000); // Increased delay to handle dynamic content
-        pageLoaded = await page.evaluate(() => {
-          return document.querySelector('div.table__Cell-sc-1djjifq-5') || document.querySelector('button.ModuleSubNav__Tab-sc-n8aem8-2');
-        });
-        if (pageLoaded) break;
-        logger.warn({ message: 'No financial data detected on financials page, retrying', ticker: company.tsx_code, attempt });
-        await simulateMinimalBehavior(page); // Add behavior between retries
-        await delay(15000, 30000); // Increased retry delay
-      } catch (err) {
-        logger.warn({ message: 'Financials URL load failed', ticker: company.tsx_code, error: err.message, attempt });
-        if (attempt === 2) break;
-        await simulateMinimalBehavior(page);
-        await delay(15000, 30000);
-      }
-    }
-
-    if (!pageLoaded) {
-      logger.error({ message: 'No financial data available after retries, skipping', ticker: company.tsx_code });
-      return null;
-    }
-
-    logger.info({ message: 'Page loaded', url: financialsUrl, title: await page.title() });
-    await saveCookies(page);
-
-    behaviorInterval = await simulateContinuousBehavior(page, () => isScraping);
-    await delay(10000, 20000); // Increased initial delay
-
-    const financialTabs = [
-      { name: 'Overview', selector: '' },
-      { name: 'Income Statement', label: 'Income Statement', selector: 'button.ModuleSubNav__Tab-sc-n8aem8-2:-soup-contains("Income Statement")' },
-      { name: 'Balance Sheet', label: 'Balance Sheet', selector: 'button.ModuleSubNav__Tab-sc-n8aem8-2:-soup-contains("Balance Sheet")' },
-      { name: 'Cash Flow Statement', label: 'Cash Flow Statement', selector: 'button.ModuleSubNav__Tab-sc-n8aem8-2:-soup-contains("Cash Flow Statement")' }
-    ];
-
-    const shuffledTabs = financialTabs.slice(1).sort(() => Math.random() - 0.5);
-    logger.debug({ message: 'Shuffled tab order', order: shuffledTabs.map(tab => tab.name) });
-
-    const financialData = {};
-
-    isScraping = true;
+  while (attempt < CONFIG.maxRetries) {
     try {
-      await page.waitForSelector('div', { timeout: 15000 }); // Increased timeout
-      const overviewData = await page.evaluate(() => {
-        const data = {};
-        const labels = document.querySelectorAll('div');
-        for (const label of labels) {
-          const text = label.textContent.trim();
-          if (text === 'Market Value') {
-            const value = label.nextElementSibling?.textContent.trim();
-            if (value) data.market_cap_value = value;
-          }
-          if (text === 'Shares Outstanding') {
-            const value = label.nextElementSibling?.textContent.trim();
-            if (value) data.shares_outstanding = value;
+      const { browser: b, page: p } = await launchBrowser(ticker);
+      browser = b;
+      page = p;
+
+      const financialsUrl = `https://www.barrons.com/market-data/stocks/${ticker.replace(/\.([A-Z]{2})$/, '').toLowerCase()}/financials?countrycode=ca&mod=searchresults_companyquotes`;
+      await ensureLogin(page, ticker, financialsUrl);
+      logger.info({ ticker, message: 'Navigating to financials URL', url: financialsUrl });
+
+      await page.setRequestInterception(true);
+      let networkData = [];
+      page.on('response', async response => {
+        const url = response.url();
+        const contentType = response.headers()['content-type'] || '';
+        if (contentType.includes('application/json') && (url.includes('financials') || url.includes('data'))) {
+          try {
+            const json = await response.json();
+            if (json && (json.keys || json.sections || json.items)) {
+              networkData.push({ url, data: json });
+              logger.debug({ ticker, message: 'Intercepted JSON', url, data: JSON.stringify(json).slice(0, 200) });
+            }
+          } catch (e) {
+            logger.warn({ ticker, message: 'Failed to parse JSON', url, error: e.message });
           }
         }
-        return data;
       });
 
-      if (!overviewData.market_cap_value || !overviewData.shares_outstanding) {
-        const fallbackData = await page.evaluate(() => {
-          const data = {};
-          const lines = document.body.innerText.split('\n').map(line => line.trim()).filter(line => line);
-          lines.forEach(line => {
-            const parts = line.split(/\s+/);
-            const label = parts.slice(0, -1).join(' ').toLowerCase();
-            const value = parts[parts.length - 1];
-            if (value.match(/[\d.-]+[BKM]?/)) {
-              if (label.includes('market value')) data.market_cap_value = value;
-              else if (label.includes('shares outstanding')) data.shares_outstanding = value;
-            }
-          });
-          return data;
-        });
-        Object.assign(overviewData, fallbackData);
+      await delay(CONFIG.delays.initial.min, CONFIG.delays.initial.max, 'initial');
+      const rawBody = await page.evaluate(() => document.body.innerHTML.slice(0, 500));
+      logger.debug({ ticker, message: 'Raw page body', rawBody });
+
+      const checkCaptchaOrBlock = async () => {
+        const bodyText = await page.evaluate(() => document.body.innerText.toLowerCase());
+        const isBlocked = bodyText.includes('captcha') || bodyText.includes('verify you are not a bot') || bodyText.includes('access blocked');
+        if (isBlocked) logger.error({ ticker, message: 'CAPTCHA or block detected', bodyPreview: bodyText.slice(0, 200) });
+        return isBlocked;
+      };
+      if (await checkCaptchaOrBlock()) {
+        throw new Error('CAPTCHA detected despite auto-login');
       }
 
-      Object.assign(financialData, overviewData);
-      logger.debug({ message: 'Scraped Overview tab', data: overviewData });
-    } catch (err) {
-      logger.warn({ message: 'Failed to scrape Overview tab', error: err.message });
-    }
-    isScraping = false;
+      await saveCookies(page);
+      behaviorInterval = await simulateContinuousBehavior(page, ticker, () => isScraping);
 
-    const processNetworkData = (data) => {
-      const tabData = {};
-      if (data.blocks) {
-        const financialBlock = data.blocks.find(block => block.$type === 'MarketData.FinancialStatementCard');
-        if (financialBlock && financialBlock.sections) {
-          financialBlock.sections.forEach(section => {
-            section.items.forEach(item => {
-              const displayName = item.displayName.toLowerCase();
-              const latestValue = item.values && item.values.length >= 5 ? item.values[4].formatted : null;
+      const financialTabs = [
+        { name: 'Income Statement', selector: 'button.ModuleSubNav__Tab-sc-n8aem8-2:nth-child(2)' },
+        { name: 'Balance Sheet', selector: 'button.ModuleSubNav__Tab-sc-n8aem8-2:nth-child(3)' },
+        { name: 'Cash Flow Statement', selector: 'button.ModuleSubNav__Tab-sc-n8aem8-2:nth-child(4)' }
+      ];
+      const shuffledTabs = financialTabs.sort(() => Math.random() - 0.5);
+      logger.debug({ ticker, message: 'Tab order shuffled', order: shuffledTabs.map(t => t.name) });
 
-              if (latestValue) {
-                if (displayName.includes('sales') || displayName.includes('revenue')) tabData.revenue_value = latestValue;
-                else if (displayName.includes('net income')) tabData.net_income_value = latestValue;
-                else if (displayName.includes('cash') && displayName.includes('short term')) tabData.cash_value = latestValue;
-                else if (displayName.includes('total liabilities')) tabData.liabilities = latestValue;
-                else if (displayName.includes('non-convertible debt')) {
-                  tabData.debt_value = tabData.debt_value 
-                    ? (parseFloat(tabData.debt_value) + parseFloat(latestValue.replace(/[^\d.-]/g, ''))).toString() + 'B' 
-                    : latestValue;
-                } else if (displayName.includes('capitalized lease')) {
-                  tabData.debt_value = tabData.debt_value 
-                    ? (parseFloat(tabData.debt_value) + parseFloat(latestValue.replace(/[^\d.-]/g, ''))).toString() + 'B' 
-                    : latestValue;
-                } else if (displayName.includes('operating income')) tabData.operating_income = latestValue;
-                else if (displayName.includes('ebitda')) tabData.ebitda = latestValue;
-                else if (displayName.includes('free cash flow')) tabData.free_cash_flow = latestValue;
-              }
-            });
+      const financialData = {};
+      isScraping = true;
+      for (let retry = 0; retry < 3; retry++) {
+        try {
+          await page.waitForSelector('[data-id="FinancialTables_table"]', { timeout: 180000 });
+          const rawRows = await page.evaluate(() => {
+            const rows = document.querySelectorAll('[data-id="FinancialTables_table"] .table__Row-sc-1djjifq-2');
+            return Array.from(rows).map(row => ({
+              html: row.outerHTML.slice(0, 500),
+              cells: Array.from(row.querySelectorAll('.table__Cell-sc-1djjifq-5')).map(cell => cell.textContent.trim())
+            }));
           });
+          logger.debug({ ticker, message: 'Raw Overview rows', rawRows });
+
+          const overviewData = {};
+          rawRows.forEach(row => {
+            const label = row.cells[0].toLowerCase();
+            const latestValue = row.cells.length >= 6 ? row.cells[5] : row.cells[row.cells.length - 2]; // 2024 is 5th value, before chart
+            if (label.includes('sales/revenue')) overviewData.revenue_value = latestValue;
+            else if (label.includes('net income')) overviewData.net_income_value = latestValue;
+            else if (label.includes('shares outstanding')) overviewData.shares_outstanding = latestValue;
+            else if (label.includes('market value')) overviewData.market_cap_value = latestValue;
+          });
+          Object.assign(financialData, overviewData);
+          logger.debug({ ticker, message: 'Scraped Overview', data: overviewData });
+          break;
+        } catch (err) {
+          logger.warn({ ticker, message: `Overview scrape failed (retry ${retry + 1}/3)`, error: err.message });
+          if (retry < 2) {
+            await page.reload({ waitUntil: 'networkidle2', timeout: 180000 });
+            await delay(10000, 20000, 'retry');
+          } else throw err;
         }
       }
-      return tabData;
-    };
+      isScraping = false;
 
-    for (const tab of shuffledTabs) {
-      if (Math.random() < 0.1) {
-        logger.debug({ message: `Skipping tab: ${tab.name}` });
-        continue;
-      }
-
-      isScraping = true;
-      try {
-        logger.info({ message: `Switching to tab: ${tab.name}` });
-        await delay(15000, 30000); // Increased delay
-
-        const tabButton = await page.evaluateHandle(tabLabel => {
-          const buttons = Array.from(document.querySelectorAll('button.ModuleSubNav__Tab-sc-n8aem8-2'));
-          return buttons.find(btn => btn.textContent.trim() === tabLabel);
-        }, tab.label);
-
-        if (!tabButton.asElement()) {
-          logger.warn({ message: `Tab button for "${tab.name}" not found` });
+      for (const tab of shuffledTabs) {
+        if (Math.random() < 0.1) {
+          logger.debug({ ticker, message: `Skipping tab: ${tab.name}` });
           continue;
         }
 
-        await tabButton.click();
-        await page.waitForSelector('div.table__Cell-sc-1djjifq-5', { timeout: 30000 });
-        await delay(20000, 40000);
+        isScraping = true;
+        await delay(CONFIG.delays.tabSwitch.min, CONFIG.delays.tabSwitch.max, 'tabSwitch');
+        const tabButton = await page.$(tab.selector);
+        if (!tabButton) {
+          logger.warn({ ticker, message: `Tab ${tab.name} not found, falling back` });
+          const fallbackButton = await page.evaluateHandle(name => {
+            const buttons = Array.from(document.querySelectorAll('.ModuleSubNav__Tab-sc-n8aem8-2'));
+            return buttons.find(btn => btn.textContent.trim().toLowerCase().includes(name.toLowerCase()));
+          }, tab.name);
+          if (fallbackButton.asElement()) await fallbackButton.click();
+          else {
+            logger.error({ ticker, message: `No button for ${tab.name}` });
+            continue;
+          }
+        } else {
+          await tabButton.click();
+        }
 
-        let tabData = {};
-        networkData.forEach(({ data }) => {
-          Object.assign(tabData, processNetworkData(data));
-        });
+        for (let retry = 0; retry < 3; retry++) {
+          try {
+            await page.waitForSelector('[data-id="FinancialTables_table"]', { timeout: 180000 });
+            const rawTabRows = await page.evaluate(() => {
+              const rows = document.querySelectorAll('[data-id="FinancialTables_table"] .table__Row-sc-1djjifq-2');
+              return Array.from(rows).map(row => ({
+                html: row.outerHTML.slice(0, 500),
+                cells: Array.from(row.querySelectorAll('.table__Cell-sc-1djjifq-5')).map(cell => cell.textContent.trim())
+              }));
+            });
+            logger.debug({ ticker, message: `Raw ${tab.name} rows`, rawTabRows });
 
-        if (Object.keys(tabData).length === 0) {
-          for (let attempt = 0; attempt < 3; attempt++) {
-            try {
-              await page.waitForSelector('div.table__Cell-sc-1djjifq-5', { timeout: 30000 });
-              const domData = await page.evaluate(() => {
-                const data = {};
-                const cells = document.querySelectorAll('div.table__Cell-sc-1djjifq-5');
-                let currentLabel = '';
-                const rawTableData = Array.from(cells).map(cell => cell.textContent.trim()).join(' | ');
+            const tabNetworkData = networkData.filter(({ url }) => {
+              return (
+                (tab.name === 'Income Statement' && url.includes('income-statement')) ||
+                (tab.name === 'Balance Sheet' && url.includes('balance-sheet')) ||
+                (tab.name === 'Cash Flow Statement' && url.includes('cash-flow'))
+              );
+            });
+            logger.debug({ ticker, message: `Network data for ${tab.name}`, networkData: tabNetworkData.map(d => ({ url: d.url, data: JSON.stringify(d.data).slice(0, 200) })) });
 
-                for (let i = 0; i < cells.length; i++) {
-                  const cellText = cells[i].textContent.trim();
-                  const isLabelCell = !cells[i].classList.contains('fDHbHR') && !cells[i].classList.contains('fRQdPw');
-
-                  if (isLabelCell) {
-                    currentLabel = cellText.toLowerCase();
-                  } else if (currentLabel) {
-                    const nextCells = Array.from(cells).slice(i, i + 5);
-                    if (nextCells.length >= 5) {
-                      const latestValue = nextCells[4].textContent.trim();
-                      if (currentLabel.includes('sales') || currentLabel.includes('revenue')) data.revenue_value = latestValue;
-                      else if (currentLabel.includes('net income')) data.net_income_value = latestValue;
-                      else if (currentLabel.includes('cash') && currentLabel.includes('short-term')) data.cash_value = latestValue;
-                      else if (currentLabel.includes('total liabilities')) data.liabilities = latestValue;
-                      else if (currentLabel.includes('non-convertible debt')) {
-                        data.debt_value = data.debt_value ? (parseFloat(data.debt_value) + parseFloat(latestValue.replace(/[^\d.-]/g, ''))).toString() + 'B' : latestValue;
-                      } else if (currentLabel.includes('capitalized lease')) {
-                        data.debt_value = data.debt_value ? (parseFloat(data.debt_value) + parseFloat(latestValue.replace(/[^\d.-]/g, ''))).toString() + 'B' : latestValue;
-                      } else if (currentLabel.includes('operating income')) data.operating_income = latestValue;
-                      else if (currentLabel.includes('ebitda')) data.ebitda = latestValue;
-                      else if (currentLabel.includes('free cash flow')) data.free_cash_flow = latestValue;
-                      i += 4;
-                    }
-                    currentLabel = '';
+            const tabData = {};
+            if (tabNetworkData.length > 0) {
+              tabNetworkData.forEach(({ data }) => {
+                if (data.keys) {
+                  const financialBlock = data.keys.find(block => block.$type === 'MarketData.FinancialStatementCard');
+                  if (financialBlock?.sections) {
+                    financialBlock.sections.forEach(section => {
+                      section.items.forEach(item => {
+                        const displayName = item.displayName.toLowerCase();
+                        const latestValue = item.values && item.values.length >= 5 ? item.values[4].formatted : null;
+                        if (latestValue) {
+                          if (displayName.includes('sales/revenue')) tabData.revenue_value = latestValue;
+                          else if (displayName.includes('net income')) tabData.net_income_value = latestValue;
+                          else if (displayName.includes('cash & short term')) tabData.cash_value = latestValue;
+                          else if (displayName.includes('total liabilities')) tabData.liabilities = latestValue;
+                          else if (displayName.includes('debt')) tabData.debt_value = latestValue;
+                          else if (displayName.includes('operating income')) tabData.operating_income = latestValue;
+                          else if (displayName.includes('ebitda')) tabData.ebitda = latestValue;
+                          else if (displayName.includes('free cash flow')) tabData.free_cash_flow = latestValue;
+                        }
+                      });
+                    });
                   }
                 }
-                return { data, rawTableData: rawTableData.substring(0, 200) + '...' };
               });
-              Object.assign(tabData, domData.data);
-              logger.debug({ message: `Scraped ${tab.name} tab via DOM`, data: tabData, rawTableData: domData.rawTableData });
-              break;
-            } catch (err) {
-              logger.warn({ message: `DOM scraping failed for ${tab.name} (attempt ${attempt + 1})`, error: err.message });
-              if (attempt < 2) await delay(10000, 20000); // Increased delay
             }
+
+            if (Object.keys(tabData).length === 0) {
+              rawTabRows.forEach(row => {
+                const label = row.cells[0].toLowerCase();
+                const latestValue = row.cells.length >= 6 ? row.cells[5] : row.cells[row.cells.length - 2]; // 2024 or last before chart
+                if (label.includes('revenue') || label.includes('sales')) tabData.revenue_value = latestValue;
+                else if (label.includes('net income')) tabData.net_income_value = latestValue;
+                else if (label.includes('cash') && label.includes('short-term')) tabData.cash_value = latestValue;
+                else if (label.includes('liabilities')) tabData.liabilities = latestValue;
+                else if (label.includes('debt')) tabData.debt_value = latestValue;
+                else if (label.includes('operating income')) tabData.operating_income = latestValue;
+                else if (label.includes('ebitda')) tabData.ebitda = latestValue;
+                else if (label.includes('free cash flow')) tabData.free_cash_flow = latestValue;
+              });
+              logger.debug({ ticker, message: `Scraped ${tab.name} from DOM`, data: tabData });
+            }
+
+            Object.assign(financialData, tabData);
+            logger.debug({ ticker, message: `Combined ${tab.name} data`, data: tabData });
+            break;
+          } catch (err) {
+            logger.warn({ ticker, message: `Tab ${tab.name} failed (retry ${retry + 1}/3)`, error: err.message });
+            if (retry < 2) {
+              await page.reload({ waitUntil: 'networkidle2', timeout: 180000 });
+              await delay(10000, 20000, 'retry');
+            } else throw err;
           }
         }
-
-        Object.assign(financialData, tabData);
-        logger.debug({ message: `Scraped ${tab.name} tab`, data: tabData });
-      } catch (err) {
-        logger.warn({ message: `Failed to process tab: ${tab.name}`, error: err.message });
-        if (err.message.includes('Target closed') || err.message.includes('detached')) {
-          throw err;
-        }
-      } finally {
         isScraping = false;
+        await delay(CONFIG.delays.click.min, CONFIG.delays.click.max, 'click');
       }
-    }
 
-    logger.debug({ message: 'Extracted combined financial data', url: financialsUrl, data: financialData });
-    return financialData;
-  } catch (err) {
-    logger.error({ message: 'Puppeteer fetch failed', company: company.tsx_code, error: err.message });
-    throw err;
-  } finally {
-    if (behaviorInterval) clearInterval(behaviorInterval);
-    if (browser) {
-      try {
-        await browser.close();
-      } catch (err) {
-        logger.warn({ message: 'Failed to close browser cleanly', error: err.message });
+      logger.info({ ticker, message: 'Financial data extracted', data: financialData });
+      return financialData;
+
+    } catch (err) {
+      attempt++;
+      logger.error({ ticker, message: `Attempt ${attempt}/${CONFIG.maxRetries} failed`, error: err.message, stack: err.stack });
+      if (err.message.includes('CAPTCHA') || err.message.includes('block')) {
+        await saveCookies(page);
+        if (attempt === CONFIG.maxRetries) throw new Error(`Max retries for ${ticker}`);
       }
+      await delay(CONFIG.delays.interCompany.min / 2, CONFIG.delays.interCompany.max / 2, 'retry');
+    } finally {
+      if (behaviorInterval) clearInterval(behaviorInterval);
+      if (browser) await browser.close().catch(err => logger.warn({ ticker, message: 'Browser close failed', error: err.message }));
     }
   }
 }
 
+// Validation and Database Upserts
 function validateFinancialData(data) {
-  const validatedData = { ...data };
+  const validated = { ...data };
   const anomalies = [];
-
-  for (const [key, value] of Object.entries(validatedData)) {
-    if (key.endsWith('_value') && typeof value === 'string') {
-      validatedData[key] = parseFloat(value) || null;
-    }
-    if (key.endsWith('_value') && validatedData[key] < 0) {
-      anomalies.push({ field: key, value: validatedData[key], message: 'Negative value detected' });
+  for (const [key, value] of Object.entries(validated)) {
+    if (typeof value === 'string') {
+      const isNegative = value.includes('(');
+      const num = parseFloat(value.replace(/[$,()BMK]/g, '')) * (isNegative ? -1 : 1) * 
+        (value.includes('B') ? 1e9 : value.includes('M') ? 1e6 : value.includes('K') ? 1e3 : 1);
+      validated[key] = isNaN(num) ? null : num;
+      if (num < 0) anomalies.push({ field: key, value: num, message: 'Negative value' });
+      if (key === 'shares_outstanding' && num < 1e6) validated[key] = null; // Filter small shares
+      if (key === 'revenue_value' && num < 1e5) validated[key] = null; // Revenue >100K
     }
   }
-
-  if (anomalies.length > 0) {
-    logger.warn({ message: 'Data anomalies detected', anomalies });
-  }
-  return validatedData;
+  if (anomalies.length) logger.warn({ message: 'Data anomalies', anomalies });
+  return validated;
 }
 
 function upsertFinancials(db, companyId, financialData) {
   return new Promise((resolve, reject) => {
-    db.serialize(() => {
-      db.get('SELECT financial_id, last_updated, data_source FROM financials WHERE company_id = ? AND last_updated > ? AND data_source = ?', 
-        [companyId, new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(), 'Yahoo Finance'],
-        (err, row) => {
-          if (err) return reject(err);
-
-          const shouldInsert = !row || new Date(financialData.last_updated) > new Date(row.last_updated);
-          if (!shouldInsert) {
-            logger.info({ message: 'Skipping update: Recent Yahoo Finance data exists', companyId, last_updated: row.last_updated });
-            return resolve();
-          }
-
-          const stmt = db.prepare(`
-            INSERT OR REPLACE INTO financials (
-              financial_id, company_id, cash_value, cash_currency, liabilities, liabilities_currency,
-              market_cap_value, market_cap_currency, revenue_value, revenue_currency, net_income_value,
-              net_income_currency, operating_income, ebitda, debt_value, debt_currency, shares_outstanding,
-              free_cash_flow, last_updated, data_source
-            ) VALUES (
-              (SELECT financial_id FROM financials WHERE company_id = ?), ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
-            )
-          `);
-
-          const validatedData = validateFinancialData(financialData);
-          stmt.run([
-            companyId, companyId,
-            validatedData.cash_value || null, 'CAD',
-            validatedData.liabilities || null, 'CAD',
-            validatedData.market_cap_value || null, 'CAD',
-            validatedData.revenue_value || null, 'CAD',
-            validatedData.net_income_value || null, 'CAD',
-            validatedData.operating_income || null, 'CAD',
-            validatedData.ebitda || null, 'CAD',
-            validatedData.debt_value || null, 'CAD',
-            validatedData.shares_outstanding || null, 'CAD',
-            validatedData.free_cash_flow || null, 'CAD',
-            validatedData.last_updated, 'Barron\'s'
-          ], function(err) {
-            if (err) return reject(err);
-            logger.info({ message: 'Upserted financials', financial_id: this.lastID, companyId });
-            resolve();
-          });
-          stmt.finalize();
-        });
+    const stmt = db.prepare(`
+      INSERT OR REPLACE INTO financials (
+        financial_id, company_id, cash_value, cash_currency, liabilities, liabilities_currency,
+        market_cap_value, market_cap_currency, revenue_value, revenue_currency, net_income_value,
+        net_income_currency, operating_income, ebitda, debt_value, debt_currency, shares_outstanding,
+        free_cash_flow, last_updated, data_source
+      ) VALUES (
+        (SELECT financial_id FROM financials WHERE company_id = ?), ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+      )
+    `);
+    const validated = validateFinancialData(financialData);
+    stmt.run([
+      companyId, companyId,
+      validated.cash_value || null, 'CAD', validated.liabilities || null, 'CAD',
+      validated.market_cap_value || null, 'CAD', validated.revenue_value || null, 'CAD',
+      validated.net_income_value || null, 'CAD', validated.operating_income || null, 'CAD',
+      validated.ebitda || null, 'CAD', validated.debt_value || null, 'CAD',
+      validated.shares_outstanding || null, 'CAD', validated.free_cash_flow || null, 'CAD',
+      new Date().toISOString(), 'Barron\'s'
+    ], function(err) {
+      if (err) reject(err);
+      else {
+        logger.info({ companyId, message: 'Financials upserted', financial_id: this.lastID });
+        resolve();
+      }
     });
+    stmt.finalize();
   });
 }
 
 function upsertCapitalStructure(db, companyId, financialData) {
   return new Promise((resolve, reject) => {
-    db.serialize(() => {
-      const stmt = db.prepare(`
-        INSERT OR REPLACE INTO capital_structure (
-          capital_id, company_id, existing_shares, last_updated
-        ) VALUES (
-          (SELECT capital_id FROM capital_structure WHERE company_id = ?), ?, ?, ?
-        )
-      `);
-
-      const validatedData = validateFinancialData(financialData);
-      stmt.run([
-        companyId, companyId,
-        validatedData.shares_outstanding || null,
-        validatedData.last_updated
-      ], function(err) {
-        if (err) return reject(err);
-        logger.info({ message: 'Upserted capital structure', capital_id: this.lastID, companyId });
+    const stmt = db.prepare(`
+      INSERT OR REPLACE INTO capital_structure (
+        capital_id, company_id, existing_shares, last_updated
+      ) VALUES (
+        (SELECT capital_id FROM capital_structure WHERE company_id = ?), ?, ?, ?
+      )
+    `);
+    const validated = validateFinancialData(financialData);
+    stmt.run([companyId, companyId, validated.shares_outstanding || null, new Date().toISOString()], function(err) {
+      if (err) reject(err);
+      else {
+        logger.info({ companyId, message: 'Capital structure upserted', capital_id: this.lastID });
         resolve();
-      });
-      stmt.finalize();
+      }
     });
+    stmt.finalize();
   });
 }
 
-async function processCompany(db, company) {
-  let attempts = 0;
-  const maxAttempts = 3;
-  while (attempts < maxAttempts) {
-    try {
-      const financialData = await fetchWithPuppeteer({
-        tsx_code: company.tsx_code,
-        company_id: company.company_id
-      });
-
-      if (!financialData) {
-        logger.warn({ message: 'No financial data retrieved, skipping company', ticker: company.tsx_code });
-        break;
-      }
-
-      const validatedData = validateFinancialData({
-        ...financialData,
-        company_id: company.company_id,
-        last_updated: new Date().toISOString(),
-        data_source: 'Barron\'s'
-      });
-
-      await upsertFinancials(db, company.company_id, validatedData);
-      await upsertCapitalStructure(db, company.company_id, validatedData);
-
-      const missingFields = ['revenue_value', 'net_income_value', 'cash_value', 'liabilities', 'debt_value', 'operating_income', 'ebitda', 'free_cash_flow', 'market_cap_value', 'shares_outstanding']
-        .filter(key => validatedData[key] === null);
-      if (missingFields.length > 0) {
-        logger.warn({ message: 'Missing fields', ticker: company.tsx_code, fields: missingFields });
-      } else {
-        logger.info({ message: 'All financial data captured', ticker: company.tsx_code });
-      }
-      break;
-    } catch (err) {
-      attempts++;
-      logger.error({ message: `Company processing failed (attempt ${attempts}/${maxAttempts})`, ticker: company.tsx_code, error: err.message });
-      if (attempts < maxAttempts) {
-        await delay(30000, 60000);
-      } else {
-        logger.error({ message: `Max attempts reached for ${company.tsx_code}, skipping` });
-      }
-    }
-  }
-}
-
 async function updateFinancials() {
-  const db = new sqlite3.Database('C:\\Users\\akiil\\gold-silver-analysis-v2\\mining_companies.db');
+  const db = new sqlite3.Database(CONFIG.dbPath, sqlite3.OPEN_READWRITE, err => {
+    if (err) logger.error({ message: 'Database connection failed', error: err.message });
+  });
+
   try {
     const companies = await new Promise((resolve, reject) => {
-      db.all('SELECT company_id, tsx_code FROM companies', [], (err, rows) => {
-        if (err) return reject(err);
-        resolve(rows);
+      db.all('SELECT company_id, tsx_code AS ticker FROM companies', [], (err, rows) => {
+        if (err) reject(err);
+        else resolve(rows);
       });
     });
+    logger.info({ message: 'Fetched companies', count: companies.length });
+
+    console.log('Ensure VPN is active. Using credentials from Barrons_pwdjson.json and cookies from cookies.json.');
+    await new Promise(resolve => setTimeout(resolve, 10000));
 
     for (const company of companies) {
-      await processCompany(db, company);
-      await delay(60000, 120000); // Increased inter-company delay to avoid rate limits
+      try {
+        const financialData = await fetchWithPuppeteer(company);
+        if (!financialData || Object.keys(financialData).length === 0) {
+          logger.warn({ ticker: company.ticker, message: 'No financial data retrieved' });
+          continue;
+        }
+
+        const validatedData = validateFinancialData({ ...financialData, company_id: company.company_id });
+        await upsertFinancials(db, company.company_id, validatedData);
+        await upsertCapitalStructure(db, company.company_id, validatedData);
+
+        const missingFields = Object.entries(validatedData)
+          .filter(([k, v]) => v === null && k !== 'company_id')
+          .map(([k]) => k);
+        if (missingFields.length) logger.warn({ ticker: company.ticker, message: 'Missing fields', fields: missingFields });
+        else logger.info({ ticker: company.ticker, message: 'All fields captured' });
+
+        await delay(CONFIG.delays.interCompany.min, CONFIG.delays.interCompany.max, 'interCompany');
+      } catch (err) {
+        logger.error({ ticker: company.ticker, message: 'Company processing failed', error: err.message });
+      }
     }
   } catch (err) {
-    logger.error({ message: 'Script execution failed', error: err.message });
+    logger.error({ message: 'Execution failed', error: err.message });
   } finally {
-    db.close();
-    logger.info({ message: 'Execution completed successfully' });
+    db.close(err => err && logger.error({ message: 'Database close failed', error: err.message }));
+    logger.info({ message: 'Execution completed' });
   }
 }
 
-updateFinancials();
+updateFinancials().catch(err => logger.error({ message: 'Top-level error', error: err.message }));

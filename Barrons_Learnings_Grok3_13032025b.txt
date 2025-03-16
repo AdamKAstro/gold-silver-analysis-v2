@@ -1,0 +1,62 @@
+Core Principles for Success
+Prioritize Robust DOM Handling Over Rigid Assumptions  
+Barron’s tables (e.g., Table 0, Table 121) have headers and data disconnected across sections. Avoid assuming headers are directly above data rows. Instead, collect all headers and rows globally, then map them using contextual heuristics (e.g., value magnitude, keywords).
+
+Tabs on the financial page load dynamically and require sign-in. Use authenticated sessions and wait for content to stabilize.
+
+Mimic Human Behavior to Evade Anti-Bot Detection  
+Barron’s uses DataDome with CAPTCHAs, browser fingerprinting, and behavioral analysis. Simulate diverse, continuous human interactions (e.g., curved mouse movements, scrolling, random delays) to avoid blocks, especially after manual CAPTCHA solving.
+
+Validate and Sanitize Data Rigorously  
+Values like (7.29M) (negative) or 69.42M (shares) need proper parsing and validation against expected ranges. Cross-check with external sources (e.g., Yahoo Finance) when possible to ensure accuracy.
+
+Log Everything for Debugging  
+Detailed, untruncated logs (e.g., table indices, row numbers, raw values) are critical for diagnosing mismatches and refining heuristics.
+
+Key Lessons and Actions
+1. DOM and Table Handling (Top Priority)
+Insight: Barron’s financial data is spread across multiple tables with inconsistent numbering (e.g., Table 0, 121, 100 for IRV.V). Headers in one table (e.g., "Basic Shares Outstanding") map to data in another (e.g., Row 54, Table 121: 69.42M), and tabs require sign-in for full access.
+
+Action:
+Global Collection: Use broad selectors (e.g., table, [data-id="FinancialTables_table"]) to scrape all tables on the page, collecting headers and data rows separately in a two-pass approach.
+
+Tab Navigation: After sign-in, shuffle tab order (e.g., Overview, Financials, Valuation), wait for dynamic content (e.g., page.waitForSelector('[data-id="FinancialTables_table"]', { timeout: 40000 })), and scrape each tab.
+
+Filter Noise: Exclude rows with percentages (e.g., "%"), empty cells, or non-numeric data (e.g., "N/A") during collection.
+
+Fallback: If selectors fail, scrape raw text and parse tables heuristically (e.g., regex for "Revenue", "Net Income").
+
+2. Authentication and Session Management
+Insight: Financial tabs require a signed-in session, and cookies must persist across requests to avoid re-authentication or CAPTCHAs.
+
+Action:
+Sign-In: Prompt the user for Barron’s credentials once, then save cookies (e.g., page.cookies()) to a file. Reuse them with page.setCookie() for subsequent runs.
+
+Session Continuity: Maintain session state across retries and browser restarts to minimize CAPTCHA triggers.
+
+3. Data Mapping and Heuristics
+Insight: Misassignments (e.g., 167.75K as both cash and debt for IRV.V) stem from naive row-to-header mapping. Values need context-aware rules.
+
+Action:
+Header-Specific Rules:
+shares_outstanding: Prioritize financial tables (e.g., >10M, like 69.42M) over summary tables (e.g., 31.76M).
+
+revenue_value: Look for millions (e.g., >1M).
+
+net_income_value: Accept negatives (e.g., "(7.29M)") or small positives (<10M).
+
+cash_value: Positive, typically <10M (e.g., 167.75K).
+
+debt_value: Often negative or <10M (e.g., -2.02M).
+
+Two-Pass Mapping: First, build a headerRowMap of all headers (e.g., "Net Income", "Operating Income"). Second, assign rows based on magnitude and format checks.
+
+Deduplication: Track the first occurrence of each header with its data to avoid duplicates.
+
+4. Sanitization and Validation
+Insight: Incorrect parsing (e.g., (7.29M) as 7.29M instead of -7.29M) and unvalidated data (e.g., debt_value: 167750 vs. -2020000) break database integrity.
+
+Action:
+Sanitize Function: Detect parentheses for negatives, handle multipliers (B=1e9, M=1e6, K=1e3), and return null for non-numeric values.
+javascript
+

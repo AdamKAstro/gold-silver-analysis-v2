@@ -20,7 +20,7 @@ A robust system for analyzing CANADIAN  gold and silver mining companies.
 
 2. **financials**
    - Financial metrics (cash, liabilities, market cap, etc.) with currency fields.
-   - See `setup-db.js` for full details.
+   - See `inspect-db.js` for full details.
 
 3. **stock_prices**
    - Historical and recent share prices with 1-year % change.
@@ -49,7 +49,9 @@ A robust system for analyzing CANADIAN  gold and silver mining companies.
 ## Setup
 1. Run `npm install` to install dependencies.
 2. Run `node setup-db.js` to create the database.
-3. Run `node import-companies.js` to import `public/data/companies.csv`.
+3. Run `node import-companies.js` to import `public/data/companies.csv`.  //old
+3. Run `node scrape-yahoo-finance.js --force`   to get financials
+
 
 ## Future Population Scripts
 - Stock prices: Use `yahoo-finance2` (see `update-stock-prices.js`).

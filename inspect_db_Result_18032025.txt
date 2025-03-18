@@ -1,0 +1,665 @@
+$ node inspect-db.js
+Starting database inspection...
+
+Database file found: C:\Users\akiil\gold-silver-analysis-v2\mining_companies.db
+Connected to the database.
+
+Found 11 table(s) in the database:
+
+=== Inspecting Table: companies ===
+Columns:
+  - company_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - tsx_code: TEXT (Primary Key: No, Nullable: No)
+  - company_name: TEXT (Primary Key: No, Nullable: No)
+  - name_alt: TEXT (Primary Key: No, Nullable: Yes)
+  - status: TEXT (Primary Key: No, Nullable: No)
+  - headquarters: TEXT (Primary Key: No, Nullable: Yes)
+  - minerals_of_interest: TEXT (Primary Key: No, Nullable: Yes)
+  - percent_gold: REAL (Primary Key: No, Nullable: Yes)
+  - percent_silver: REAL (Primary Key: No, Nullable: Yes)
+  - description: TEXT (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 500
+
+Sample Data (First 5 Rows):
+  Row 1: {
+  "company_id": 1,
+  "tsx_code": "AAB.TO",
+  "company_name": "ABERDEEN INTERNATIONAL",
+  "name_alt": null,
+  "status": "explorer",
+  "headquarters": "198 Davenport Road, Toronto, ON, Canada",
+  "minerals_of_interest": null,
+  "percent_gold": null,
+  "percent_silver": null,
+  "description": "Aberdeen International Inc., a resource investment and merchant banking company, focuses on small capitalization companies in the metals and mining sector and renewal energy sectors.
+ It focuses on green energy, agriculture, renewable, natural resource, and natural resource related industries. The company intends to acquire equity participation in pre-IPO and early-stage public re
+source companies with undeveloped or undervalued resources and assets; companies in need of managerial, technical, and financial resources; companies undervalued in foreign capital markets; and compan
+ies operating in jurisdictions with low to moderate local political risk. The company was formerly known as International Catalyst Ventures Inc. and changed its name to Aberdeen International Inc. in
+November 2001. Aberdeen International Inc. is headquartered in Toronto, Canada.",
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 2: {
+  "company_id": 2,
+  "tsx_code": "IRV.CN",
+  "company_name": "IRVING RESOURCES",
+  "name_alt": null,
+  "status": "explorer",
+  "headquarters": "999 Canada Place, Vancouver, BC, Canada",
+  "minerals_of_interest": null,
+  "percent_gold": null,
+  "percent_silver": null,
+  "description": "Irving Resources Inc., a junior exploration stage company, acquires and explores mineral properties in Canada and Japan. It primarily explores for gold and silver deposits. The compa
+ny was incorporated in 2015 and is headquartered in Vancouver, Canada.",
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 3: {
+  "company_id": 3,
+  "tsx_code": "ITH.TO",
+  "company_name": "INTL. TOWER HILL MINES",
+  "name_alt": "INTERNATIONAL TOWER HILL MINES",
+  "status": "explorer",
+  "headquarters": "200 Granville Street, Vancouver, BC, Canada",
+  "minerals_of_interest": null,
+  "percent_gold": null,
+  "percent_silver": null,
+  "description": "International Tower Hill Mines Ltd. engages in the acquisition, exploration, and development of mineral properties. It holds rights to acquire interests in the Livengood gold project
+ covering an area of approximately 19,546 hectares located to the northwest of Fairbanks, Alaska. The company was formerly known as Tower Hill Mines Ltd. and changed its name to International Tower Hi
+ll Mines Ltd. in March 1991. International Tower Hill Mines Ltd. was incorporated in 1978 and is headquartered in Vancouver, Canada.",
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 4: {
+  "company_id": 4,
+  "tsx_code": "ITR.V",
+  "company_name": "INTEGRA RESOURCES",
+  "name_alt": null,
+  "status": "explorer",
+  "headquarters": "400 Burrard Street, Vancouver, BC, Canada",
+  "minerals_of_interest": null,
+  "percent_gold": null,
+  "percent_silver": null,
+  "description": "Integra Resources Corp., a precious metals exploration and development company, engages in the acquisition, exploration, and development of mineral properties in the Great Basin of t
+he Western United States. The company explores for gold and silver deposits. It primarily focuses on developing DeLamar Project located in southwestern Idaho; and the Wildcat and Mountain View Project
+s located in western Nevada. It also holds a portfolio of early-stage exploration projects in Idaho, Nevada, and Arizona. The company was formerly known as Mag Copper Limited and changed its name to I
+ntegra Resources Corp. in August 2017. Integra Resources Corp. was incorporated in 1997 and is headquartered in Vancouver, Canada.",
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 5: {
+  "company_id": 5,
+  "tsx_code": "AAG.V",
+  "company_name": "AFTERMATH SILVER",
+  "name_alt": null,
+  "status": "explorer",
+  "headquarters": "409 Granville Street, Vancouver, BC, Canada",
+  "minerals_of_interest": null,
+  "percent_gold": null,
+  "percent_silver": null,
+  "description": "Aftermath Silver Ltd., an exploration stage company, acquires, explores, and develops mineral properties in Chile and Peru. The company explores for silver, gold, copper, and mangane
+se deposits. It holds 99.9% interest in the Challacollo property which cover an area of approximately 4,867 hectares located in Northern Chile; Cachinal project which covers an area of approximately 1
+9,000 hectares located in the Northern Chile; and 100% interest in the Berenguela property covering an area of 6,594 hectares located in northeast of the town of Santa Lucia, Peru. The company was for
+merly known as Full Metal Zinc Ltd. and changed its name to Aftermath Silver Ltd. in April 2014. The company was incorporated in 2011 and is headquartered in Vancouver, Canada.",
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+
+=== Inspecting Table: sqlite_sequence ===
+Columns:
+  - name:  (Primary Key: No, Nullable: Yes)
+  - seq:  (Primary Key: No, Nullable: Yes)
+
+Total Rows: 5
+
+Sample Data (First 5 Rows):
+  Row 1: {
+  "name": "companies",
+  "seq": 501
+}
+  Row 2: {
+  "name": "financials",
+  "seq": 6367
+}
+  Row 3: {
+  "name": "stock_prices",
+  "seq": 17915
+}
+  Row 4: {
+  "name": "company_urls",
+  "seq": 4787
+}
+  Row 5: {
+  "name": "capital_structure",
+  "seq": 3727
+}
+
+=== Inspecting Table: financials ===
+Columns:
+  - financial_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - cash_value: REAL (Primary Key: No, Nullable: Yes)
+  - cash_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - cash_date: DATETIME (Primary Key: No, Nullable: Yes)
+  - investments_json: TEXT (Primary Key: No, Nullable: Yes)
+  - hedgebook: TEXT (Primary Key: No, Nullable: Yes)
+  - liabilities: REAL (Primary Key: No, Nullable: Yes)
+  - liabilities_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - other_financial_assets: REAL (Primary Key: No, Nullable: Yes)
+  - other_financial_assets_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - market_cap_value: REAL (Primary Key: No, Nullable: Yes)
+  - market_cap_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - enterprise_value_value: REAL (Primary Key: No, Nullable: Yes)
+  - enterprise_value_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - net_financial_assets: REAL (Primary Key: No, Nullable: Yes)
+  - net_financial_assets_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - trailing_pe: REAL (Primary Key: No, Nullable: Yes)
+  - forward_pe: REAL (Primary Key: No, Nullable: Yes)
+  - peg_ratio: REAL (Primary Key: No, Nullable: Yes)
+  - price_to_sales: REAL (Primary Key: No, Nullable: Yes)
+  - price_to_book: REAL (Primary Key: No, Nullable: Yes)
+  - enterprise_to_revenue: REAL (Primary Key: No, Nullable: Yes)
+  - enterprise_to_ebitda: REAL (Primary Key: No, Nullable: Yes)
+  - revenue_value: REAL (Primary Key: No, Nullable: Yes)
+  - revenue_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - cost_of_revenue: REAL (Primary Key: No, Nullable: Yes)
+  - gross_profit: REAL (Primary Key: No, Nullable: Yes)
+  - operating_expense: REAL (Primary Key: No, Nullable: Yes)
+  - operating_income: REAL (Primary Key: No, Nullable: Yes)
+  - net_income_value: REAL (Primary Key: No, Nullable: Yes)
+  - net_income_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - ebitda: REAL (Primary Key: No, Nullable: Yes)
+  - debt_value: REAL (Primary Key: No, Nullable: Yes)
+  - debt_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+  - data_source: TEXT (Primary Key: No, Nullable: Yes)
+  - shares_outstanding: REAL (Primary Key: No, Nullable: Yes)
+  - free_cash_flow: REAL (Primary Key: No, Nullable: Yes)
+
+Total Rows: 501
+
+Sample Data (First 5 Rows):
+  Row 1: {
+  "financial_id": 6,
+  "company_id": 9,
+  "cash_value": 536478,
+  "cash_currency": "CAD",
+  "cash_date": null,
+  "investments_json": null,
+  "hedgebook": null,
+  "liabilities": 6857541,
+  "liabilities_currency": "CAD",
+  "other_financial_assets": null,
+  "other_financial_assets_currency": "CAD",
+  "market_cap_value": 22304450,
+  "market_cap_currency": "CAD",
+  "enterprise_value_value": 28625586,
+  "enterprise_value_currency": "CAD",
+  "net_financial_assets": -6321063,
+  "net_financial_assets_currency": "CAD",
+  "trailing_pe": -2.4999999999999996,
+  "forward_pe": null,
+  "peg_ratio": null,
+  "price_to_sales": null,
+  "price_to_book": null,
+  "enterprise_to_revenue": null,
+  "enterprise_to_ebitda": -4.416,
+  "revenue_value": null,
+  "revenue_currency": "CAD",
+  "cost_of_revenue": 0,
+  "gross_profit": 0,
+  "operating_expense": 0,
+  "operating_income": null,
+  "net_income_value": -2465880,
+  "net_income_currency": "CAD",
+  "ebitda": -6482467,
+  "debt_value": 6857541,
+  "debt_currency": "CAD",
+  "last_updated": "2025-03-18T04:48:26.313Z",
+  "data_source": "Yahoo Finance",
+  "shares_outstanding": 127454000,
+  "free_cash_flow": -5707527
+}
+  Row 2: {
+  "financial_id": 7,
+  "company_id": 7,
+  "cash_value": 95368000,
+  "cash_currency": "USD",
+  "cash_date": null,
+  "investments_json": null,
+  "hedgebook": null,
+  "liabilities": 129323000,
+  "liabilities_currency": "USD",
+  "other_financial_assets": null,
+  "other_financial_assets_currency": "USD",
+  "market_cap_value": 1683906560,
+  "market_cap_currency": "USD",
+  "enterprise_value_value": 1792819968,
+  "enterprise_value_currency": "USD",
+  "net_financial_assets": -33955000,
+  "net_financial_assets_currency": "USD",
+  "trailing_pe": -11.377777777777778,
+  "forward_pe": 6.095238,
+  "peg_ratio": 0.03968992248062016,
+  "price_to_sales": 2.2779813,
+  "price_to_book": 6.1985474,
+  "enterprise_to_revenue": 2.425,
+  "enterprise_to_ebitda": 11.171,
+  "revenue_value": 739209984,
+  "revenue_currency": "USD",
+  "cost_of_revenue": 0,
+  "gross_profit": 0,
+  "operating_expense": 0,
+  "operating_income": null,
+  "net_income_value": -208482000,
+  "net_income_currency": "USD",
+  "ebitda": 160492000,
+  "debt_value": 129323000,
+  "debt_currency": "USD",
+  "last_updated": "2025-03-18T04:48:26.313Z",
+  "data_source": "Yahoo Finance",
+  "shares_outstanding": 328888000,
+  "free_cash_flow": 45523376
+}
+  Row 3: {
+  "financial_id": 8,
+  "company_id": 8,
+  "cash_value": 2990232,
+  "cash_currency": "CAD",
+  "cash_date": null,
+  "investments_json": null,
+  "hedgebook": null,
+  "liabilities": 985403,
+  "liabilities_currency": "CAD",
+  "other_financial_assets": null,
+  "other_financial_assets_currency": "CAD",
+  "market_cap_value": 44352108,
+  "market_cap_currency": "CAD",
+  "enterprise_value_value": 42347288,
+  "enterprise_value_currency": "CAD",
+  "net_financial_assets": 2004829,
+  "net_financial_assets_currency": "CAD",
+  "trailing_pe": -2.75,
+  "forward_pe": null,
+  "peg_ratio": null,
+  "price_to_sales": 4382.619,
+  "price_to_book": null,
+  "enterprise_to_revenue": 4184.514,
+  "enterprise_to_ebitda": -4.215,
+  "revenue_value": 10120,
+  "revenue_currency": "CAD",
+  "cost_of_revenue": 0,
+  "gross_profit": 0,
+  "operating_expense": 0,
+  "operating_income": null,
+  "net_income_value": -5337040,
+  "net_income_currency": "CAD",
+  "ebitda": -10047972,
+  "debt_value": 985403,
+  "debt_currency": "CAD",
+  "last_updated": "2025-03-18T04:48:26.313Z",
+  "data_source": "Yahoo Finance",
+  "shares_outstanding": 806401984,
+  "free_cash_flow": -8650200
+}
+  Row 4: {
+  "financial_id": 10,
+  "company_id": 21,
+  "cash_value": 8301783,
+  "cash_currency": "CAD",
+  "cash_date": null,
+  "investments_json": null,
+  "hedgebook": null,
+  "liabilities": null,
+  "liabilities_currency": "CAD",
+  "other_financial_assets": null,
+  "other_financial_assets_currency": "CAD",
+  "market_cap_value": 41590720,
+  "market_cap_currency": "CAD",
+  "enterprise_value_value": 24808918,
+  "enterprise_value_currency": "CAD",
+  "net_financial_assets": null,
+  "net_financial_assets_currency": "CAD",
+  "trailing_pe": -189.40946621064663,
+  "forward_pe": null,
+  "peg_ratio": null,
+  "price_to_sales": null,
+  "price_to_book": 2.1917808,
+  "enterprise_to_revenue": null,
+  "enterprise_to_ebitda": -13.271,
+  "revenue_value": null,
+  "revenue_currency": "CAD",
+  "cost_of_revenue": null,
+  "gross_profit": null,
+  "operating_expense": null,
+  "operating_income": null,
+  "net_income_value": -219581,
+  "net_income_currency": "CAD",
+  "ebitda": -1869355,
+  "debt_value": null,
+  "debt_currency": "CAD",
+  "last_updated": "2025-03-18T04:48:26.313Z",
+  "data_source": "Yahoo Finance",
+  "shares_outstanding": 259942000,
+  "free_cash_flow": 5995166
+}
+  Row 5: {
+  "financial_id": 11,
+  "company_id": 12,
+  "cash_value": 346759,
+  "cash_currency": "CAD",
+  "cash_date": null,
+  "investments_json": null,
+  "hedgebook": null,
+  "liabilities": 272524,
+  "liabilities_currency": "CAD",
+  "other_financial_assets": null,
+  "other_financial_assets_currency": "CAD",
+  "market_cap_value": 2890044,
+  "market_cap_currency": "CAD",
+  "enterprise_value_value": 2375683,
+  "enterprise_value_currency": "CAD",
+  "net_financial_assets": 74235,
+  "net_financial_assets_currency": "CAD",
+  "trailing_pe": -1.5,
+  "forward_pe": null,
+  "peg_ratio": null,
+  "price_to_sales": null,
+  "price_to_book": 0.28753996,
+  "enterprise_to_revenue": null,
+  "enterprise_to_ebitda": -3.238,
+  "revenue_value": null,
+  "revenue_currency": "CAD",
+  "cost_of_revenue": null,
+  "gross_profit": -189407,
+  "operating_expense": null,
+  "operating_income": null,
+  "net_income_value": -1522743,
+  "net_income_currency": "CAD",
+  "ebitda": -733630,
+  "debt_value": 272524,
+  "debt_currency": "CAD",
+  "last_updated": "2025-03-18T04:48:26.313Z",
+  "data_source": "Yahoo Finance",
+  "shares_outstanding": 32111600,
+  "free_cash_flow": 65918
+}
+
+=== Inspecting Table: capital_structure ===
+Columns:
+  - capital_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - existing_shares: INTEGER (Primary Key: No, Nullable: Yes)
+  - fully_diluted_shares: INTEGER (Primary Key: No, Nullable: Yes)
+  - in_the_money_options: INTEGER (Primary Key: No, Nullable: Yes)
+  - options_revenue: REAL (Primary Key: No, Nullable: Yes)
+  - options_revenue_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 483
+
+Sample Data (First 5 Rows):
+  Row 1: {
+  "capital_id": 3,
+  "company_id": 9,
+  "existing_shares": 127454000,
+  "fully_diluted_shares": null,
+  "in_the_money_options": null,
+  "options_revenue": null,
+  "options_revenue_currency": null,
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 2: {
+  "capital_id": 4,
+  "company_id": 7,
+  "existing_shares": 328888000,
+  "fully_diluted_shares": null,
+  "in_the_money_options": null,
+  "options_revenue": null,
+  "options_revenue_currency": null,
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 3: {
+  "capital_id": 5,
+  "company_id": 8,
+  "existing_shares": 806401984,
+  "fully_diluted_shares": null,
+  "in_the_money_options": null,
+  "options_revenue": null,
+  "options_revenue_currency": null,
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 4: {
+  "capital_id": 7,
+  "company_id": 21,
+  "existing_shares": 259942000,
+  "fully_diluted_shares": null,
+  "in_the_money_options": null,
+  "options_revenue": null,
+  "options_revenue_currency": null,
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+  Row 5: {
+  "capital_id": 8,
+  "company_id": 12,
+  "existing_shares": 32111600,
+  "fully_diluted_shares": null,
+  "in_the_money_options": null,
+  "options_revenue": null,
+  "options_revenue_currency": null,
+  "last_updated": "2025-03-18T04:48:26.313Z"
+}
+
+=== Inspecting Table: mineral_estimates ===
+Columns:
+  - estimate_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - reserves_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - measured_indicated_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - resources_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - potential_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - mineable_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - reserves_non_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - measured_indicated_non_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - resources_non_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - potential_non_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - mineable_non_precious_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - reserves_total_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - measured_indicated_total_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - resources_total_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - potential_total_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - mineable_total_aueq_moz: REAL (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 0
+
+Sample Data (First 5 Rows):
+  No data found in this table.
+
+=== Inspecting Table: production ===
+Columns:
+  - production_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - current_production_precious_aueq_koz: REAL (Primary Key: No, Nullable: Yes)
+  - current_production_non_precious_aueq_koz: REAL (Primary Key: No, Nullable: Yes)
+  - current_production_total_aueq_koz: REAL (Primary Key: No, Nullable: Yes)
+  - future_production_total_aueq_koz: REAL (Primary Key: No, Nullable: Yes)
+  - reserve_life_years: REAL (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 0
+
+Sample Data (First 5 Rows):
+  No data found in this table.
+
+=== Inspecting Table: costs ===
+Columns:
+  - cost_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - construction_costs: REAL (Primary Key: No, Nullable: Yes)
+  - construction_costs_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - aisc_last_quarter: REAL (Primary Key: No, Nullable: Yes)
+  - aisc_last_quarter_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - aisc_last_year: REAL (Primary Key: No, Nullable: Yes)
+  - aisc_last_year_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - aisc_future: REAL (Primary Key: No, Nullable: Yes)
+  - aisc_future_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - aic_last_quarter: REAL (Primary Key: No, Nullable: Yes)
+  - aic_last_quarter_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - aic_last_year: REAL (Primary Key: No, Nullable: Yes)
+  - aic_last_year_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - tco_current: REAL (Primary Key: No, Nullable: Yes)
+  - tco_current_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - tco_future: REAL (Primary Key: No, Nullable: Yes)
+  - tco_future_currency: TEXT (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 0
+
+Sample Data (First 5 Rows):
+  No data found in this table.
+
+=== Inspecting Table: valuation_metrics ===
+Columns:
+  - valuation_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - mkt_cap_per_reserve_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_mi_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_resource_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_mineable_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_reserve_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_mi_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_resource_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_mineable_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_reserve_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_mi_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_resource_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_mineable_oz_precious: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_reserve_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_mi_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_resource_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_mineable_oz_all: REAL (Primary Key: No, Nullable: Yes)
+  - mkt_cap_per_production_oz: REAL (Primary Key: No, Nullable: Yes)
+  - ev_per_production_oz: REAL (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 0
+
+Sample Data (First 5 Rows):
+  No data found in this table.
+
+=== Inspecting Table: company_urls ===
+Columns:
+  - url_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - url_type: TEXT (Primary Key: No, Nullable: No)
+  - url: TEXT (Primary Key: No, Nullable: No)
+  - last_validated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 4787
+
+Sample Data (First 5 Rows):
+  Row 1: {
+  "url_id": 1,
+  "company_id": 1,
+  "url_type": "website",
+  "url": "https://www.aberdeen.green",
+  "last_validated": "2025-03-12T05:02:42.942Z"
+}
+  Row 2: {
+  "url_id": 2,
+  "company_id": 5,
+  "url_type": "website",
+  "url": "https://aftermathsilver.com",
+  "last_validated": "2025-03-12T05:02:43.300Z"
+}
+  Row 3: {
+  "url_id": 3,
+  "company_id": 9,
+  "url_type": "website",
+  "url": "https://www.atonresources.com",
+  "last_validated": "2025-03-12T05:02:43.652Z"
+}
+  Row 4: {
+  "url_id": 4,
+  "company_id": 7,
+  "url_type": "website",
+  "url": "https://alliedgold.com",
+  "last_validated": "2025-03-12T05:02:44.002Z"
+}
+  Row 5: {
+  "url_id": 5,
+  "company_id": 8,
+  "url_type": "website",
+  "url": "https://www.abcourt.ca/en/",
+  "last_validated": "2025-03-12T05:02:44.352Z"
+}
+
+=== Inspecting Table: exchange_rates ===
+Columns:
+  - rate_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - from_currency: TEXT (Primary Key: No, Nullable: No)
+  - to_currency: TEXT (Primary Key: No, Nullable: No)
+  - rate: REAL (Primary Key: No, Nullable: No)
+  - fetch_date: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 0
+
+Sample Data (First 5 Rows):
+  No data found in this table.
+
+=== Inspecting Table: stock_prices ===
+Columns:
+  - price_id: INTEGER (Primary Key: Yes, Nullable: Yes)
+  - company_id: INTEGER (Primary Key: No, Nullable: No)
+  - price_date: DATETIME (Primary Key: No, Nullable: No)
+  - price_value: REAL (Primary Key: No, Nullable: No)
+  - price_currency: TEXT (Primary Key: No, Nullable: No)
+  - change_1yr_percent: REAL (Primary Key: No, Nullable: Yes)
+  - last_updated: DATETIME (Primary Key: No, Nullable: Yes)
+
+Total Rows: 11135
+
+Sample Data (First 5 Rows):
+  Row 1: {
+  "price_id": 1,
+  "company_id": 1,
+  "price_date": "2025-02-10",
+  "price_value": 0.03999999910593033,
+  "price_currency": "CAD",
+  "change_1yr_percent": null,
+  "last_updated": "2025-03-12T03:13:21.494Z"
+}
+  Row 2: {
+  "price_id": 2,
+  "company_id": 1,
+  "price_date": "2025-02-11",
+  "price_value": 0.03999999910593033,
+  "price_currency": "CAD",
+  "change_1yr_percent": null,
+  "last_updated": "2025-03-12T03:13:21.494Z"
+}
+  Row 3: {
+  "price_id": 3,
+  "company_id": 1,
+  "price_date": "2025-02-12",
+  "price_value": 0.029999999329447746,
+  "price_currency": "CAD",
+  "change_1yr_percent": null,
+  "last_updated": "2025-03-12T03:13:21.494Z"
+}
+  Row 4: {
+  "price_id": 4,
+  "company_id": 1,
+  "price_date": "2025-02-13",
+  "price_value": 0.029999999329447746,
+  "price_currency": "CAD",
+  "change_1yr_percent": null,
+  "last_updated": "2025-03-12T03:13:21.494Z"
+}
+  Row 5: {
+  "price_id": 5,
+  "company_id": 1,
+  "price_date": "2025-02-14",
+  "price_value": 0.03999999910593033,
+  "price_currency": "CAD",
+  "change_1yr_percent": null,
+  "last_updated": "2025-03-12T03:13:21.494Z"
+}

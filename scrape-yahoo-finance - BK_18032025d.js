@@ -77,7 +77,7 @@ async function fetchYahooFinanceData(ticker, attempt = 1) {
             'financialData',
             'balanceSheetHistory',
             'incomeStatementHistory',
-            'incomeStatementHistoryQuarterly',
+            'incomeStatementHistoryQuarterly', // Added for quarterly data
             'defaultKeyStatistics'
         ];
         const result = await yahooFinance.quoteSummary(ticker, { 
@@ -89,28 +89,9 @@ async function fetchYahooFinanceData(ticker, attempt = 1) {
             ticker, 
             responseSize: JSON.stringify(result).length, 
             modules: Object.keys(result).filter(k => result[k] && Object.keys(result[k]).length > 0),
-            financialDataRaw: {
-                totalRevenue: result.financialData?.totalRevenue,
-                grossProfits: result.financialData?.grossProfits,
-                operatingIncome: result.financialData?.operatingIncome,
-                operatingCashflow: result.financialData?.operatingCashflow
-            },
-            incomeStmtRaw: result.incomeStatementHistory?.incomeStatementHistory[0] ? {
-                endDate: result.incomeStatementHistory.incomeStatementHistory[0].endDate,
-                totalRevenue: result.incomeStatementHistory.incomeStatementHistory[0].totalRevenue,
-                costOfRevenue: result.incomeStatementHistory.incomeStatementHistory[0].costOfRevenue,
-                grossProfit: result.incomeStatementHistory.incomeStatementHistory[0].grossProfit,
-                totalOperatingExpenses: result.incomeStatementHistory.incomeStatementHistory[0].totalOperatingExpenses,
-                operatingIncome: result.incomeStatementHistory.incomeStatementHistory[0].operatingIncome
-            } : null,
-            quarterlyStmtRaw: result.incomeStatementHistoryQuarterly?.incomeStatementHistory.map(stmt => ({
-                endDate: stmt.endDate,
-                totalRevenue: stmt.totalRevenue,
-                costOfRevenue: stmt.costOfRevenue,
-                grossProfit: stmt.grossProfit,
-                totalOperatingExpenses: stmt.totalOperatingExpenses,
-                operatingIncome: stmt.operatingIncome
-            }))
+            financialDataRaw: result.financialData,
+            incomeStmtRaw: result.incomeStatementHistory?.incomeStatementHistory[0],
+            quarterlyStmtRaw: result.incomeStatementHistoryQuarterly?.incomeStatementHistory[0]
         });
 
         if (!result.price?.symbol) {
@@ -132,33 +113,8 @@ async function fetchYahooFinanceData(ticker, attempt = 1) {
 
         // Financials table
         const incomeStmt = result.incomeStatementHistory?.incomeStatementHistory[0] || {};
-        const quarterlyStmts = result.incomeStatementHistoryQuarterly?.incomeStatementHistory || [];
+        const quarterlyStmt = result.incomeStatementHistoryQuarterly?.incomeStatementHistory[0] || {};
         const balanceSheet = result.balanceSheetHistory?.balanceSheetStatements[0] || {};
-
-        // Aggregate TTM data from quarterly statements (last 4 quarters)
-        let ttmRevenue = 0, ttmCostOfRevenue = 0, ttmGrossProfit = 0, ttmOperatingExpenses = 0, ttmOperatingIncome = 0;
-        let ttmDataAvailable = false;
-        if (quarterlyStmts.length >= 4) {
-            const lastFourQuarters = quarterlyStmts.slice(0, 4);
-            ttmDataAvailable = true;
-            lastFourQuarters.forEach(stmt => {
-                ttmRevenue += stmt.totalRevenue || 0;
-                ttmCostOfRevenue += stmt.costOfRevenue || 0;
-                ttmGrossProfit += stmt.grossProfit || 0;
-                ttmOperatingExpenses += stmt.totalOperatingExpenses || 0;
-                ttmOperatingIncome += stmt.operatingIncome || 0;
-            });
-        }
-
-        await logInfo('TTM data aggregation', { 
-            ticker,
-            ttmDataAvailable,
-            ttmRevenue,
-            ttmCostOfRevenue,
-            ttmGrossProfit,
-            ttmOperatingExpenses,
-            ttmOperatingIncome
-        });
 
         data.financials.cash_value = result.financialData?.totalCash || balanceSheet.cash || null;
         data.financials.cash_currency = currency;
@@ -182,30 +138,31 @@ async function fetchYahooFinanceData(ticker, attempt = 1) {
         data.financials.net_financial_assets_currency = currency;
 
         // Enhanced revenue and cost metrics
-        data.financials.revenue_value = result.financialData?.totalRevenue || incomeStmt.totalRevenue || (ttmDataAvailable ? ttmRevenue : null);
+        data.financials.revenue_value = result.financialData?.totalRevenue || incomeStmt.totalRevenue || quarterlyStmt.totalRevenue || null;
         data.financials.revenue_currency = currency;
         data.financials.cost_of_revenue = incomeStmt.costOfRevenue !== undefined ? incomeStmt.costOfRevenue : 
-                                        (ttmDataAvailable && ttmCostOfRevenue !== 0 ? ttmCostOfRevenue : 
+                                        (quarterlyStmt.costOfRevenue !== undefined ? quarterlyStmt.costOfRevenue : 
                                          (result.financialData?.totalRevenue && result.financialData?.grossProfits ? 
                                           result.financialData.totalRevenue - result.financialData.grossProfits : null));
         data.financials.gross_profit = incomeStmt.grossProfit !== undefined ? incomeStmt.grossProfit : 
-                                      (ttmDataAvailable && ttmGrossProfit !== 0 ? ttmGrossProfit : 
+                                      (quarterlyStmt.grossProfit !== undefined ? quarterlyStmt.grossProfit : 
                                        result.financialData?.grossProfits || 
                                        (data.financials.revenue_value && data.financials.cost_of_revenue ? 
                                         data.financials.revenue_value - data.financials.cost_of_revenue : null));
         data.financials.operating_expense = incomeStmt.totalOperatingExpenses !== undefined ? incomeStmt.totalOperatingExpenses : 
-                                          (ttmDataAvailable && ttmOperatingExpenses !== 0 ? ttmOperatingExpenses : 
+                                          (quarterlyStmt.totalOperatingExpenses !== undefined ? quarterlyStmt.totalOperatingExpenses : 
                                            (incomeStmt.sellingGeneralAdministrative && incomeStmt.researchDevelopment ? 
                                             incomeStmt.sellingGeneralAdministrative + incomeStmt.researchDevelopment : 
-                                            (result.financialData?.operatingCashflow ? Math.abs(result.financialData.operatingCashflow) : null))); // Fixed proxy
+                                            (result.financialData?.operatingCashflow ? -result.financialData.operatingCashflow : null))); // Proxy
         data.financials.operating_income = incomeStmt.operatingIncome || 
-                                          (ttmDataAvailable && ttmOperatingIncome !== 0 ? ttmOperatingIncome : 
-                                           result.financialData?.operatingIncome || 
-                                           (data.financials.gross_profit && data.financials.operating_expense ? 
-                                            data.financials.gross_profit - data.financials.operating_expense : null));
+                                          quarterlyStmt.operatingIncome || 
+                                          result.financialData?.operatingIncome || 
+                                          (data.financials.gross_profit && data.financials.operating_expense ? 
+                                           data.financials.gross_profit - data.financials.operating_expense : null);
         data.financials.net_income_value = result.financialData?.netIncomeToCommon || 
                                           incomeStmt.netIncome || 
-                                          (ttmDataAvailable ? lastFourQuarters.reduce((sum, stmt) => sum + (stmt.netIncome || 0), 0) : null) || 
+                                          quarterlyStmt.netIncome || 
+                                          incomeStmt.netIncomeApplicableToCommonShares || 
                                           result.defaultKeyStatistics?.netIncomeToCommon || null;
         data.financials.net_income_currency = currency;
         data.financials.ebitda = result.financialData?.ebitda || 
@@ -244,11 +201,11 @@ async function fetchYahooFinanceData(ticker, attempt = 1) {
 
         await logInfo('Financial metrics computed', { 
             ticker,
-            revenue_value: { rawFinancial: result.financialData?.totalRevenue, rawIncome: incomeStmt.totalRevenue, ttm: ttmRevenue, final: data.financials.revenue_value },
-            cost_of_revenue: { rawIncome: incomeStmt.costOfRevenue, ttm: ttmCostOfRevenue, computed: data.financials.cost_of_revenue },
-            gross_profit: { rawIncome: incomeStmt.grossProfit, ttm: ttmGrossProfit, rawFinancial: result.financialData?.grossProfits, computed: data.financials.gross_profit },
-            operating_expense: { rawIncome: incomeStmt.totalOperatingExpenses, ttm: ttmOperatingExpenses, proxy: result.financialData?.operatingCashflow, computed: data.financials.operating_expense },
-            operating_income: { rawIncome: incomeStmt.operatingIncome, ttm: ttmOperatingIncome, rawFinancial: result.financialData?.operatingIncome, computed: data.financials.operating_income },
+            revenue_value: { rawFinancial: result.financialData?.totalRevenue, rawIncome: incomeStmt.totalRevenue, rawQuarterly: quarterlyStmt.totalRevenue, final: data.financials.revenue_value },
+            cost_of_revenue: { rawIncome: incomeStmt.costOfRevenue, rawQuarterly: quarterlyStmt.costOfRevenue, computed: data.financials.cost_of_revenue },
+            gross_profit: { rawIncome: incomeStmt.grossProfit, rawQuarterly: quarterlyStmt.grossProfit, rawFinancial: result.financialData?.grossProfits, computed: data.financials.gross_profit },
+            operating_expense: { rawIncome: incomeStmt.totalOperatingExpenses, rawQuarterly: quarterlyStmt.totalOperatingExpenses, proxy: result.financialData?.operatingCashflow, computed: data.financials.operating_expense },
+            operating_income: { rawIncome: incomeStmt.operatingIncome, rawQuarterly: quarterlyStmt.operatingIncome, rawFinancial: result.financialData?.operatingIncome, computed: data.financials.operating_income },
             price_to_sales: { raw: result.summaryDetail?.priceToSalesTrailing12Months, computed: data.financials.price_to_sales },
             price_to_book: { raw: result.defaultKeyStatistics?.priceToBook, computed: data.financials.price_to_book }
         });

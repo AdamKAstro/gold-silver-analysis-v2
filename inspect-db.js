@@ -4,7 +4,7 @@ const path = require('path');
 
 // Configuration
 const DB_FILE = './mining_companies.db'; // Replace with your actual database file path
-const SAMPLE_ROWS = 3; // Number of sample rows to display per table
+const SAMPLE_ROWS = 5; // Number of sample rows to display per table
 
 // Utility Functions
 

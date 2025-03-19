@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/AdamKAstro/gold-silver-analysis-v2#readme",
   "dependencies": {
+    "async-mutex": "^0.5.0",
     "axios": "^1.8.3",
+    "canvas": "^3.1.0",
     "cheerio": "^1.0.0",
     "csv-parse": "^5.6.0",
     "dotenv": "^16.4.7",
@@ -26,13 +28,18 @@
     "fs-extra": "^11.3.0",
     "node-cron": "^3.0.3",
     "p-limit": "^5.0.0",
+    "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.5",
+    "pdfjs-dist": "^5.0.375",
     "puppeteer": "^24.4.0",
     "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "puppeteer-extra-plugin-user-preferences": "^2.4.1",
     "sqlite3": "^5.1.7",
     "string-similarity": "^4.0.4",
+    "tesseract.js": "^6.0.0",
     "winston": "^3.17.0",
     "yahoo-finance2": "^2.13.3"
   }

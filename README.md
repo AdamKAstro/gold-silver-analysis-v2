@@ -51,6 +51,8 @@ A robust system for analyzing CANADIAN  gold and silver mining companies.
 2. Run `node setup-db.js` to create the database.
 3. Run `node import-companies.js` to import `public/data/companies.csv`.  //old
 3. Run `node scrape-yahoo-finance.js --force`   to get financials
+install dependencies
+npm install pdf2json puppeteer-extra-plugin-recaptcha tesseract.js async-mutex axios cheerio fs-extra puppeteer-extra puppeteer-extra-plugin-stealth sqlite3 pdf-parse pdf-lib
 
 
 ## Future Population Scripts

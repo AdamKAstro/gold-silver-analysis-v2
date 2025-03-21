@@ -1,0 +1,151 @@
+I need this company researched:  19, ALDE.V,  ALDEBARAN RESOURCES    REMEMBER :need formatted as sql so i can update my .db
+
+SQL Response:
+sql
+-- Update companies table
+UPDATE companies
+SET tsx_code = 'AAN.V',
+    company_name = 'ATON RESOURCES',
+    status = 'explorer',
+    headquarters = 'Vancouver, Canada',
+    minerals_of_interest = 'gold',
+    percent_gold = 100.0,
+    percent_silver = 0.0,
+    description = 'Gold exploration company with projects in Egypt, including Hamama and Abu Marawat.',
+    last_updated = '2025-03-20T00:00:00.000Z'
+WHERE company_id = 9;
+
+-- Update mineral_estimates table
+UPDATE mineral_estimates
+SET reserves_precious_aueq_moz = NULL,
+    measured_indicated_precious_aueq_moz = 0.5,
+    resources_precious_aueq_moz = 1.2,
+    potential_precious_aueq_moz = 2.0,
+    mineable_precious_aueq_moz = NULL,
+    reserves_non_precious_aueq_moz = NULL,
+    measured_indicated_non_precious_aueq_moz = NULL,
+    resources_non_precious_aueq_moz = NULL,
+    potential_non_precious_aueq_moz = NULL,
+    mineable_non_precious_aueq_moz = NULL,
+    reserves_total_aueq_moz = NULL,
+    measured_indicated_total_aueq_moz = 0.5,
+    resources_total_aueq_moz = 1.2,
+    potential_total_aueq_moz = 2.0,
+    mineable_total_aueq_moz = NULL,
+    last_updated = '2025-03-20T00:00:00.000Z'
+WHERE company_id = 9;
+
+-- Update costs table
+UPDATE costs
+SET aisc_last_quarter = NULL,
+    aisc_last_quarter_currency = NULL,
+    aisc_last_year = NULL,
+    aisc_last_year_currency = NULL,
+    aisc_future = NULL,
+    aisc_future_currency = NULL,
+    aic_last_quarter = NULL,
+    aic_last_quarter_currency = NULL,
+    aic_last_year = NULL,
+    aic_last_year_currency = NULL,
+    tco_current = NULL,
+    tco_current_currency = NULL,
+    tco_future = NULL,
+    tco_future_currency = NULL,
+    last_updated = '2025-03-20T00:00:00.000Z'
+WHERE company_id = 9;
+
+when I provide you with a company ticker and name (e.g., AAN.V, ATON RESOURCES), follow these steps to update the companies, mineral_estimates, and costs tables with accurate and comprehensive data:
+Step 1: Research the Company
+Sources: Use reliable sources such as the company's official website, latest annual reports, quarterly reports, investor presentations, SEDAR filings (NI 43-101 technical reports, financial statements, management discussions), and recent news releases.
+
+Objective: Gather all necessary data to update the company details, mineral estimates, and cost metrics, ensuring completeness and accuracy.
+
+Step 2: Update Company Details (companies Table)
+TSX Code and Name: Verify the ticker (e.g., AAN.V) and full company name (e.g., ATON RESOURCES). *** these are my master key fields, make sure the sql entries for name and company id are not updated/changed)
+
+Status: Determine if the company is a producer, explorer, or developer based on current activities.
+
+Headquarters: Identify the location of the company’s headquarters (city and country).
+
+Minerals of Interest: List the primary minerals targeted (e.g., gold, silver), focusing on gold and silver.
+
+Percent Gold and Silver: Calculate the percentage of focus on gold and silver based on production or exploration emphasis (sum to 100% if only precious metals; adjust if non-precious metals are significant).
+
+Description: Write a concise description including key projects and notable details (e.g., locations, stages).
+
+Last Updated: Set to the current date and time in ISO format (e.g., 2025-03-20T00:00:00.000Z).
+
+Step 3: Aggregate Mineral Estimates (mineral_estimates Table)
+Project Identification: List all company projects across all jurisdictions.
+
+Resource Categories: For each project, collect the latest estimates from technical reports or company disclosures:
+Proven and Probable Reserves
+
+Measured and Indicated Resources
+
+Inferred Resources (as resources)
+
+Potential Resources (if speculative estimates are provided)
+
+Mineable Resources (if explicitly stated)
+
+Metal Quantities: Record quantities of gold (oz), silver (oz), and other metals (e.g., tonnes for base metals).
+
+Conversion to AuEq: Convert all metals to gold equivalent ounces (AuEq Moz) using industry-standard conversion factors (e.g., based on current metal prices like $1,900/oz for gold, $22/oz for silver).
+
+Aggregation: Sum AuEq Moz across all projects for each category.
+
+Categorization:
+Precious Metals: Gold and silver contributions to AuEq Moz.
+
+Non-Precious Metals: Other metals (e.g., copper, zinc) contributions to AuEq Moz, if applicable.
+
+Total: Sum of precious and non-precious AuEq Moz for each category.
+
+Fields to Populate:
+reserves_precious_aueq_moz, measured_indicated_precious_aueq_moz, resources_precious_aueq_moz, potential_precious_aueq_moz, mineable_precious_aueq_moz
+
+reserves_non_precious_aueq_moz, measured_indicated_non_precious_aueq_moz, resources_non_precious_aueq_moz, potential_non_precious_aueq_moz, mineable_non_precious_aueq_moz
+
+reserves_total_aueq_moz, measured_indicated_total_aueq_moz, resources_total_aueq_moz, potential_total_aueq_moz, mineable_total_aueq_moz
+
+Last Updated: Set to the current date and time.
+
+Note: If data is unavailable for a field, set it to NULL.
+
+Step 4: Gather Cost Data (costs Table)
+Cost Metrics: Collect the following from financial statements or reports:
+AISC (All-In Sustaining Cost): Last quarter (aisc_last_quarter), last year (aisc_last_year), future projections (aisc_future), with currencies (e.g., USD, CAD).
+
+AIC (All-In Cost): Last quarter (aic_last_quarter), last year (aic_last_year), with currencies.
+
+TCO (Total Cash Cost): Current (tco_current), future (tco_future), with currencies.
+
+Availability: If the company is not a producer, these may be NULL (typical for explorers/developers).
+
+Last Updated: Set to the current date and time.
+
+Note: Include all fields, setting unavailable data to NULL.
+
+Step 5: Format and Update the Database
+SQL Format: Generate UPDATE statements for each table in the following format, ensuring all fields are explicitly set (even to NULL if no data exists).
+
+Assumption: The company_id is known and pre-populated for all 501 companies.
+
+Example Application: AAN.V, ATON RESOURCES
+Assuming the following researched data for demonstration:
+Company Details: Explorer, headquartered in Vancouver, Canada, focused solely on gold, with key projects in Egypt (Hamama, Abu Marawat).
+
+Mineral Estimates: Measured & Indicated = 0.5 Moz Au, Inferred = 1.2 Moz Au, Potential = 2.0 Moz Au (all precious, no non-precious metals).
+
+Accuracy: Cross-check data with primary sources (NI 43-101, financials) to ensure reliability.
+
+Completeness: Include all projects and jurisdictions in mineral estimates; do not omit any reported data.
+
+Null Values: Use NULL for missing data rather than guessing or leaving blank.
+
+Currency: Always specify currency for cost fields when available.
+
+Flexibility: Adjust values based on actual research for each company; the example above is illustrative.
+
+This prompt ensures that all fields are addressed, resources are aggregated comprehensively, and the output is formatted correctly as SQL UPDATE statements."

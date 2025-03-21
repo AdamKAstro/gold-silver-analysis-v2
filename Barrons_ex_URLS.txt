@@ -1,9 +1,0 @@
-https://www.barrons.com/market-data/stocks/aab/financials?countrycode=ca&mod=searchresults_companyquotes&mod=searchbar&search_keywords=aab&search_statement_type=suggested
-irv not in barrons
-https://www.barrons.com/market-data/stocks/aan/financials?countrycode=ca&mod=searchresults_companyquotes&search_keywords=aan&search_statement_type=suggested
-https://www.barrons.com/market-data/stocks/aan?countrycode=ca&mod=searchresults_companyquotes&search_keywords=aan&search_statement_type=suggested
-https://www.barrons.com/market-data/stocks/aan/financials?countrycode=ca&mod=searchresults_companyquotes&search_keywords=aan&search_statement_type=suggested
-overview : https://www.barrons.com/market-data/stocks/aauc?countrycode=ca&mod=searchresults_companyquotes&mod=searchbar&search_keywords=aauc&search_statement_type=suggested
-https://www.barrons.com/market-data/stocks/abi?countrycode=ca&mod=searchresults_companyquotes&mod=searchbar&search_keywords=abi&search_statement_type=suggested
-financials : https://www.barrons.com/market-data/stocks/aauc/financials?countrycode=ca&mod=searchresults_companyquotes&mod=searchbar&search_keywords=aauc&search_statement_type=suggested
-https://www.barrons.com/market-data/stocks/abi/financials?countrycode=ca&mod=searchresults_companyquotes&mod=searchbar&search_keywords=abi&search_statement_type=suggested

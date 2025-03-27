@@ -1,3 +1,4 @@
 node_modules/
 mining_companies.db
 backups/
+public/data/PDFs/

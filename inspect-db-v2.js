@@ -4,7 +4,7 @@ const path = require('path');
 const util = require('util');
 
 
-// Usage : node inspect-db-v2.js --startId=61 --endId=70
+// Usage : node inspect-db-v2.js --startId=165 --endId=167
 
 
 // --- Configuration ---

@@ -1,0 +1,39 @@
+2025-03-27 13:26:19.686 [ERROR]: ReferenceError: index is not defined
+    at runDailyUpdates (C:\Users\akiil\gold-silver-analysis-v2\daily_updater_sequential.js:316:43)
+    at async main (C:\Users\akiil\gold-silver-analysis-v2\daily_updater_sequential.js:432:637)
+2025-03-27 13:29:28.567 [ERROR]: ReferenceError: tickerUsed is not defined
+    at runDailyUpdates (C:\Users\akiil\gold-silver-analysis-v2\daily_updater_sequential.js:317:37)
+    at async main (C:\Users\akiil\gold-silver-analysis-v2\daily_updater_sequential.js:436:637)
+2025-03-27 13:31:52.301 [ERROR] [AUR.H.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:31:52.303 [ERROR] [AUR.H.V]: fetchYahooQuote failed definitively.
+2025-03-27 13:31:52.303 [ERROR] [AUR.H.V]: Fetch failed.
+2025-03-27 13:32:02.968 [ERROR] [AXM.H.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:32:02.970 [ERROR] [AXM.H.V]: fetchYahooQuote failed definitively.
+2025-03-27 13:32:02.971 [ERROR] [AXM.H.V]: Fetch failed.
+2025-03-27 13:32:12.389 [ERROR] [BRAZ.CN]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:32:12.390 [ERROR] [BRAZ.CN]: fetchYahooQuote failed definitively.
+2025-03-27 13:32:12.391 [ERROR] [BRAZ.CN]: Fetch failed.
+2025-03-27 13:32:26.356 [ERROR] [CLZ.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:32:26.359 [ERROR] [CLZ.V]: fetchYahooQuote failed definitively.
+2025-03-27 13:32:26.359 [ERROR] [CLZ.V]: Fetch failed.
+2025-03-27 13:32:38.431 [ERROR] [ELVT.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:32:38.434 [ERROR] [ELVT.V]: fetchYahooQuote failed definitively.
+2025-03-27 13:32:38.434 [ERROR] [ELVT.V]: Fetch failed.
+2025-03-27 13:33:00.110 [ERROR] [IAU.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:33:00.111 [ERROR] [IAU.V]: fetchYahooQuote failed definitively.
+2025-03-27 13:33:00.112 [ERROR] [IAU.V]: Fetch failed.
+2025-03-27 13:33:11.228 [ERROR] [JUB.H]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:33:11.230 [ERROR] [JUB.H]: fetchYahooQuote failed definitively.
+2025-03-27 13:33:11.231 [ERROR] [JUB.H]: Fetch failed.
+2025-03-27 13:33:28.064 [ERROR] [MLM.TO]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:33:28.066 [ERROR] [MLM.TO]: fetchYahooQuote failed definitively.
+2025-03-27 13:33:28.066 [ERROR] [MLM.TO]: Fetch failed.
+2025-03-27 13:33:47.747 [ERROR] [PAL.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:33:47.749 [ERROR] [PAL.V]: fetchYahooQuote failed definitively.
+2025-03-27 13:33:47.750 [ERROR] [PAL.V]: Fetch failed.
+2025-03-27 13:34:20.194 [ERROR] [VGCX.TO]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:34:20.197 [ERROR] [VGCX.TO]: fetchYahooQuote failed definitively.
+2025-03-27 13:34:20.198 [ERROR] [VGCX.TO]: Fetch failed.
+2025-03-27 13:34:30.679 [ERROR] [VZLA.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:34:30.680 [ERROR] [VZLA.V]: fetchYahooQuote failed definitively.
+2025-03-27 13:34:30.680 [ERROR] [VZLA.V]: Fetch failed.

@@ -1,0 +1,117 @@
+2025-03-27 12:51:31.972 [ERROR] [AAB.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:31.978 [ERROR] [AAB.TO]: fetchYahooQuote failed definitively for AAB.TO.
+2025-03-27 12:51:31.983 [ERROR] [IRV.CN]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:31.984 [ERROR] [IRV.CN]: fetchYahooQuote failed definitively for IRV.CN.
+2025-03-27 12:51:31.987 [ERROR] [ITH.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:31.988 [ERROR] [ITH.TO]: fetchYahooQuote failed definitively for ITH.TO.
+2025-03-27 12:51:31.990 [ERROR] [ITR.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:31.991 [ERROR] [ITR.V]: fetchYahooQuote failed definitively for ITR.V.
+2025-03-27 12:51:31.993 [ERROR] [AAG.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:31.995 [ERROR] [AAG.V]: fetchYahooQuote failed definitively for AAG.V.
+2025-03-27 12:51:32.004 [ERROR] [AAB.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:32.011 [ERROR] [ITR.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:32.018 [ERROR] [IRV.CN]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:32.030 [ERROR] [AAG.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:32.039 [ERROR] [ITH.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:57.048 [ERROR] [AAUC.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:57.052 [ERROR] [AAUC.TO]: fetchYahooQuote failed definitively for AAUC.TO.
+2025-03-27 12:51:57.057 [ERROR] [ABI.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:57.059 [ERROR] [ABI.V]: fetchYahooQuote failed definitively for ABI.V.
+2025-03-27 12:51:57.061 [ERROR] [ABRA.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:57.062 [ERROR] [ABRA.TO]: fetchYahooQuote failed definitively for ABRA.TO.
+2025-03-27 12:51:57.067 [ERROR] [AAN.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:57.069 [ERROR] [AAN.V]: fetchYahooQuote failed definitively for AAN.V.
+2025-03-27 12:51:57.072 [ERROR] [AEM.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:51:57.073 [ERROR] [AEM.TO]: fetchYahooQuote failed definitively for AEM.TO.
+2025-03-27 12:51:57.078 [ERROR] [AAUC.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:57.091 [ERROR] [ABI.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:57.104 [ERROR] [ABRA.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:57.110 [ERROR] [AEM.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:51:57.120 [ERROR] [AAN.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:22.124 [ERROR] [ADZ.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:22.128 [ERROR] [ADZ.V]: fetchYahooQuote failed definitively for ADZ.V.
+2025-03-27 12:52:22.130 [ERROR] [AERO.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:22.131 [ERROR] [AERO.V]: fetchYahooQuote failed definitively for AERO.V.
+2025-03-27 12:52:22.133 [ERROR] [AGAG.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:22.134 [ERROR] [AGAG.V]: fetchYahooQuote failed definitively for AGAG.V.
+2025-03-27 12:52:22.137 [ERROR] [AG.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:22.142 [ERROR] [AG.TO]: fetchYahooQuote failed definitively for AG.TO.
+2025-03-27 12:52:22.146 [ERROR] [AGA.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:22.147 [ERROR] [AGA.V]: fetchYahooQuote failed definitively for AGA.V.
+2025-03-27 12:52:22.153 [ERROR] [ADZ.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:22.162 [ERROR] [AERO.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:22.173 [ERROR] [AGAG.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:22.179 [ERROR] [AGA.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:22.188 [ERROR] [AG.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:47.185 [ERROR] [AGMR.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:47.191 [ERROR] [AGMR.V]: fetchYahooQuote failed definitively for AGMR.V.
+2025-03-27 12:52:47.200 [ERROR] [AGMR.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:47.207 [ERROR] [AGLD.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:47.208 [ERROR] [AGLD.V]: fetchYahooQuote failed definitively for AGLD.V.
+2025-03-27 12:52:47.210 [ERROR] [AGX.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:47.211 [ERROR] [AGX.V]: fetchYahooQuote failed definitively for AGX.V.
+2025-03-27 12:52:47.215 [ERROR] [ALEX.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:47.215 [ERROR] [ALEX.V]: fetchYahooQuote failed definitively for ALEX.V.
+2025-03-27 12:52:47.221 [ERROR] [ALDE.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:52:47.222 [ERROR] [ALDE.V]: fetchYahooQuote failed definitively for ALDE.V.
+2025-03-27 12:52:47.227 [ERROR] [AGLD.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:47.237 [ERROR] [AGX.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:47.255 [ERROR] [ALEX.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:52:47.270 [ERROR] [ALDE.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:57:03.889 [ERROR] [AAB.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:57:03.892 [ERROR] [AAB.TO]: fetchYahooQuote failed definitively after retries/timeout for AAB.TO.
+2025-03-27 12:57:03.897 [ERROR] [AAG.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:57:03.898 [ERROR] [AAG.V]: fetchYahooQuote failed definitively after retries/timeout for AAG.V.
+2025-03-27 12:57:03.900 [ERROR] [ITH.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:57:03.902 [ERROR] [ITH.TO]: fetchYahooQuote failed definitively after retries/timeout for ITH.TO.
+2025-03-27 12:57:03.911 [ERROR] [ITR.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:57:03.912 [ERROR] [ITR.V]: fetchYahooQuote failed definitively after retries/timeout for ITR.V.
+2025-03-27 12:57:03.915 [ERROR] [IRV.CN]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 12:57:03.916 [ERROR] [IRV.CN]: fetchYahooQuote failed definitively after retries/timeout for IRV.CN.
+2025-03-27 12:57:03.926 [ERROR] [AAB.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:57:03.940 [ERROR] [AAG.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:57:03.947 [ERROR] [ITH.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:57:03.956 [ERROR] [IRV.CN]: Skipping updates. No valid price or market cap found.
+2025-03-27 12:57:03.964 [ERROR] [ITR.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:07:16.039 [ERROR] [AAB.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:07:16.041 [ERROR] [AAB.TO]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:07:16.049 [ERROR] [AAB.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:07:41.072 [ERROR] [IRV.CN]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:07:41.076 [ERROR] [IRV.CN]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:07:41.086 [ERROR] [IRV.CN]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:08:06.104 [ERROR] [ITH.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:08:06.108 [ERROR] [ITH.TO]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:08:06.112 [ERROR] [ITH.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:08:31.134 [ERROR] [ITR.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:08:31.139 [ERROR] [ITR.V]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:08:31.144 [ERROR] [ITR.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:08:56.157 [ERROR] [AAG.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:08:56.162 [ERROR] [AAG.V]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:08:56.168 [ERROR] [AAG.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:09:21.182 [ERROR] [ABRA.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:09:21.185 [ERROR] [ABRA.TO]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:09:21.190 [ERROR] [ABRA.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:09:46.202 [ERROR] [AAUC.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:09:46.206 [ERROR] [AAUC.TO]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:09:46.215 [ERROR] [AAUC.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:10:11.228 [ERROR] [ABI.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:10:11.232 [ERROR] [ABI.V]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:10:11.241 [ERROR] [ABI.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:10:36.266 [ERROR] [AAN.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:10:36.270 [ERROR] [AAN.V]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:10:36.276 [ERROR] [AAN.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:11:01.297 [ERROR] [AEM.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:11:01.302 [ERROR] [AEM.TO]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:11:01.309 [ERROR] [AEM.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:11:26.329 [ERROR] [AERO.V]: Failed fetchYahooQuote (Timeout): Operation timed out after 25000ms
+2025-03-27 13:11:26.332 [ERROR] [AERO.V]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:11:26.339 [ERROR] [AERO.V]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:12:05.961 [ERROR] [AAB.TO]: Failed fetchYahooQuote (Timeout): Operation timed out after 30000ms
+2025-03-27 13:12:05.963 [ERROR] [AAB.TO]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:12:05.967 [ERROR] [AAB.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:14:25.854 [ERROR] [AAB.TO]: Failed fetchYahooQuote (Max retries): fetch failed
+2025-03-27 13:14:25.856 [ERROR] [AAB.TO]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:14:25.858 [ERROR] [AAB.TO]: Skipping updates. No valid price or market cap found.
+2025-03-27 13:16:26.197 [ERROR] [AUR.H.V]: Failed fetchYahooQuote (Max retries): Incomplete data received
+2025-03-27 13:16:26.203 [ERROR] [AUR.H.V]: fetchYahooQuote failed definitively after retries/timeout.
+2025-03-27 13:16:26.203 [ERROR] [AUR.H.V]: Skipping updates. No valid price or market cap found.

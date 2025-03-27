@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 I need these companies researched: for company id AAB.TO,ABERDEEN INTERNATIONAL,
 IRV.CN,IRVING RESOURCES,
 ITH.TO,INTL. TOWER HILL MINES,INTERNATIONAL TOWER HILL MINES
@@ -6,6 +7,9 @@ AAG.V,AFTERMATH SILVER,
 AAN.V,ATON RESOURCES,
 AAUC.TO,ALLIED GOLD,
 ABI.V,ABCOURT MINES,
+=======
+I need this company researched: for company id 311, OPW.V, OPAWICA EXPLORATIONS, 
+>>>>>>> 8d71b98 (Deleted Barrons files, updated package files, added new files)
 
  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.  REMEMBER :need formatted as sql so i can update my .db
 when I provide you with a company ticker and name, follow these steps to update the companies, mineral_estimates, and costs tables with accurate and comprehensive data:
@@ -16,11 +20,14 @@ TSX Code and Name: Verify the ticker (e.g., AAN.V) and full company name (e.g., 
 
 Given that you have done the research (and have values that can be now be used), Please make assumptions and fill in as best you can.. BASED ON JURISTICTION , company size, setup, stage of dev etc   its really not good that almost everything is null for this company
 
+<<<<<<< HEAD
 Take your time, think and research deep and thorough. data needs to be rigorously reviewed and trustworthy
 AND Given that you have done the research (and have values that can be now be used), Please make assumptions and fill in as best you can.. BASED ON JURISTICTION , company size, setup, stage of dev etc   its really not good that almost everything is null for these companies   really get tenacious in your thoughts and investigations, see if you can help fill some things in.
 
 
 
+=======
+>>>>>>> 8d71b98 (Deleted Barrons files, updated package files, added new files)
 SQL Response has to be in this format! :
 sql
 -- Update companies table

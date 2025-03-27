@@ -1,0 +1,517 @@
+﻿TICKER,NAME,NAMEALT
+AAB.TO,ABERDEEN INTERNATIONAL,
+IRV.CN,IRVING RESOURCES,
+ITH.TO,INTL. TOWER HILL MINES,INTERNATIONAL TOWER HILL MINES
+ITR.V,INTEGRA RESOURCES,
+AAG.V,AFTERMATH SILVER,
+AAN.V,ATON RESOURCES,
+AAUC.TO,ALLIED GOLD,
+ABI.V,ABCOURT MINES,
+ABRA.TO,ABRASILVER RESOURCE,
+ADY.V,ADYTON RESOURCES,
+ADZ.V,ADAMERA MINERALS,
+AE.V,AMERICAN EAGLE GOLD,
+AEM.TO,AGNICO EAGLE MINES,
+AERO.V,AERO ENERGY,
+AG.TO,FIRST MAJESTIC SILVER,
+AGA.V,SILVER47 EXPLORATION,
+AGAG.V,ARGENTA SILVER,
+AGI.TO,ALAMOS GOLD,
+AGLD.V,AUSTRAL GOLD LIMITED,
+AGMR.V,SILVER MOUNTAIN RESOURCES,
+AGX.V,SILVER X MINING,
+ALDE.V,ALDEBARAN RESOURCES,
+ALEX.V,ALPHA EXPLORATION,       20
+ALTA.V,ALTAMIRA GOLD,
+AMC.TO,ARIZONA METALS,
+AMQ.CN,ABITIBI METALS,
+AMRQ.V,AMAROQ MINERALS,
+AMX.V,AMEX EXPLORATION,
+ANK.V,ANGKOR RESOURCES,
+ANTL.V,ANTLER GOLD,
+AOT.TO,ASCOT RESOURCES,
+APGO.V,APOLLO SILVER,
+APM.TO,ANDEAN PRECIOUS METALS,
+ARIC.V,AWALÉ RESOURCES LIMITED,
+ARIS.TO,ARIS MINING,
+ARK.V,ARRAS MINERALS,
+great  now do the same for 34, ARTG.V,ARTEMIS GOLD,
+great  now do the same for 35, ARU.V,AURANIA RESOURCES,
+great  now do the same for 36, ASE.CN,ASANTE GOLD,
+great  now do the same for 37, ASM.TO,AVINO SILVER & GOLD MINES,
+great  now do the same for 38, ASTR.V,ASTRA EXPLORATION,
+great  now do the same for 39, ATHA.CN,ATHENA GOLD,
+great  now do the same for 40, AU.V,AURION RESOURCES,
+great  now do the same for 41, AUAU.V,ALLEGIANT GOLD,
+great  now do the same for 42, AWM.V,ANGEL WING METALS,
+great  now do the same for 43, AUM.V,AUMEGA METALS,
+great  now do the same for 44, AUMB.V,1911 GOLD,
+great  now do the same for 45, AUOZ.CN,EMPEROR METALS,
+great  now do the same for 46, AUR.H.V,AURORA ROYALTIES,
+great  now do the same for 47, AXM.H.V,AXMIN,
+great  now do the same for 48, AYA.TO,AYA GOLD & SILVER,
+great  now do the same for 49, AZM.V,AZIMUT EXPLORATION,
+great  now do the same for 50, AZS.V,ARIZONA GOLD & SILVER,
+great  now do the same for 51, AZT.V,AZTEC MINERALS,
+great  now do the same for 52, BAT.V,BATERO GOLD,
+great  now do the same for 53, BAU.V,BLUE STAR GOLD,
+great  now do the same for 54, BBB.V,BRIXTON METALS,
+great  now do the same for 55, BCM.V,BEAR CREEK MINING,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 56, BEX.V,BENTON RESOURCES,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 57, BGF.V,BECAUSE GOLD FIELDS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 58, BGS,BAROYECA GOLD & SILVER,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 59, BHS.V,BAYHORSE SILVER,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 60, BIG.V,HERCULES METALS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 61, BLLG.CN,BLUE LAGOON RESOURCES,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 62, BMM.V,BLACK MAMMOTH METALS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 63, BOGO.V,BOREALIS MINING COMPANY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 64, BRAU.V,BIG RIDGE GOLD,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 65, BRAZ.CN,CANARYGOLD,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 66, BRC.V,BLACKROCK SILVER,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 67, BSX.TO,BELO SUN MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 68, BTO.TO,B2GOLD,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 69, BTR.V,BONTERRA RESOURCES,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 70, BYN.V,BANYAN GOLD,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+
+please make assumptions and fill in as best you can.. BASED ON DURISTRICTION , company size, setup, stage of dev etc   its really not good that almost everything is null for this company
+
+
+
+
+
+great  now do the same for 71, BZ.V,BENZ MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 72, CANX.V,CANEX METALS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 73, CAPT.V,CAPITAN SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 74, CBI.V,COLIBRI RESOURCE,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 75, CBR.V,CABRAL GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 76, CC.CN,CORE ASSETS,
+great  now do the same for 77, CCM.TO,CANAGOLD RESOURCES,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 78, CDPR.CN,CERRO DE PASCO RESOURCES,
+great  now do the same for 79, CERT.V,CERRADO GOLD,
+great  now do the same for 80, CFE.CN,CARTIER RESOURCES,
+great  now do the same for 81,CG.TO,CENTERRA GOLD,
+great  now do the same for 82,CGC.V,CANADIAN GOLD,
+great  now do the same for 83,CGG.TO,CHINA GOLD INTERNATIONAL RESOURCES,
+great  now do the same for 84,CKG.V,CHESAPEAKE GOLD,
+great  now do the same for 85,CLZ.V,CANASIL RESOURCES,
+great  now do the same for 86,CMB.V,CMC METALS,
+great  now do the same for 87, CN.TO,CONDOR RESOURCES,
+CNL.TO,COLLECTIVE MINING,
+CPAU.V,COPAUR MINERALS,  89
+great  now do the same for  90 CRB.V,CARIBOO ROSE RESOURCES,  90  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+CRI.V,CHURCHILL RESOURCES,
+CSR.CN,COPPER STANDARD RESOURCES,
+great  now do the same for  93,  CTM.V,CANTERRA MINERALS,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+94, CTN.V,CENTURION MINERALS,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 95, CVB.V,COMPASS GOLD,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+
+
+
+great  now do the same for 96, CXB.TO,CALIBRE MINING,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 97, CYG.V,CYGNUS METALS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+
+
+please make assumptions and fill in as best you can.. BASED ON DURISTRICTION , company size, setup, stage of dev etc   its really not good that almost everything is null for this company
+
+
+great  now do the same for 98,   DAU.V,DESERT GOLD VENTURES,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 99,   DEF.V,DEFIANCE SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 100,  DEX.V,ALMADEX MINERALS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 101,  DLTA.V,DELTA RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 102, DNG.TO,DYNACOR GROUP,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 103, DPM.TO,DUNDEE PRECIOUS METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 104, DRY.V,DRYDEN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 105, DSV.TO,DISCOVERY SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 106, DV.V,DOLLY VARDEN SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 107,  DYG.V,DYNASTY GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 108,  EAM.V,EAST AFRICA METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 109,  ECR.V,CARTIER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 110,  EDG.V,ENDURANCE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 111,  EDGM.CN,EDGEMONT GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 112,  EDR.TO,ENDEAVOUR SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 113,  ELD.TO,ELDORADO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 114,  ELE.V,ELEMENTAL ALTUS ROYALTIES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and   justifiable.  
+great  now do the same for 115,  ELEF.TO,SILVER ELEPHANT MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.  
+great  now do the same for 116,  ELO.TO,ELORO RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 117,  ELVT.V,ELEVATION GOLD MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 118,  EMNT.V,EMINENT GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 119,  EMO.V,EMERITA RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 120,  EMPR.V,EMPRESS ROYALTY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 121,  EMX.V,EMX ROYALTY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 122,  ENDR.V,ENDURO METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 123, EPL.V,EAGLE PLAINS RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 124, EQTY.V,EQUITY METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 125, EQX.TO,EQUINOX GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 126, ER.CN,EASTMAIN RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 127, ERD.TO,ERDENE RESOURCE DEVELOPMENT,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 128, ESK.V,ESKAY MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 129, ESM.TO,EURO SUN MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 130, ETR.CN,ETRUSCUS RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 131, EXN.TO,EXCELLON RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 132, FAS.V,FIRST ANDES SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 133, FDR.V,FOUNDERS METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 134, FF.TO,FIRST MINING GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 135, FFOX.V,FIREFOX GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 136, FIN.V,GRIT METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 137, FISH.V,SAILFISH ROYALTY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 138, FKM.V,FOKUS MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 139, FMAN.V,FREEMAN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 140, FMC.V,FORUM ENERGY METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 141, Fgreat  now do the same for 140, FFMT.V,FUERTE METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 142, FFNAU.CN,FOUR NINES GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 143, FFNM.V,FIRST NORDIC METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 144, FFNV.TO,FRANCO-NEVADA,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 145, FFOR.V,FORTUNE BAY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 146, FFPC.V,FALCO RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 147, FFRED.V,FREDONIA MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 148, FFRG.CN,FORGE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 149, FFURY.TO,FURY GOLD MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 150, FVI.TO,FORTUNA MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 151, FVL.TO,FREEGOLD VENTURES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 152, GAL.V,GALANTAS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 153, GAU.TO,GALIANO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 154, GBRC.V,GOLD BULL RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 155, GDX.V,GOLDEX RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 156, GFG.V,GFG RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 157, G.TO,AUGUSTA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 158, GCC.CN,GOLDEN CARIBOO RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 159, GHRT.V,GREENHEART GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 160,  GG.V,GOLCONDA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 161,  GGA.V,GOLDGROUP MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 162,  GGD.TO,GOGOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 163,  GGL.V,GGL RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 164,  GGM.V,GRANADA GOLD MINE,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 165,  GGO.V,GALLEON GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 166,  GLDC.V,CASSIAR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 167,  GLDN.V,GOLDEN RIDGE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 168,  GLM.CN,GOLDEN LAKE EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 169,  GMIN.TO,G MINING VENTURES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 170,  GMTN.TO,GOLD MOUNTAIN MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 171,  GMV.V,GMV MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 172,  GMX.TO,GLOBEX MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 173,  GNG.V,GOLDEN GOLIATH RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 174,  GOLD.TO,GOLDMINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 175,  GOT.V,GOLIATH RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 176,  GPAC.V,GREAT PACIFIC GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+great  now do the same for 177,  GPG.V,GRANDE PORTAGE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GTWO.TO,G2 GOLDFIELDS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GQ.V,GREAT QUEST GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GQC.V,GOLDQUEST MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GRC.TO,GOLD SPRINGS RESOURCE,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GRG.V,GOLDEN ARROW RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GRSL.V,GR SILVER MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GSHR.V,GOLDSHORE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GSTM.V,GOLDSTORM METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GSVR.V,GUANAJUATO SILVER COMPANY,GUANAJUATO SILVER    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GTCH.CN,GETCHELL GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GUN.V,GUNPOINT EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GUS.V,ANGUS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GWM.V,GALWAY METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+GXX.V,GOLD BASIN RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+HAMR.CN,SILVER HAMMER MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+HML.CN,HERITAGE MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+HSLV.CN,HIGHLANDER SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+HSTR.V,HELIOSTAR METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+HUNT.CN,GOLD HUNTER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+HWY.V,HIGHWAY 50 GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+IAU.V,I-80 GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+IGO.V,INDEPENDENCE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+IMG.TO,IAMGOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+IPT.V,IMPACT SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+IVS.V,INVENTUS MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+JAG.TO,JAGUAR MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+JG.V,JAPAN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+JUB.H,JUBILEE GOLD,JUBILEE GOLD EXPLORATION    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+JUGR.V,JUGGERNAUT EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+JZR.V,JZR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+K.TO,KINROSS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KALO.V,KALO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KAPA.V,KAPA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KFR.V,KINGFISHER METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KG.V,KLONDIKE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KGC.V,KESTREL GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KLD.V,KENORLAND MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KLM.V,KERMODE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KNG.V,KINGSMEN RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KNT.TO,K92 MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KOG.CN,KO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KORE.V,KORE MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KRI.V,KOBO RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KS.V,KLONDIKE SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KTN.V,KOOTENAY SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KTO.V,K2 GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+KUYA.CN,KUYA SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LAB.V,LABRADOR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LECR.CN,LEOCOR MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LEGY.V,LEGACY GOLD MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LFLR.CN,LAFLEUR MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LG.V,LAHONTAN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LGC.V,LAVRAS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LGD.TO,LIBERTY GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LIO.V,LION ONE METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LME.V,LAURION MINERAL EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LMG.V,LINCOLN GOLD MINING,LINCOLN MINING    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LN.TO,LONCOR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LOD.V,LODE GOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LOT.V,TOMAGOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LPK.V,LUPAKA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LSTR.V,LODESTAR METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LUCA.V,LUCA MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LUG.TO,LUNDIN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LUM.V,LUMINA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+LVG.V,LAKE VICTORIA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MAE.V,MARITIME RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MAG.TO,MAG SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MAI.V,MINERA ALAMOS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MAU.V,MONTAGE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MEK.V,METALS CREEK RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MEX.V,MEXICAN GOLD MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MFG.V,MAYFAIR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MFL.V,MAWSON FINLAND,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MGG.V,MINAURUM GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MGM.V,MAPLE GOLD MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MIS.CN,MISTANGO RIVER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MJS.V,MAJESTIC GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MKO.V,MAKO MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MLM.TO,MCFARLANE LAKE MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MMET.CN,MIATA METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MMG.V,METALLIC MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MMN.V,MONARCA MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MMY.V,MONUMENT MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MND.TO,MANDALAY RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MNO.TO,MERIDIAN MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MRZ.V,MIRASOL RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MSA.TO,MINEROS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MSG.V,MITHRIL SILVER AND GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MSR.V,MINSUD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MSV.TO,MINCO SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MTA.V,METALLA ROYALTY & STREAMING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MTS.V,METALLIS RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MTT.V,MAGNA TERRA MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MUN.V,MUNDORO,MUNDORO CAPITAL    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+MUX.TO,MCEWEN MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NAU.V,NEVGOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NBRK.CN,NEW BREAK RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NCAU.V,NEWCORE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NCX.V,NORTHISLE COPPER AND GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NDM.TO,NORTHERN DYNASTY MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NEV.V,NEVADA SUNRISE ,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NEXG.V,NEXGOLD MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NFG.V,NEW FOUND GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NG.TO,NOVAGOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NGD.TO,NEW GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NGEX.TO,NGEX MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NILI.V,SURGE BATTERY METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NIM.V,NICOLA MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NKG.V,NEVADA KING GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NFLD.CN,EXPLOITS DISCOVERY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NL.V,NORTHERN LION GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NOM.CN,NORSEMONT MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NPR.V,NORTH PEAK RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NRC.V,NATIONS ROYALTY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NSG.CN,NORTHSTAR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NTH.V,NORD PRECIOUS METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NUAG.TO,NEW PACIFIC METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NVO.TO,NOVO RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+NVPC.CN,NOVA PACIFIC METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OCG.V,OUTCROP SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OCO.V,OROCO RESOURCE,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ODV.V,OSISKO DEVELOPMENT,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OGC.TO,OCEANAGOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OGN.V,OROGEN ROYALTIES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OIII.V,O3 MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OLA.TO,ORLA MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OMG.V,OMAI GOLD MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OMGA.CN,OMEGA PACIFIC RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OMI.V,OROSUR MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OMM.V,OMINECA MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ONAU.V,ONGOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ONYX.V,ONYX GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OPW.V,OPAWICA EXPLORATIONS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OR.TO,OSISKO GOLD ROYALTIES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ORA.TO,AURA MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ORE.TO,OREZONE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ORV.TO,ORVANA MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+OZ.V,VALKEA RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PA.V,PALAMINA,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PAAS.TO,PAN AMERICAN SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PAL.V,PALAMINA,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PAU.CN,PROVENANCE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PEX.V,PACIFIC RIDGE,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PGC.V,PLATO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PGDC.V,PATAGONIA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PGLD.V,P2 GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PGX.V,PROSPER GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PJX.V,PJX RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PLY.V,PLAYFAIR MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PNTR.V,PANTERA SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PPP.V,PROSPECTOR METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PPX.V,PPX MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PRB.TO,PROBE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PRG.V,PRECIPITATE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PRIZ.CN,PRISMO METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PRU.TO,PERSEUS MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PRYM.TO,PRIME MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PUMA.V,PUMA EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+PX.V,PELANGIO EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+QIM.CN,QUIMBAYA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+QZM.V,QUARTZ MOUNTAIN RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RAGE.V,RENEGADE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RAMP.V,RAMP METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RBX.V,ROBEX RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RDG.V,RIDGELINE MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RDS.V,RADISSON MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RDU.V,RADIUS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+REX.V,OREX MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RG.V,ROMIOS GOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RGC.V,RELEVANT GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RGLD.CN,RED LAKE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RIO.V,RIO2,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RK.V,ROCKHAVEN RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RKR.V,ROKMASTER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RLYG.V,RILEY GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ROCK.V,EROS RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ROS.V,ROSCAN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ROX.V,CANSTAR RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RPX.V,RED PINE EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RR.CN,RECHARGE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RRI.V,RIVERSIDE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RSG.CN,ROCKY SHORE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RSLV.V,REYNA SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RSM.V,RESOURO STRATEGIC METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RSMX.V,REGENCY SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RTG.TO,RTG MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RUA.V,RUA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RUG.V,RUGBY RESOURCES,RUGBY MINING    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RUP.TO,RUPERT RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RUSH.V,CAROLINA RUSH,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RVG.V,REVIVAL GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RYE.V,RHYOLITE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+RYR.V,ROYAL ROAD MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SAG.V,STERLING METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SAM.TO,STARCORE INTERNATIONAL MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SANU.CN,SANU GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SBMI.V,SILVER BULLET MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SCOT.V,SCOTTIE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SCZ.V,SANTACRUZ SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SDR.V,STROUD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SEA.TO,SEABRIDGE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SEEM.CN,SERRA ENERGY METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SGC.V,SOLSTICE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SGD.V,SNOWLINE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SGLD.TO,SABRE GOLD MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SGO.V,SONORO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SGN.V,SCORPIO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SGU.V,SIGNATURE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SGZ.V,SEGO RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SHL.V,HOMELAND NICKEL,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SIC.V,SOKOMAN MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SIG.V,SITKA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SIL.TO,SILVERCREST METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SILV.V,SILVER VALLEY METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SKE.TO,SKEENA GOLD & SILVER,SKEENA RESOURCES    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SKP.V,STRIKEPOINT GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SLI.V,STANDARD LITHIUM,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SLR.TO,SOLITARIO RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SLV.CN,SILVER DOLLAR RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SLVR.V,SILVER TIGER METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SM.V,SIERRA MADRE GOLD AND SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SMN.V,SUN SUMMIT MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SMT.TO,SIERRA METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SNAG.V,SILVER NORTH RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SNG.V,SILVER RANGE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SOI.V,SIRIOS RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SOMA.V,SOMA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SPA.V,SPANISH MOUNTAIN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SPMC.V,SOUTH PACIFIC METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SPX.V,STELLAR AFRICAGOLD,STELLAR PACIFIC VENTURES    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SRC.V,STAKEHOLDER GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SRL.V,SALAZAR RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SSL.TO,SANDSTORM GOLD ROYALTIES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SSRM.TO,SSR MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SSV.V,SOUTHERN SILVER EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SSVR.V,SUMMA SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+STGO.TO,STEPPE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+STLR.TO,STLLR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+STRR.V,STAR ROYALTIES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+STS.V,SOUTH STAR BATTERY METALS,STONESHIELD CAPITAL    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+STU.V,STUHINI EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SUP.V,NORTHERN SUPERIOR RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SURG.V,SURGE COPPER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SVE.V,SILVER ONE RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SVM.TO,SILVERCORP METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SVRS.V,SILVER STORM MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SWA.V,SARAMA RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SWLF.V,SILVER WOLF EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+SXGC.V,SOUTHERN CROSS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TAJ.V,TAJIRI RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TAU.V,THESIS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TBK.V,TRAILBREAKER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TBX.V,TURMALINA METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TCO.V,TRANSATLANTIC MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TDG.V,TDG GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TECT.V,TECTONIC METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TERA.CN,TERRA BALCANICA RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TFPM.TO,TRIPLE FLAG PRECIOUS METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TG.V,TRIFECTA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TGOL.V,THUNDER GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+THX.V,THOR EXPLORATIONS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TIN.V,TINCORP METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TK.V,TINKA RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TLG.TO,TROILUS GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TSG.V,TRISTAR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TM.V,TRIGON METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TMQ.TO,TRILOGY METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TNR.V,TNR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TOC.CN,TOCVAN VENTURES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TORQ.V,TORQ RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TRO.V,TARANIS RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TRX.TO,TRX GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TSG.V,TRISTAR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TSK.TO,TALISKER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TSLV.V,TIER ONE SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TUD.V,TUDOR GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TUF.V,HONEY BADGER SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TUO.V,TEUTON RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TWR.V,TOWER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+TXG.TO,TOREX GOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+UGD.V,UNIGOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+USA.TO,AMERICAS GOLD AND SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+USGD.CN,AMERICAN PACIFIC MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VAU.V,VIVA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VEIN.V,PASOFINO GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VG.V,VOLCANIC GOLD MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VGCX.TO,VICTORIA GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VIO.V,VIOR,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VIPR.V,SILVER VIPER MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VLC.V,VELOCITY MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VML.V,VISCOUNT MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VOXR.TO,VOX ROYALTY,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VROY.V,VIZSLA ROYALTIES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VVC.V,VVC EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+VZLA.V,VIZSLA SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WAM.V,WESTERN ALASKA MINERALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WDO.TO,WESDOME GOLD MINES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WEX.V,WESTERN EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WG.CN,WESTWARD GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WGF.V,WESCAN GOLDFIELDS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WGLD.V,WESTERN GOLD EXPLORATION,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WGO.V,WHITE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WGX.TO,WESTGOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WHN.V,WESTHAVEN GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WHY.V,WEST HIGH YIELD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WLF.V,WOLFDEN RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WM.TO,WALLBRIDGE MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WPG.V,WEST POINT GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WPM.TO,WHEATON PRECIOUS METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WRLG.V,WEST RED LAKE GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WRN.TO,WESTERN COPPER AND GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WRR.V,WALKER RIVER RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+WVM.V,WEST VAULT MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+XIM.V,XIMEN MINING,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+XTG.TO,XTRA-GOLD RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+XTM.V,TRANSITION METALS,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+YGT.V,GOLD TERRA RESOURCE,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+YRB.TO,YORBEAU RESOURCES,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ZAC.V,ZACATECAS SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
+ZAU.V,ZODIAC GOLD,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.

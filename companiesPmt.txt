@@ -104,16 +104,9 @@ CSR.CN,COPPER STANDARD RESOURCES,
 great  now do the same for  93,  CTM.V,CANTERRA MINERALS,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 94, CTN.V,CENTURION MINERALS,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great  now do the same for 95, CVB.V,COMPASS GOLD,  Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
-
-
-
 great  now do the same for 96, CXB.TO,CALIBRE MINING,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great  now do the same for 97, CYG.V,CYGNUS METALS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
-
-
 please make assumptions and fill in as best you can.. BASED ON DURISTRICTION , company size, setup, stage of dev etc   its really not good that almost everything is null for this company
-
-
 great  now do the same for 98,   DAU.V,DESERT GOLD VENTURES,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great  now do the same for 99,   DEF.V,DEFIANCE SILVER,    Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great  now do the same for 100,  DEX.V,ALMADEX MINERALS,   Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
@@ -328,12 +321,7 @@ great now do the same for 308, OMM.V, OMINECA MINING, Where nulls, and if reason
 great now do the same for 309, ONAU.V, ONGOLD RESOURCES, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 310, ONYX.V, ONYX GOLD, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 311, OPW.V, OPAWICA EXPLORATIONS, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
-
-
 great now do the same for 312, OR.TO, OSISKO GOLD ROYALTIES, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
-
-
-
 great now do the same for 313, ORA.TO, AURA MINERALS, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 314, ORE.TO, OREZONE GOLD, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 315, ORV.TO, ORVANA MINERALS, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
@@ -402,13 +390,7 @@ great now do the same for 377, SCZ.V, SANTACRUZ SILVER, Where nulls, and if reas
 great now do the same for 378, SDR.V, STROUD RESOURCES, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 379, SEA.TO, SEABRIDGE GOLD, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 380, SEEM.CN, SERRA ENERGY METALS, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
-
-
-
 great now do the same for 381, SGC.V, SOLSTICE GOLD, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
-
-
-
 great now do the same for 382, SGD.V, SNOWLINE GOLD, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 383, SGLD.TO, SABRE GOLD MINES, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.
 great now do the same for 408, SGO.V, SONORO GOLD, Where nulls, and if reasonable to do so, make some assumptions to fill in values where / if possible and justifiable.

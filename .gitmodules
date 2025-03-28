@@ -1,0 +1,3 @@
+[submodule "gold-silver-analysis-app"]
+	path = gold-silver-analysis-app
+	url = https://github.com/AdamKAstro/gold-silver-analysis-app.git

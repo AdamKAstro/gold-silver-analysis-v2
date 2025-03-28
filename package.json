@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AdamKAstro/gold-silver-analysis-v2#readme",
   "dependencies": {
+    "@supabase/ssr": "^0.6.1",
     "async-mutex": "^0.5.0",
     "axios": "^1.8.4",
     "canvas": "^3.1.0",

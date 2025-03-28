@@ -1,0 +1,48 @@
+\Program Files\PostgreSQL\17\data
+
+export PGPASSWORD='AK4ea1234!'
+
+export PATH="$PATH:/c/Program Files/PostgreSQL/17/bin"
+C:\Program Files\PostgreSQL\17\bin
+
+
+
+
+
+
+
+
+UPDATING : 
+
+bash
+python export_and_adapt.py
+
+
+Run the Import:
+
+bash
+export PGPASSWORD='AK4ea1234!'
+psql -U postgres -d mining_companies -f "C:/Users/akiil/gold-silver-analysis-v2/import_to_postgres.sql"
+
+
+Verify the Import
+
+Check row counts:
+bash
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM companies;"         # Expect 500
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM financials;"        # Expect 500 (501 - 1 filtered)
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM capital_structure;" # Expect 483 (484 - 1 filtered)
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM mineral_estimates;" # Expect 500
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM production;"        # Expect 32
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM costs;"             # Expect 500
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM valuation_metrics;" # Expect 500 (501 - 1 filtered)
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM company_urls;"      # Expect 6144
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM exchange_rates;"    # Expect 6
+psql -U postgres -d mining_companies -c "SELECT COUNT(*) FROM stock_prices;"      # Expect 11492
+
+List tables:
+bash
+psql -U postgres -d mining_companies -c "\dt"
+
+
+
